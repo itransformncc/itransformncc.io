@@ -1,0 +1,93 @@
+.module-archive #main .status {
+	background: rgb(198, 198, 198); padding: 0.38em 1em; border-radius: 5px; color: rgb(255, 255, 255); clear: both; font-weight: bold; display: inline-block; -webkit-border-radius: 5px; -moz-background-clip: padding; -webkit-background-clip: padding-box;
+}
+#main .course .module-status {
+	background: rgb(198, 198, 198); padding: 0.38em 1em; border-radius: 5px; color: rgb(255, 255, 255); clear: both; font-weight: bold; display: inline-block; -webkit-border-radius: 5px; -moz-background-clip: padding; -webkit-background-clip: padding-box;
+}
+.module-archive #main .status::before {
+	width: 1em; line-height: 1em; font-family: FontAwesomeSensei,FontAwesome; font-size: 100%; font-weight: normal; margin-right: 0.61em; display: inline-block;
+}
+#main .course .module-status::before {
+	width: 1em; line-height: 1em; font-family: FontAwesomeSensei,FontAwesome; font-size: 100%; font-weight: normal; margin-right: 0.61em; display: inline-block;
+}
+.module-archive #main .completed.status {
+	background: rgb(99, 169, 95);
+}
+#main .course .completed.module-status {
+	background: rgb(99, 169, 95);
+}
+.module-archive #main .completed.status::before {
+	content: "\f00c";
+}
+#main .course .completed.module-status::before {
+	content: "\f00c";
+}
+.module-archive #main .in-progress.status::before {
+	content: "\f110";
+}
+#main .course .in-progress.module-status::before {
+	content: "\f110";
+}
+.module-lessons .lesson-status {
+	font-style: normal;
+}
+.module-lessons .complete.lesson-status {
+	color: rgb(99, 169, 95);
+}
+.module-lessons .complete.lesson-status::before {
+	width: 1em; line-height: 1em; font-family: FontAwesomeSensei,FontAwesome; font-size: 100%; font-weight: normal; margin-right: 0.61em; display: inline-block; content: "\f00c";
+}
+.single-course .course-lessons > header h2 {
+	margin-bottom: 1em;
+}
+.module {
+	margin: 0px 0px 1em !important; border: currentColor !important; border-image: none !important; position: relative;
+}
+.module header {
+	background: rgba(0, 0, 0, 0.05); margin-bottom: 0px !important;
+}
+.module header h2 {
+	margin: 0px !important; padding: 0.6em 0px 0.6em 20px; font-size: 1.8em;
+}
+.module .module-description {
+	background: rgba(0, 0, 0, 0.015); margin: 0px; padding: 1em 20px; font-style: italic;
+}
+.module .module-lessons header {
+	background: rgba(0, 0, 0, 0.03); margin: 0px !important; padding: 0.6em 0.6em 0.6em 20px !important; border-top-color: rgba(0, 0, 0, 0.05) !important; border-bottom-color: rgba(0, 0, 0, 0.05); border-top-width: 1px !important; border-bottom-width: 1px; border-top-style: solid !important; border-bottom-style: solid;
+}
+.module .module-lessons header h3 {
+	margin: 0px; font-size: 1.2em;
+}
+.module .module-lessons ul {
+	list-style: none !important; margin: 0px 0px 2em !important; padding: 0px !important;
+}
+.module .module-lessons ul li {
+	list-style: none !important; margin: 0px !important; position: relative;
+}
+.module .module-lessons ul li a {
+	background: rgba(0, 0, 0, 0.01); padding: 0.61em 0.61em 0.61em 3.61em; font-size: 1.1em; text-decoration: none; border-bottom-color: rgba(0, 0, 0, 0.05); border-bottom-width: 1px; border-bottom-style: solid; display: block; position: relative;
+}
+.module .module-lessons ul li a::before {
+	left: 20px; top: 0.5em; width: 1em; color: rgba(0, 0, 0, 0.1); line-height: 1em; font-family: FontAwesomeSensei,FontAwesome; font-size: 150%; font-weight: 400; margin-right: 0.61em; display: inline-block; position: absolute; content: "\f10c";
+}
+.module .module-lessons ul li a:hover {
+	background: rgb(255, 255, 255); text-decoration: none; border-bottom-color: rgba(0, 0, 0, 0.05); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.module .module-lessons ul li a:hover::before {
+	color: rgba(0, 0, 0, 0.2); content: "\f138";
+}
+.module .module-lessons ul li a .preview-label {
+	background: padding-box rgb(99, 169, 95); padding: 0.2em 1em; border-radius: 5px; top: -0.2em; color: rgb(255, 255, 255); clear: both; float: right; display: inline-block; position: relative; -webkit-border-radius: 5px; -moz-background-clip: padding; -webkit-background-clip: padding-box;
+}
+.module .module-lessons ul li a .preview-label::before {
+	width: 1em; line-height: 1em; font-family: FontAwesomeSensei,FontAwesome; margin-right: 0.16em; display: inline-block; content: "\f13e";
+}
+.module .module-lessons ul li.completed a {
+	color: rgba(0, 0, 0, 0.4);
+}
+.module .module-lessons ul li.completed a::before {
+	color: rgb(99, 169, 95); content: "\f058";
+}
+.module .module-status {
+	margin: 0px !important; top: 1em; right: 20px; font-size: inherit !important; position: absolute;
+}

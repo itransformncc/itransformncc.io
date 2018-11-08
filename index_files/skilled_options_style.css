@@ -1,0 +1,1314 @@
+.cbp-container {
+	max-width: 1170px;
+}
+#tribe-events-pg-template {
+	max-width: 1170px;
+}
+.wh-main-wrap {
+	max-width: 1200px;
+}
+body {
+	background-color: rgb(255, 255, 255);
+}
+body {
+	transition:opacity 0.24s ease-in-out; color: rgb(102, 102, 102); line-height: 22px; font-family: Raleway; font-size: 14px; font-style: normal; font-weight: 400; visibility: visible; opacity: 1; -webkit-transition: opacity 0.24s ease-in-out; -moz-transition: opacity 0.24s ease-in-out;
+}
+a {
+	color: rgb(158, 11, 15);
+}
+a:hover {
+	color: rgb(158, 11, 15);
+}
+a:active {
+	color: rgb(158, 11, 15);
+}
+hr {
+	border-top-color: rgb(158, 11, 15); border-top-width: 5px; border-top-style: solid;
+}
+.wh-sidebar .widget hr {
+	border-top-color: rgb(158, 11, 15); border-top-width: 5px; border-top-style: solid;
+}
+.linp-post-list hr {
+	border-top-color: rgb(158, 11, 15); border-top-width: 5px; border-top-style: solid;
+}
+.wh-content .linp-post-list hr {
+	border-top-color: rgb(158, 11, 15); border-top-width: 5px; border-top-style: solid;
+}
+.wh-separator {
+	border-top-color: rgb(158, 11, 15); border-top-width: 5px; border-top-style: solid;
+}
+.wh-content hr.wh-separator {
+	border-top-color: rgb(158, 11, 15); border-top-width: 5px; border-top-style: solid;
+}
+hr {
+	width: 30px;
+}
+.wh-sidebar .widget hr {
+	width: 30px;
+}
+.linp-post-list hr {
+	width: 30px;
+}
+.wh-content .linp-post-list hr {
+	width: 30px;
+}
+.wh-separator {
+	width: 30px;
+}
+.wh-content hr.wh-separator {
+	width: 30px;
+}
+hr {
+	margin: 15px 0px;
+}
+.wh-sidebar .widget hr {
+	margin: 15px 0px;
+}
+.linp-post-list hr {
+	margin: 15px 0px;
+}
+.wh-content .linp-post-list hr {
+	margin: 15px 0px;
+}
+.wh-separator {
+	margin: 15px 0px;
+}
+.wh-content hr.wh-separator {
+	margin: 15px 0px;
+}
+.wh-padding {
+	padding: 15px;
+}
+#tribe-events-pg-template {
+	padding: 15px;
+}
+h1 {
+	transition:opacity 0.24s ease-in-out; color: rgb(51, 51, 51); line-height: 44px; font-family: Raleway; font-size: 35px; font-style: normal; font-weight: 400; visibility: visible; opacity: 1; -webkit-transition: opacity 0.24s ease-in-out; -moz-transition: opacity 0.24s ease-in-out;
+}
+h1 a {
+	transition:opacity 0.24s ease-in-out; color: rgb(51, 51, 51); line-height: 44px; font-family: Raleway; font-size: 35px; font-style: normal; font-weight: 400; visibility: visible; opacity: 1; -webkit-transition: opacity 0.24s ease-in-out; -moz-transition: opacity 0.24s ease-in-out;
+}
+h1 {
+	margin: 5px 0px 20px;
+}
+h1 a {
+	margin: 5px 0px 20px;
+}
+h2 {
+	transition:opacity 0.24s ease-in-out; color: rgb(51, 51, 51); line-height: 42px; font-family: Raleway; font-size: 35px; font-style: normal; font-weight: 400; visibility: visible; opacity: 1; -webkit-transition: opacity 0.24s ease-in-out; -moz-transition: opacity 0.24s ease-in-out;
+}
+h2 a {
+	transition:opacity 0.24s ease-in-out; color: rgb(51, 51, 51); line-height: 42px; font-family: Raleway; font-size: 35px; font-style: normal; font-weight: 400; visibility: visible; opacity: 1; -webkit-transition: opacity 0.24s ease-in-out; -moz-transition: opacity 0.24s ease-in-out;
+}
+h2 {
+	margin: 25px 0px 15px;
+}
+h2 a {
+	margin: 25px 0px 15px;
+}
+h3 {
+	transition:opacity 0.24s ease-in-out; color: rgb(51, 51, 51); line-height: 30px; font-family: Raleway; font-size: 30px; font-style: normal; font-weight: 400; visibility: visible; opacity: 1; -webkit-transition: opacity 0.24s ease-in-out; -moz-transition: opacity 0.24s ease-in-out;
+}
+h3 a {
+	transition:opacity 0.24s ease-in-out; color: rgb(51, 51, 51); line-height: 30px; font-family: Raleway; font-size: 30px; font-style: normal; font-weight: 400; visibility: visible; opacity: 1; -webkit-transition: opacity 0.24s ease-in-out; -moz-transition: opacity 0.24s ease-in-out;
+}
+h3 {
+	margin: 22px 0px 17px;
+}
+h3 a {
+	margin: 22px 0px 17px;
+}
+h4 {
+	transition:opacity 0.24s ease-in-out; color: rgb(51, 51, 51); line-height: 30px; font-family: Raleway; font-size: 24px; font-style: normal; font-weight: 400; visibility: visible; opacity: 1; -webkit-transition: opacity 0.24s ease-in-out; -moz-transition: opacity 0.24s ease-in-out;
+}
+h4 a {
+	transition:opacity 0.24s ease-in-out; color: rgb(51, 51, 51); line-height: 30px; font-family: Raleway; font-size: 24px; font-style: normal; font-weight: 400; visibility: visible; opacity: 1; -webkit-transition: opacity 0.24s ease-in-out; -moz-transition: opacity 0.24s ease-in-out;
+}
+h4 {
+	margin: 25px 0px 17px;
+}
+h4 a {
+	margin: 25px 0px 17px;
+}
+h5 {
+	transition:opacity 0.24s ease-in-out; color: rgb(51, 51, 51); line-height: 32px; font-family: Raleway; font-size: 20px; font-style: normal; font-weight: 600; visibility: visible; opacity: 1; -webkit-transition: opacity 0.24s ease-in-out; -moz-transition: opacity 0.24s ease-in-out;
+}
+h5 a {
+	transition:opacity 0.24s ease-in-out; color: rgb(51, 51, 51); line-height: 32px; font-family: Raleway; font-size: 20px; font-style: normal; font-weight: 600; visibility: visible; opacity: 1; -webkit-transition: opacity 0.24s ease-in-out; -moz-transition: opacity 0.24s ease-in-out;
+}
+h5 {
+	margin: 20px 0px 10px;
+}
+h5 a {
+	margin: 20px 0px 10px;
+}
+h6 {
+	transition:opacity 0.24s ease-in-out; color: rgb(51, 51, 51); line-height: 24px; font-family: Raleway; font-size: 16px; font-style: normal; font-weight: 600; visibility: visible; opacity: 1; -webkit-transition: opacity 0.24s ease-in-out; -moz-transition: opacity 0.24s ease-in-out;
+}
+h6 a {
+	transition:opacity 0.24s ease-in-out; color: rgb(51, 51, 51); line-height: 24px; font-family: Raleway; font-size: 16px; font-style: normal; font-weight: 600; visibility: visible; opacity: 1; -webkit-transition: opacity 0.24s ease-in-out; -moz-transition: opacity 0.24s ease-in-out;
+}
+h6 {
+	margin: 20px 0px;
+}
+h6 a {
+	margin: 20px 0px;
+}
+.wh-header {
+	background-color: rgb(255, 255, 255);
+}
+.respmenu-wrap {
+	background-color: rgb(255, 255, 255);
+}
+.wh-logo {
+	margin-top: 3px;
+}
+.wh-main-menu-bar-wrapper > .cbp-container > div {
+	padding: 15px 20px;
+}
+.wh-top-bar-additional {
+	transition:opacity 0.24s ease-in-out; color: rgb(51, 51, 51); line-height: 22px; font-size: 14px; visibility: visible; opacity: 1; -webkit-transition: opacity 0.24s ease-in-out; -moz-transition: opacity 0.24s ease-in-out;
+}
+.wh-top-bar-additional a {
+	color: rgb(0, 0, 0);
+}
+.wh-top-bar-additional a:hover {
+	color: rgb(187, 187, 187);
+}
+.wh-top-bar-additional a:active {
+	color: rgb(204, 204, 204);
+}
+.wh-top-bar-additional > .cbp-container > div {
+	padding: 5px 20px 10px;
+}
+.wh-top-bar-additional {
+	border-bottom-color: rgb(204, 204, 204); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.wh-menu-main.sf-menu a {
+	transition:opacity 0.24s ease-in-out; text-transform: uppercase; line-height: 23px; font-family: Raleway; font-size: 15px; font-style: normal; font-weight: 700; visibility: visible; opacity: 1; -webkit-transition: opacity 0.24s ease-in-out; -moz-transition: opacity 0.24s ease-in-out;
+}
+.respmenu li a {
+	transition:opacity 0.24s ease-in-out; text-transform: uppercase; line-height: 23px; font-family: Raleway; font-size: 15px; font-style: normal; font-weight: 700; visibility: visible; opacity: 1; -webkit-transition: opacity 0.24s ease-in-out; -moz-transition: opacity 0.24s ease-in-out;
+}
+.wh-menu-main.sf-menu ul li a {
+	transition:opacity 0.24s ease-in-out; text-transform: none; line-height: 25px; font-family: Raleway; font-size: 15px; font-style: normal; font-weight: 500; visibility: visible; opacity: 1; -webkit-transition: opacity 0.24s ease-in-out; -moz-transition: opacity 0.24s ease-in-out;
+}
+.wh-menu-main.sf-menu a {
+	color: rgb(102, 102, 102);
+}
+.respmenu li a {
+	color: rgb(102, 102, 102);
+}
+.cbp-respmenu-more {
+	color: rgb(102, 102, 102);
+}
+.wh-menu-main.sf-menu a:hover {
+	color: rgb(91, 91, 91);
+}
+.respmenu li a:hover {
+	color: rgb(91, 91, 91);
+}
+.cbp-respmenu-more:hover {
+	color: rgb(91, 91, 91);
+}
+.wh-menu-main.sf-menu .current-menu-item a {
+	color: rgb(102, 102, 102);
+}
+.wh-menu-main.sf-menu .current-menu-item a:hover {
+	color: rgb(91, 91, 91);
+}
+.wh-menu-main.sf-menu ul li {
+	background-color: rgb(255, 255, 255);
+}
+.wh-menu-main.sf-menu .sub-menu {
+	background-color: rgb(255, 255, 255);
+}
+.wh-menu-main.sf-menu ul li:hover {
+	background-color: rgb(67, 62, 62);
+}
+.wh-menu-main.sf-menu ul ul li:hover {
+	background-color: rgb(67, 62, 62);
+}
+.wh-menu-main.sf-menu ul li a {
+	color: rgb(102, 102, 102);
+}
+.wh-menu-main.sf-menu ul li a:hover {
+	color: rgb(255, 255, 255);
+}
+.wh-menu-main {
+	padding-top: 7px; padding-bottom: 5px;
+}
+.wh-sticky-header .wh-main-menu-bar-wrapper {
+	background-color: rgb(255, 255, 255);
+}
+.wh-sticky-header .wh-menu-main {
+	padding-top: 10px; padding-bottom: 0px;
+}
+.wh-sticky-header .wh-main-menu-bar-wrapper {
+	border-bottom-color: rgb(245, 245, 245); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.respmenu-header .respmenu-header-logo-link {
+	height: 50px;
+}
+.respmenu-open hr {
+	border-color: rgb(255, 193, 27);
+}
+.respmenu-open:hover hr {
+	border-color: rgb(249, 176, 4);
+}
+.wh-page-title-bar {
+	background-position: center; background-image: url("../images/yellow.png"); background-repeat: no-repeat; background-color: rgb(62, 62, 62);
+}
+h1.page-title {
+	transition:opacity 0.24s ease-in-out; text-align: left; color: rgb(238, 151, 0); text-transform: uppercase; line-height: 40px; font-family: Raleway; font-size: 35px; font-style: normal; font-weight: 800; visibility: visible; opacity: 1; -webkit-transition: opacity 0.24s ease-in-out; -moz-transition: opacity 0.24s ease-in-out;
+}
+.page-title {
+	margin: 30px 0px 10px;
+}
+.wh-page-title-wrapper {
+	padding: 35px 20px 55px;
+}
+.wh-breadcrumbs {
+	transition:opacity 0.24s ease-in-out; text-align: left; color: rgb(255, 255, 255); text-transform: uppercase; line-height: 22px; font-family: Raleway; font-size: 15px; font-style: normal; font-weight: 600; visibility: visible; opacity: 1; -webkit-transition: opacity 0.24s ease-in-out; -moz-transition: opacity 0.24s ease-in-out;
+}
+.wh-breadcrumbs a {
+	color: rgb(255, 255, 255);
+}
+.wh-breadcrumbs a:hover {
+	color: rgb(252, 252, 252);
+}
+.wh-content {
+	background-color: rgb(255, 255, 255);
+}
+.wh-content {
+	padding-top: 47px; padding-bottom: 20px;
+}
+.wh-content hr {
+	border-top-color: rgb(235, 235, 235); border-top-width: 1px; border-top-style: solid;
+}
+.wh-content hr {
+	width: 100%;
+}
+.wh-content hr {
+	margin: 15px 0px;
+}
+.course-header-image {
+	height: 100px;
+}
+.wh-sensei-single-course-header {
+	background-color: rgb(255, 255, 255);
+}
+.wh-sensei-title-wrap h1 {
+	transition:opacity 0.24s ease-in-out; color: rgb(0, 0, 0); line-height: 50px; font-family: Raleway; font-size: 40px; font-style: normal; font-weight: 600; visibility: visible; opacity: 1; -webkit-transition: opacity 0.24s ease-in-out; -moz-transition: opacity 0.24s ease-in-out;
+}
+.single-course .sensei-course-meta .meta-item {
+	color: rgb(0, 0, 0);
+}
+.sensei-single-course-header-author-name {
+	color: rgb(0, 0, 0);
+}
+.single-course .meta-wrap hr {
+	border-top-color: rgb(238, 238, 238); border-top-width: 1px; border-top-style: solid;
+}
+.module header {
+	background-color: rgb(242, 242, 242);
+}
+.module .module-lessons header {
+	background-color: rgb(242, 242, 242);
+}
+.module .module-lessons ul li a:hover::before {
+	color: rgb(42, 191, 212);
+}
+.module .module-lessons ul li.completed a::before {
+	color: rgb(42, 191, 212);
+}
+.course .status {
+	background-color: rgb(248, 212, 86);
+}
+.course-lessons .status {
+	background-color: rgb(248, 212, 86);
+}
+.course-container .status {
+	background-color: rgb(248, 212, 86);
+}
+.linp-featured-courses-carousel .course-title {
+	transition:opacity 0.24s ease-in-out; text-transform: none; line-height: 22px; font-family: Raleway; font-size: 16px; font-style: normal; font-weight: 600; visibility: visible; opacity: 1; -webkit-transition: opacity 0.24s ease-in-out; -moz-transition: opacity 0.24s ease-in-out;
+}
+.linp-featured-courses-carousel .course-title a {
+	transition:opacity 0.24s ease-in-out; text-transform: none; line-height: 22px; font-family: Raleway; font-size: 16px; font-style: normal; font-weight: 600; visibility: visible; opacity: 1; -webkit-transition: opacity 0.24s ease-in-out; -moz-transition: opacity 0.24s ease-in-out;
+}
+.linp-featured-courses-carousel .sensei-course-meta {
+	transition:opacity 0.24s ease-in-out; color: rgb(102, 102, 102); line-height: 21px; font-family: Raleway; font-size: 13px; font-style: normal; font-weight: 600; visibility: visible; opacity: 1; -webkit-transition: opacity 0.24s ease-in-out; -moz-transition: opacity 0.24s ease-in-out;
+}
+.linp-featured-courses-carousel .sensei-course-meta a {
+	transition:opacity 0.24s ease-in-out; color: rgb(102, 102, 102); line-height: 21px; font-family: Raleway; font-size: 13px; font-style: normal; font-weight: 600; visibility: visible; opacity: 1; -webkit-transition: opacity 0.24s ease-in-out; -moz-transition: opacity 0.24s ease-in-out;
+}
+.linp-featured-courses-carousel .course-lesson-count {
+	transition:opacity 0.24s ease-in-out; color: rgb(102, 102, 102); line-height: 21px; font-family: Raleway; font-size: 13px; font-style: normal; font-weight: 600; visibility: visible; opacity: 1; -webkit-transition: opacity 0.24s ease-in-out; -moz-transition: opacity 0.24s ease-in-out;
+}
+.linp-featured-courses-carousel .course-excerpt {
+	transition:opacity 0.24s ease-in-out; color: rgb(102, 102, 102); line-height: 19px; font-size: 13px; visibility: visible; opacity: 1; -webkit-transition: opacity 0.24s ease-in-out; -moz-transition: opacity 0.24s ease-in-out;
+}
+.linp-featured-courses-carousel .post-ratings {
+	transition:opacity 0.24s ease-in-out; color: rgb(102, 102, 102); line-height: 19px; font-size: 13px; visibility: visible; opacity: 1; -webkit-transition: opacity 0.24s ease-in-out; -moz-transition: opacity 0.24s ease-in-out;
+}
+.owl-theme .owl-controls .owl-buttons div {
+	transition:opacity 0.24s ease-in-out; color: rgb(102, 102, 102); line-height: 19px; font-size: 13px; visibility: visible; opacity: 1; -webkit-transition: opacity 0.24s ease-in-out; -moz-transition: opacity 0.24s ease-in-out;
+}
+.owl-theme .owl-controls .owl-page span {
+	transition:opacity 0.24s ease-in-out; color: rgb(102, 102, 102); line-height: 19px; font-size: 13px; visibility: visible; opacity: 1; -webkit-transition: opacity 0.24s ease-in-out; -moz-transition: opacity 0.24s ease-in-out;
+}
+.linp-featured-courses-carousel .owl-item .course-price .amount {
+	transition:opacity 0.24s ease-in-out; color: rgb(255, 255, 255); line-height: 18px; font-family: Raleway; font-size: 17px; font-style: normal; font-weight: 700; visibility: visible; opacity: 1; -webkit-transition: opacity 0.24s ease-in-out; -moz-transition: opacity 0.24s ease-in-out;
+}
+.linp-featured-courses-carousel .owl-item .course-price del .amount {
+	transition:opacity 0.24s ease-in-out; color: rgb(255, 255, 255); line-height: 18px; font-family: Raleway; font-size: 17px; font-style: normal; font-weight: 700; visibility: visible; opacity: 1; -webkit-transition: opacity 0.24s ease-in-out; -moz-transition: opacity 0.24s ease-in-out;
+}
+.wh-course-list-item .img-container .course-price .amount {
+	transition:opacity 0.24s ease-in-out; color: rgb(255, 255, 255); line-height: 18px; font-family: Raleway; font-size: 17px; font-style: normal; font-weight: 700; visibility: visible; opacity: 1; -webkit-transition: opacity 0.24s ease-in-out; -moz-transition: opacity 0.24s ease-in-out;
+}
+.linp-featured-courses-carousel .owl-item .course-price {
+	background-color: rgb(255, 197, 13);
+}
+.wh-course-list-item .img-container .course-price {
+	background-color: rgb(255, 197, 13);
+}
+.course-container article.course .course-price {
+	background-color: rgb(255, 197, 13);
+}
+.linp-featured-courses-carousel .star-rating {
+	
+}
+.linp-featured-courses-carousel .star-rating:hover {
+	
+}
+.wh-footer-bottom {
+	background-repeat: repeat; background-color: rgb(58, 58, 58);
+}
+.wh-footer-bottom {
+	transition:opacity 0.24s ease-in-out; color: rgb(255, 255, 255); line-height: 21px; font-size: 13px; visibility: visible; opacity: 1; -webkit-transition: opacity 0.24s ease-in-out; -moz-transition: opacity 0.24s ease-in-out;
+}
+.wh-footer-bottom a {
+	transition:opacity 0.24s ease-in-out; line-height: 21px; font-family: Raleway; font-size: 13px; font-style: normal; font-weight: normal; visibility: visible; opacity: 1; -webkit-transition: opacity 0.24s ease-in-out; -moz-transition: opacity 0.24s ease-in-out;
+}
+.wh-footer .wh-footer-bottom a {
+	color: rgb(181, 181, 181);
+}
+.wh-footer .wh-footer-bottom a:hover {
+	color: rgb(219, 219, 219);
+}
+.wh-footer .wh-footer-bottom a:active {
+	color: rgb(214, 214, 214);
+}
+.wh-footer-bottom > .cbp-container > div {
+	padding: 30px 18px 25px;
+}
+.wh-footer {
+	background-color: rgb(71, 71, 71);
+}
+.wh-footer h3 {
+	transition:opacity 0.24s ease-in-out; color: rgb(238, 151, 0); line-height: 30px; font-family: Raleway; font-size: 18px; font-style: normal; font-weight: 700; visibility: visible; opacity: 1; -webkit-transition: opacity 0.24s ease-in-out; -moz-transition: opacity 0.24s ease-in-out;
+}
+.wh-footer h4 {
+	transition:opacity 0.24s ease-in-out; line-height: 22px; font-size: 14px; visibility: visible; opacity: 1; -webkit-transition: opacity 0.24s ease-in-out; -moz-transition: opacity 0.24s ease-in-out;
+}
+.wh-footer h5 {
+	transition:opacity 0.24s ease-in-out; line-height: 22px; font-size: 14px; visibility: visible; opacity: 1; -webkit-transition: opacity 0.24s ease-in-out; -moz-transition: opacity 0.24s ease-in-out;
+}
+.wh-footer h4 a {
+	transition:opacity 0.24s ease-in-out; line-height: 22px; font-size: 14px; visibility: visible; opacity: 1; -webkit-transition: opacity 0.24s ease-in-out; -moz-transition: opacity 0.24s ease-in-out;
+}
+.wh-footer h5 a {
+	transition:opacity 0.24s ease-in-out; line-height: 22px; font-size: 14px; visibility: visible; opacity: 1; -webkit-transition: opacity 0.24s ease-in-out; -moz-transition: opacity 0.24s ease-in-out;
+}
+.wh-footer a {
+	color: rgb(255, 255, 255);
+}
+.wh-footer .widget ul li::before {
+	color: rgb(255, 255, 255);
+}
+.wh-footer {
+	transition:opacity 0.24s ease-in-out; color: rgb(255, 255, 255); line-height: 21px; font-size: 13px; visibility: visible; opacity: 1; -webkit-transition: opacity 0.24s ease-in-out; -moz-transition: opacity 0.24s ease-in-out;
+}
+.wh-footer p {
+	transition:opacity 0.24s ease-in-out; color: rgb(255, 255, 255); line-height: 21px; font-size: 13px; visibility: visible; opacity: 1; -webkit-transition: opacity 0.24s ease-in-out; -moz-transition: opacity 0.24s ease-in-out;
+}
+.wh-footer span {
+	transition:opacity 0.24s ease-in-out; color: rgb(255, 255, 255); line-height: 21px; font-size: 13px; visibility: visible; opacity: 1; -webkit-transition: opacity 0.24s ease-in-out; -moz-transition: opacity 0.24s ease-in-out;
+}
+.wh-footer .widget {
+	min-height: 250px;
+}
+.wh-footer > .cbp-container > div {
+	padding: 30px 20px;
+}
+#scrollUp {
+	background-image: url("../images/scroll-to-top.png"); background-repeat: no-repeat; background-color: transparent;
+}
+#scrollUp {
+	width: 70px; height: 70px;
+}
+.lin-vc-separator::before {
+	background-color: rgb(158, 11, 15);
+}
+.social .scp-icon {
+	background-color: rgb(158, 11, 15);
+}
+.lin-teacher-icons .scp-icon {
+	background-color: rgb(158, 11, 15);
+}
+.single-course .modules-and-lessons h2::after {
+	background-color: rgb(158, 11, 15);
+}
+.lin-heading-separator .uvc-headings-line {
+	border-color: rgb(158, 11, 15) !important;
+}
+.wh-footer .widget ul li::before {
+	border-color: transparent transparent transparent rgb(255, 255, 255);
+}
+.vc_grid-pagination .vc_grid-pagination-color-orange.vc_grid-pagination-list > li > a {
+	border-color: rgb(158, 11, 15) !important; background-color: rgb(158, 11, 15) !important;
+}
+.vc_grid-pagination .vc_grid-pagination-color-orange.vc_grid-pagination-list > li > span {
+	border-color: rgb(158, 11, 15) !important; background-color: rgb(158, 11, 15) !important;
+}
+.comment-list .comment hr {
+	border-top-color: rgb(235, 235, 235);
+}
+blockquote {
+	border-left-color: rgb(158, 11, 15);
+}
+.sub-menu {
+	
+}
+.linp-featured-courses-carousel .owl-item .price .course-price::before {
+	border-color: rgb(255, 197, 13) rgb(255, 197, 13) rgb(255, 197, 13) transparent;
+}
+.course-container article.course .course-price::after {
+	border-color: rgb(255, 197, 13) transparent rgb(255, 197, 13) rgb(255, 197, 13);
+}
+.linp-featured-courses-carousel .owl-item .price .course-price::after {
+	
+}
+.course-container article.course .course-price::before {
+	
+}
+.linp-featured-courses-carousel .owl-item > div {
+	border: 1px solid rgb(228, 228, 228); border-image: none;
+}
+.linp-featured-courses-carousel .owl-item .cbp-row {
+	border-top-color: rgb(228, 228, 228); border-top-width: 1px; border-top-style: solid;
+}
+.wpb_accordion .wpb_accordion_wrapper .wpb_accordion_header a {
+	color: rgb(107, 107, 107);
+}
+.wpb_accordion .wpb_accordion_wrapper .wpb_accordion_header a:hover {
+	color: rgb(173, 173, 173);
+}
+.wpb_content_element .wpb_tabs_nav li a {
+	color: rgb(153, 153, 153);
+}
+.wpb_content_element .wpb_tabs_nav li a:hover {
+	color: rgb(153, 153, 153);
+}
+.wpb_content_element .wpb_tabs_nav li.ui-tabs-active a {
+	color: rgb(85, 85, 85);
+}
+.wpb_content_element .wpb_tabs_nav li.ui-tabs-active a:hover {
+	color: rgb(85, 85, 85);
+}
+button {
+	padding: 16px 27px 14px; border-radius: 0px; border: 1px solid rgb(42, 191, 212); border-image: none; color: rgb(255, 255, 255); text-transform: uppercase; line-height: 15px; font-size: 15px; font-weight: bold; background-color: rgb(42, 191, 212);
+}
+.button {
+	padding: 16px 27px 14px; border-radius: 0px; border: 1px solid rgb(42, 191, 212); border-image: none; color: rgb(255, 255, 255); text-transform: uppercase; line-height: 15px; font-size: 15px; font-weight: bold; background-color: rgb(42, 191, 212);
+}
+input[type='submit'] {
+	padding: 16px 27px 14px; border-radius: 0px; border: 1px solid rgb(42, 191, 212); border-image: none; color: rgb(255, 255, 255); text-transform: uppercase; line-height: 15px; font-size: 15px; font-weight: bold; background-color: rgb(42, 191, 212);
+}
+input[type='button'] {
+	padding: 16px 27px 14px; border-radius: 0px; border: 1px solid rgb(42, 191, 212); border-image: none; color: rgb(255, 255, 255); text-transform: uppercase; line-height: 15px; font-size: 15px; font-weight: bold; background-color: rgb(42, 191, 212);
+}
+input[type='reset'] {
+	padding: 16px 27px 14px; border-radius: 0px; border: 1px solid rgb(42, 191, 212); border-image: none; color: rgb(255, 255, 255); text-transform: uppercase; line-height: 15px; font-size: 15px; font-weight: bold; background-color: rgb(42, 191, 212);
+}
+.wh-button {
+	padding: 16px 27px 14px; border-radius: 0px; border: 1px solid rgb(42, 191, 212); border-image: none; color: rgb(255, 255, 255); text-transform: uppercase; line-height: 15px; font-size: 15px; font-weight: bold; background-color: rgb(42, 191, 212);
+}
+.course-meta .register a {
+	padding: 16px 27px 14px; border-radius: 0px; border: 1px solid rgb(42, 191, 212); border-image: none; color: rgb(255, 255, 255); text-transform: uppercase; line-height: 15px; font-size: 15px; font-weight: bold; background-color: rgb(42, 191, 212);
+}
+#tribe-events .tribe-events-button {
+	padding: 16px 27px 14px; border-radius: 0px; border: 1px solid rgb(42, 191, 212); border-image: none; color: rgb(255, 255, 255); text-transform: uppercase; line-height: 15px; font-size: 15px; font-weight: bold; background-color: rgb(42, 191, 212);
+}
+#tribe-bar-form .tribe-bar-submit input[type=submit] {
+	padding: 16px 27px 14px; border-radius: 0px; border: 1px solid rgb(42, 191, 212); border-image: none; color: rgb(255, 255, 255); text-transform: uppercase; line-height: 15px; font-size: 15px; font-weight: bold; background-color: rgb(42, 191, 212);
+}
+a.view-results {
+	padding: 16px 27px 14px; border-radius: 0px; border: 1px solid rgb(42, 191, 212); border-image: none; color: rgb(255, 255, 255); text-transform: uppercase; line-height: 15px; font-size: 15px; font-weight: bold; background-color: rgb(42, 191, 212);
+}
+a.view-results-link {
+	padding: 16px 27px 14px; border-radius: 0px; border: 1px solid rgb(42, 191, 212); border-image: none; color: rgb(255, 255, 255); text-transform: uppercase; line-height: 15px; font-size: 15px; font-weight: bold; background-color: rgb(42, 191, 212);
+}
+a.sensei-certificate-link {
+	padding: 16px 27px 14px; border-radius: 0px; border: 1px solid rgb(42, 191, 212); border-image: none; color: rgb(255, 255, 255); text-transform: uppercase; line-height: 15px; font-size: 15px; font-weight: bold; background-color: rgb(42, 191, 212);
+}
+.woocommerce a.button {
+	padding: 16px 27px 14px; border-radius: 0px; border: 1px solid rgb(42, 191, 212); border-image: none; color: rgb(255, 255, 255); text-transform: uppercase; line-height: 15px; font-size: 15px; font-weight: bold; background-color: rgb(42, 191, 212);
+}
+.woocommerce input.button {
+	padding: 16px 27px 14px; border-radius: 0px; border: 1px solid rgb(42, 191, 212); border-image: none; color: rgb(255, 255, 255); text-transform: uppercase; line-height: 15px; font-size: 15px; font-weight: bold; background-color: rgb(42, 191, 212);
+}
+.woocommerce a.alt.button {
+	padding: 16px 27px 14px; border-radius: 0px; border: 1px solid rgb(42, 191, 212); border-image: none; color: rgb(255, 255, 255); text-transform: uppercase; line-height: 15px; font-size: 15px; font-weight: bold; background-color: rgb(42, 191, 212);
+}
+.woocommerce input.alt.button {
+	padding: 16px 27px 14px; border-radius: 0px; border: 1px solid rgb(42, 191, 212); border-image: none; color: rgb(255, 255, 255); text-transform: uppercase; line-height: 15px; font-size: 15px; font-weight: bold; background-color: rgb(42, 191, 212);
+}
+.woocommerce button.alt.button {
+	padding: 16px 27px 14px; border-radius: 0px; border: 1px solid rgb(42, 191, 212); border-image: none; color: rgb(255, 255, 255); text-transform: uppercase; line-height: 15px; font-size: 15px; font-weight: bold; background-color: rgb(42, 191, 212);
+}
+.woocommerce #respond input#submit {
+	padding: 16px 27px 14px; border-radius: 0px; border: 1px solid rgb(42, 191, 212); border-image: none; color: rgb(255, 255, 255); text-transform: uppercase; line-height: 15px; font-size: 15px; font-weight: bold; background-color: rgb(42, 191, 212);
+}
+.sensei-course-filters li a {
+	padding: 16px 27px 14px; border-radius: 0px; border: 1px solid rgb(42, 191, 212); border-image: none; color: rgb(255, 255, 255); text-transform: uppercase; line-height: 15px; font-size: 15px; font-weight: bold; background-color: rgb(42, 191, 212);
+}
+.course-container a.button {
+	padding: 16px 27px 14px; border-radius: 0px; border: 1px solid rgb(42, 191, 212); border-image: none; color: rgb(255, 255, 255); text-transform: uppercase; line-height: 15px; font-size: 15px; font-weight: bold; background-color: rgb(42, 191, 212);
+}
+.course a.button {
+	padding: 16px 27px 14px; border-radius: 0px; border: 1px solid rgb(42, 191, 212); border-image: none; color: rgb(255, 255, 255); text-transform: uppercase; line-height: 15px; font-size: 15px; font-weight: bold; background-color: rgb(42, 191, 212);
+}
+.lesson a.button {
+	padding: 16px 27px 14px; border-radius: 0px; border: 1px solid rgb(42, 191, 212); border-image: none; color: rgb(255, 255, 255); text-transform: uppercase; line-height: 15px; font-size: 15px; font-weight: bold; background-color: rgb(42, 191, 212);
+}
+.quiz a.button {
+	padding: 16px 27px 14px; border-radius: 0px; border: 1px solid rgb(42, 191, 212); border-image: none; color: rgb(255, 255, 255); text-transform: uppercase; line-height: 15px; font-size: 15px; font-weight: bold; background-color: rgb(42, 191, 212);
+}
+.course-container a.button:visited {
+	padding: 16px 27px 14px; border-radius: 0px; border: 1px solid rgb(42, 191, 212); border-image: none; color: rgb(255, 255, 255); text-transform: uppercase; line-height: 15px; font-size: 15px; font-weight: bold; background-color: rgb(42, 191, 212);
+}
+.course a.button:visited {
+	padding: 16px 27px 14px; border-radius: 0px; border: 1px solid rgb(42, 191, 212); border-image: none; color: rgb(255, 255, 255); text-transform: uppercase; line-height: 15px; font-size: 15px; font-weight: bold; background-color: rgb(42, 191, 212);
+}
+.lesson a.button:visited {
+	padding: 16px 27px 14px; border-radius: 0px; border: 1px solid rgb(42, 191, 212); border-image: none; color: rgb(255, 255, 255); text-transform: uppercase; line-height: 15px; font-size: 15px; font-weight: bold; background-color: rgb(42, 191, 212);
+}
+.quiz a.button:visited {
+	padding: 16px 27px 14px; border-radius: 0px; border: 1px solid rgb(42, 191, 212); border-image: none; color: rgb(255, 255, 255); text-transform: uppercase; line-height: 15px; font-size: 15px; font-weight: bold; background-color: rgb(42, 191, 212);
+}
+.course-container a.comment-reply-link {
+	padding: 16px 27px 14px; border-radius: 0px; border: 1px solid rgb(42, 191, 212); border-image: none; color: rgb(255, 255, 255); text-transform: uppercase; line-height: 15px; font-size: 15px; font-weight: bold; background-color: rgb(42, 191, 212);
+}
+.course a.comment-reply-link {
+	padding: 16px 27px 14px; border-radius: 0px; border: 1px solid rgb(42, 191, 212); border-image: none; color: rgb(255, 255, 255); text-transform: uppercase; line-height: 15px; font-size: 15px; font-weight: bold; background-color: rgb(42, 191, 212);
+}
+.lesson a.comment-reply-link {
+	padding: 16px 27px 14px; border-radius: 0px; border: 1px solid rgb(42, 191, 212); border-image: none; color: rgb(255, 255, 255); text-transform: uppercase; line-height: 15px; font-size: 15px; font-weight: bold; background-color: rgb(42, 191, 212);
+}
+.quiz a.comment-reply-link {
+	padding: 16px 27px 14px; border-radius: 0px; border: 1px solid rgb(42, 191, 212); border-image: none; color: rgb(255, 255, 255); text-transform: uppercase; line-height: 15px; font-size: 15px; font-weight: bold; background-color: rgb(42, 191, 212);
+}
+.course-container #commentform #submit {
+	padding: 16px 27px 14px; border-radius: 0px; border: 1px solid rgb(42, 191, 212); border-image: none; color: rgb(255, 255, 255); text-transform: uppercase; line-height: 15px; font-size: 15px; font-weight: bold; background-color: rgb(42, 191, 212);
+}
+.course #commentform #submit {
+	padding: 16px 27px 14px; border-radius: 0px; border: 1px solid rgb(42, 191, 212); border-image: none; color: rgb(255, 255, 255); text-transform: uppercase; line-height: 15px; font-size: 15px; font-weight: bold; background-color: rgb(42, 191, 212);
+}
+.lesson #commentform #submit {
+	padding: 16px 27px 14px; border-radius: 0px; border: 1px solid rgb(42, 191, 212); border-image: none; color: rgb(255, 255, 255); text-transform: uppercase; line-height: 15px; font-size: 15px; font-weight: bold; background-color: rgb(42, 191, 212);
+}
+.quiz #commentform #submit {
+	padding: 16px 27px 14px; border-radius: 0px; border: 1px solid rgb(42, 191, 212); border-image: none; color: rgb(255, 255, 255); text-transform: uppercase; line-height: 15px; font-size: 15px; font-weight: bold; background-color: rgb(42, 191, 212);
+}
+.course-container .submit {
+	padding: 16px 27px 14px; border-radius: 0px; border: 1px solid rgb(42, 191, 212); border-image: none; color: rgb(255, 255, 255); text-transform: uppercase; line-height: 15px; font-size: 15px; font-weight: bold; background-color: rgb(42, 191, 212);
+}
+.course .submit {
+	padding: 16px 27px 14px; border-radius: 0px; border: 1px solid rgb(42, 191, 212); border-image: none; color: rgb(255, 255, 255); text-transform: uppercase; line-height: 15px; font-size: 15px; font-weight: bold; background-color: rgb(42, 191, 212);
+}
+.lesson .submit {
+	padding: 16px 27px 14px; border-radius: 0px; border: 1px solid rgb(42, 191, 212); border-image: none; color: rgb(255, 255, 255); text-transform: uppercase; line-height: 15px; font-size: 15px; font-weight: bold; background-color: rgb(42, 191, 212);
+}
+.quiz .submit {
+	padding: 16px 27px 14px; border-radius: 0px; border: 1px solid rgb(42, 191, 212); border-image: none; color: rgb(255, 255, 255); text-transform: uppercase; line-height: 15px; font-size: 15px; font-weight: bold; background-color: rgb(42, 191, 212);
+}
+.course-container input[type=submit] {
+	padding: 16px 27px 14px; border-radius: 0px; border: 1px solid rgb(42, 191, 212); border-image: none; color: rgb(255, 255, 255); text-transform: uppercase; line-height: 15px; font-size: 15px; font-weight: bold; background-color: rgb(42, 191, 212);
+}
+.course input[type=submit] {
+	padding: 16px 27px 14px; border-radius: 0px; border: 1px solid rgb(42, 191, 212); border-image: none; color: rgb(255, 255, 255); text-transform: uppercase; line-height: 15px; font-size: 15px; font-weight: bold; background-color: rgb(42, 191, 212);
+}
+.lesson input[type=submit] {
+	padding: 16px 27px 14px; border-radius: 0px; border: 1px solid rgb(42, 191, 212); border-image: none; color: rgb(255, 255, 255); text-transform: uppercase; line-height: 15px; font-size: 15px; font-weight: bold; background-color: rgb(42, 191, 212);
+}
+.quiz input[type=submit] {
+	padding: 16px 27px 14px; border-radius: 0px; border: 1px solid rgb(42, 191, 212); border-image: none; color: rgb(255, 255, 255); text-transform: uppercase; line-height: 15px; font-size: 15px; font-weight: bold; background-color: rgb(42, 191, 212);
+}
+.course-container input.button {
+	padding: 16px 27px 14px; border-radius: 0px; border: 1px solid rgb(42, 191, 212); border-image: none; color: rgb(255, 255, 255); text-transform: uppercase; line-height: 15px; font-size: 15px; font-weight: bold; background-color: rgb(42, 191, 212);
+}
+.course input.button {
+	padding: 16px 27px 14px; border-radius: 0px; border: 1px solid rgb(42, 191, 212); border-image: none; color: rgb(255, 255, 255); text-transform: uppercase; line-height: 15px; font-size: 15px; font-weight: bold; background-color: rgb(42, 191, 212);
+}
+.lesson input.button {
+	padding: 16px 27px 14px; border-radius: 0px; border: 1px solid rgb(42, 191, 212); border-image: none; color: rgb(255, 255, 255); text-transform: uppercase; line-height: 15px; font-size: 15px; font-weight: bold; background-color: rgb(42, 191, 212);
+}
+.quiz input.button {
+	padding: 16px 27px 14px; border-radius: 0px; border: 1px solid rgb(42, 191, 212); border-image: none; color: rgb(255, 255, 255); text-transform: uppercase; line-height: 15px; font-size: 15px; font-weight: bold; background-color: rgb(42, 191, 212);
+}
+.course-container button.button {
+	padding: 16px 27px 14px; border-radius: 0px; border: 1px solid rgb(42, 191, 212); border-image: none; color: rgb(255, 255, 255); text-transform: uppercase; line-height: 15px; font-size: 15px; font-weight: bold; background-color: rgb(42, 191, 212);
+}
+.course button.button {
+	padding: 16px 27px 14px; border-radius: 0px; border: 1px solid rgb(42, 191, 212); border-image: none; color: rgb(255, 255, 255); text-transform: uppercase; line-height: 15px; font-size: 15px; font-weight: bold; background-color: rgb(42, 191, 212);
+}
+.lesson button.button {
+	padding: 16px 27px 14px; border-radius: 0px; border: 1px solid rgb(42, 191, 212); border-image: none; color: rgb(255, 255, 255); text-transform: uppercase; line-height: 15px; font-size: 15px; font-weight: bold; background-color: rgb(42, 191, 212);
+}
+.quiz button.button {
+	padding: 16px 27px 14px; border-radius: 0px; border: 1px solid rgb(42, 191, 212); border-image: none; color: rgb(255, 255, 255); text-transform: uppercase; line-height: 15px; font-size: 15px; font-weight: bold; background-color: rgb(42, 191, 212);
+}
+button:hover {
+	border: 1px solid rgb(32, 209, 233); border-image: none; color: rgb(255, 255, 255); background-color: rgb(32, 209, 233);
+}
+.button:hover {
+	border: 1px solid rgb(32, 209, 233); border-image: none; color: rgb(255, 255, 255); background-color: rgb(32, 209, 233);
+}
+input[type='submit']:hover {
+	border: 1px solid rgb(32, 209, 233); border-image: none; color: rgb(255, 255, 255); background-color: rgb(32, 209, 233);
+}
+input[type='button']:hover {
+	border: 1px solid rgb(32, 209, 233); border-image: none; color: rgb(255, 255, 255); background-color: rgb(32, 209, 233);
+}
+input[type='reset']:hover {
+	border: 1px solid rgb(32, 209, 233); border-image: none; color: rgb(255, 255, 255); background-color: rgb(32, 209, 233);
+}
+.wh-button:hover {
+	border: 1px solid rgb(32, 209, 233); border-image: none; color: rgb(255, 255, 255); background-color: rgb(32, 209, 233);
+}
+.course-meta .register a:hover {
+	border: 1px solid rgb(32, 209, 233); border-image: none; color: rgb(255, 255, 255); background-color: rgb(32, 209, 233);
+}
+#tribe-events .tribe-events-button:hover {
+	border: 1px solid rgb(32, 209, 233); border-image: none; color: rgb(255, 255, 255); background-color: rgb(32, 209, 233);
+}
+#tribe-bar-form .tribe-bar-submit input[type=submit]:hover {
+	border: 1px solid rgb(32, 209, 233); border-image: none; color: rgb(255, 255, 255); background-color: rgb(32, 209, 233);
+}
+a.view-results:hover {
+	border: 1px solid rgb(32, 209, 233); border-image: none; color: rgb(255, 255, 255); background-color: rgb(32, 209, 233);
+}
+a.view-results-link:hover {
+	border: 1px solid rgb(32, 209, 233); border-image: none; color: rgb(255, 255, 255); background-color: rgb(32, 209, 233);
+}
+a.sensei-certificate-link:hover {
+	border: 1px solid rgb(32, 209, 233); border-image: none; color: rgb(255, 255, 255); background-color: rgb(32, 209, 233);
+}
+.woocommerce a.button:hover {
+	border: 1px solid rgb(32, 209, 233); border-image: none; color: rgb(255, 255, 255); background-color: rgb(32, 209, 233);
+}
+.woocommerce input.button:hover {
+	border: 1px solid rgb(32, 209, 233); border-image: none; color: rgb(255, 255, 255); background-color: rgb(32, 209, 233);
+}
+.woocommerce a.alt.button:hover {
+	border: 1px solid rgb(32, 209, 233); border-image: none; color: rgb(255, 255, 255); background-color: rgb(32, 209, 233);
+}
+.woocommerce input.alt.button:hover {
+	border: 1px solid rgb(32, 209, 233); border-image: none; color: rgb(255, 255, 255); background-color: rgb(32, 209, 233);
+}
+.woocommerce button.alt.button:hover {
+	border: 1px solid rgb(32, 209, 233); border-image: none; color: rgb(255, 255, 255); background-color: rgb(32, 209, 233);
+}
+.woocommerce #respond input#submit:hover {
+	border: 1px solid rgb(32, 209, 233); border-image: none; color: rgb(255, 255, 255); background-color: rgb(32, 209, 233);
+}
+.sensei-course-filters li a:hover {
+	border: 1px solid rgb(32, 209, 233); border-image: none; color: rgb(255, 255, 255); background-color: rgb(32, 209, 233);
+}
+.course-container a.button:hover {
+	border: 1px solid rgb(32, 209, 233); border-image: none; color: rgb(255, 255, 255); background-color: rgb(32, 209, 233);
+}
+.course a.button:hover {
+	border: 1px solid rgb(32, 209, 233); border-image: none; color: rgb(255, 255, 255); background-color: rgb(32, 209, 233);
+}
+.lesson a.button:hover {
+	border: 1px solid rgb(32, 209, 233); border-image: none; color: rgb(255, 255, 255); background-color: rgb(32, 209, 233);
+}
+.quiz a.button:hover {
+	border: 1px solid rgb(32, 209, 233); border-image: none; color: rgb(255, 255, 255); background-color: rgb(32, 209, 233);
+}
+.course-container a.button:hover:visited {
+	border: 1px solid rgb(32, 209, 233); border-image: none; color: rgb(255, 255, 255); background-color: rgb(32, 209, 233);
+}
+.course a.button:hover:visited {
+	border: 1px solid rgb(32, 209, 233); border-image: none; color: rgb(255, 255, 255); background-color: rgb(32, 209, 233);
+}
+.lesson a.button:hover:visited {
+	border: 1px solid rgb(32, 209, 233); border-image: none; color: rgb(255, 255, 255); background-color: rgb(32, 209, 233);
+}
+.quiz a.button:hover:visited {
+	border: 1px solid rgb(32, 209, 233); border-image: none; color: rgb(255, 255, 255); background-color: rgb(32, 209, 233);
+}
+.course-container a.comment-reply-link:hover {
+	border: 1px solid rgb(32, 209, 233); border-image: none; color: rgb(255, 255, 255); background-color: rgb(32, 209, 233);
+}
+.course a.comment-reply-link:hover {
+	border: 1px solid rgb(32, 209, 233); border-image: none; color: rgb(255, 255, 255); background-color: rgb(32, 209, 233);
+}
+.lesson a.comment-reply-link:hover {
+	border: 1px solid rgb(32, 209, 233); border-image: none; color: rgb(255, 255, 255); background-color: rgb(32, 209, 233);
+}
+.quiz a.comment-reply-link:hover {
+	border: 1px solid rgb(32, 209, 233); border-image: none; color: rgb(255, 255, 255); background-color: rgb(32, 209, 233);
+}
+.course-container #commentform #submit:hover {
+	border: 1px solid rgb(32, 209, 233); border-image: none; color: rgb(255, 255, 255); background-color: rgb(32, 209, 233);
+}
+.course #commentform #submit:hover {
+	border: 1px solid rgb(32, 209, 233); border-image: none; color: rgb(255, 255, 255); background-color: rgb(32, 209, 233);
+}
+.lesson #commentform #submit:hover {
+	border: 1px solid rgb(32, 209, 233); border-image: none; color: rgb(255, 255, 255); background-color: rgb(32, 209, 233);
+}
+.quiz #commentform #submit:hover {
+	border: 1px solid rgb(32, 209, 233); border-image: none; color: rgb(255, 255, 255); background-color: rgb(32, 209, 233);
+}
+.course-container .submit:hover {
+	border: 1px solid rgb(32, 209, 233); border-image: none; color: rgb(255, 255, 255); background-color: rgb(32, 209, 233);
+}
+.course .submit:hover {
+	border: 1px solid rgb(32, 209, 233); border-image: none; color: rgb(255, 255, 255); background-color: rgb(32, 209, 233);
+}
+.lesson .submit:hover {
+	border: 1px solid rgb(32, 209, 233); border-image: none; color: rgb(255, 255, 255); background-color: rgb(32, 209, 233);
+}
+.quiz .submit:hover {
+	border: 1px solid rgb(32, 209, 233); border-image: none; color: rgb(255, 255, 255); background-color: rgb(32, 209, 233);
+}
+.course-container input[type=submit]:hover {
+	border: 1px solid rgb(32, 209, 233); border-image: none; color: rgb(255, 255, 255); background-color: rgb(32, 209, 233);
+}
+.course input[type=submit]:hover {
+	border: 1px solid rgb(32, 209, 233); border-image: none; color: rgb(255, 255, 255); background-color: rgb(32, 209, 233);
+}
+.lesson input[type=submit]:hover {
+	border: 1px solid rgb(32, 209, 233); border-image: none; color: rgb(255, 255, 255); background-color: rgb(32, 209, 233);
+}
+.quiz input[type=submit]:hover {
+	border: 1px solid rgb(32, 209, 233); border-image: none; color: rgb(255, 255, 255); background-color: rgb(32, 209, 233);
+}
+.course-container input.button:hover {
+	border: 1px solid rgb(32, 209, 233); border-image: none; color: rgb(255, 255, 255); background-color: rgb(32, 209, 233);
+}
+.course input.button:hover {
+	border: 1px solid rgb(32, 209, 233); border-image: none; color: rgb(255, 255, 255); background-color: rgb(32, 209, 233);
+}
+.lesson input.button:hover {
+	border: 1px solid rgb(32, 209, 233); border-image: none; color: rgb(255, 255, 255); background-color: rgb(32, 209, 233);
+}
+.quiz input.button:hover {
+	border: 1px solid rgb(32, 209, 233); border-image: none; color: rgb(255, 255, 255); background-color: rgb(32, 209, 233);
+}
+.course-container button.button:hover {
+	border: 1px solid rgb(32, 209, 233); border-image: none; color: rgb(255, 255, 255); background-color: rgb(32, 209, 233);
+}
+.course button.button:hover {
+	border: 1px solid rgb(32, 209, 233); border-image: none; color: rgb(255, 255, 255); background-color: rgb(32, 209, 233);
+}
+.lesson button.button:hover {
+	border: 1px solid rgb(32, 209, 233); border-image: none; color: rgb(255, 255, 255); background-color: rgb(32, 209, 233);
+}
+.quiz button.button:hover {
+	border: 1px solid rgb(32, 209, 233); border-image: none; color: rgb(255, 255, 255); background-color: rgb(32, 209, 233);
+}
+button:focus {
+	border: 1px solid rgb(32, 209, 233); border-image: none; color: rgb(255, 255, 255); background-color: rgb(32, 209, 233);
+}
+.button:focus {
+	border: 1px solid rgb(32, 209, 233); border-image: none; color: rgb(255, 255, 255); background-color: rgb(32, 209, 233);
+}
+input[type='submit']:focus {
+	border: 1px solid rgb(32, 209, 233); border-image: none; color: rgb(255, 255, 255); background-color: rgb(32, 209, 233);
+}
+input[type='button']:focus {
+	border: 1px solid rgb(32, 209, 233); border-image: none; color: rgb(255, 255, 255); background-color: rgb(32, 209, 233);
+}
+input[type='reset']:focus {
+	border: 1px solid rgb(32, 209, 233); border-image: none; color: rgb(255, 255, 255); background-color: rgb(32, 209, 233);
+}
+.wh-button:focus {
+	border: 1px solid rgb(32, 209, 233); border-image: none; color: rgb(255, 255, 255); background-color: rgb(32, 209, 233);
+}
+.course-meta .register a:focus {
+	border: 1px solid rgb(32, 209, 233); border-image: none; color: rgb(255, 255, 255); background-color: rgb(32, 209, 233);
+}
+#tribe-events .tribe-events-button:focus {
+	border: 1px solid rgb(32, 209, 233); border-image: none; color: rgb(255, 255, 255); background-color: rgb(32, 209, 233);
+}
+#tribe-bar-form .tribe-bar-submit input[type=submit]:focus {
+	border: 1px solid rgb(32, 209, 233); border-image: none; color: rgb(255, 255, 255); background-color: rgb(32, 209, 233);
+}
+a.view-results:focus {
+	border: 1px solid rgb(32, 209, 233); border-image: none; color: rgb(255, 255, 255); background-color: rgb(32, 209, 233);
+}
+a.view-results-link:focus {
+	border: 1px solid rgb(32, 209, 233); border-image: none; color: rgb(255, 255, 255); background-color: rgb(32, 209, 233);
+}
+a.sensei-certificate-link:focus {
+	border: 1px solid rgb(32, 209, 233); border-image: none; color: rgb(255, 255, 255); background-color: rgb(32, 209, 233);
+}
+.woocommerce a.button:focus {
+	border: 1px solid rgb(32, 209, 233); border-image: none; color: rgb(255, 255, 255); background-color: rgb(32, 209, 233);
+}
+.woocommerce input.button:focus {
+	border: 1px solid rgb(32, 209, 233); border-image: none; color: rgb(255, 255, 255); background-color: rgb(32, 209, 233);
+}
+.woocommerce a.alt.button:focus {
+	border: 1px solid rgb(32, 209, 233); border-image: none; color: rgb(255, 255, 255); background-color: rgb(32, 209, 233);
+}
+.woocommerce input.alt.button:focus {
+	border: 1px solid rgb(32, 209, 233); border-image: none; color: rgb(255, 255, 255); background-color: rgb(32, 209, 233);
+}
+.woocommerce button.alt.button:focus {
+	border: 1px solid rgb(32, 209, 233); border-image: none; color: rgb(255, 255, 255); background-color: rgb(32, 209, 233);
+}
+.woocommerce #respond input#submit:focus {
+	border: 1px solid rgb(32, 209, 233); border-image: none; color: rgb(255, 255, 255); background-color: rgb(32, 209, 233);
+}
+.sensei-course-filters li a:focus {
+	border: 1px solid rgb(32, 209, 233); border-image: none; color: rgb(255, 255, 255); background-color: rgb(32, 209, 233);
+}
+.course-container a.button:focus {
+	border: 1px solid rgb(32, 209, 233); border-image: none; color: rgb(255, 255, 255); background-color: rgb(32, 209, 233);
+}
+.course a.button:focus {
+	border: 1px solid rgb(32, 209, 233); border-image: none; color: rgb(255, 255, 255); background-color: rgb(32, 209, 233);
+}
+.lesson a.button:focus {
+	border: 1px solid rgb(32, 209, 233); border-image: none; color: rgb(255, 255, 255); background-color: rgb(32, 209, 233);
+}
+.quiz a.button:focus {
+	border: 1px solid rgb(32, 209, 233); border-image: none; color: rgb(255, 255, 255); background-color: rgb(32, 209, 233);
+}
+.course-container a.button:focus:visited {
+	border: 1px solid rgb(32, 209, 233); border-image: none; color: rgb(255, 255, 255); background-color: rgb(32, 209, 233);
+}
+.course a.button:focus:visited {
+	border: 1px solid rgb(32, 209, 233); border-image: none; color: rgb(255, 255, 255); background-color: rgb(32, 209, 233);
+}
+.lesson a.button:focus:visited {
+	border: 1px solid rgb(32, 209, 233); border-image: none; color: rgb(255, 255, 255); background-color: rgb(32, 209, 233);
+}
+.quiz a.button:focus:visited {
+	border: 1px solid rgb(32, 209, 233); border-image: none; color: rgb(255, 255, 255); background-color: rgb(32, 209, 233);
+}
+.course-container a.comment-reply-link:focus {
+	border: 1px solid rgb(32, 209, 233); border-image: none; color: rgb(255, 255, 255); background-color: rgb(32, 209, 233);
+}
+.course a.comment-reply-link:focus {
+	border: 1px solid rgb(32, 209, 233); border-image: none; color: rgb(255, 255, 255); background-color: rgb(32, 209, 233);
+}
+.lesson a.comment-reply-link:focus {
+	border: 1px solid rgb(32, 209, 233); border-image: none; color: rgb(255, 255, 255); background-color: rgb(32, 209, 233);
+}
+.quiz a.comment-reply-link:focus {
+	border: 1px solid rgb(32, 209, 233); border-image: none; color: rgb(255, 255, 255); background-color: rgb(32, 209, 233);
+}
+.course-container #commentform #submit:focus {
+	border: 1px solid rgb(32, 209, 233); border-image: none; color: rgb(255, 255, 255); background-color: rgb(32, 209, 233);
+}
+.course #commentform #submit:focus {
+	border: 1px solid rgb(32, 209, 233); border-image: none; color: rgb(255, 255, 255); background-color: rgb(32, 209, 233);
+}
+.lesson #commentform #submit:focus {
+	border: 1px solid rgb(32, 209, 233); border-image: none; color: rgb(255, 255, 255); background-color: rgb(32, 209, 233);
+}
+.quiz #commentform #submit:focus {
+	border: 1px solid rgb(32, 209, 233); border-image: none; color: rgb(255, 255, 255); background-color: rgb(32, 209, 233);
+}
+.course-container .submit:focus {
+	border: 1px solid rgb(32, 209, 233); border-image: none; color: rgb(255, 255, 255); background-color: rgb(32, 209, 233);
+}
+.course .submit:focus {
+	border: 1px solid rgb(32, 209, 233); border-image: none; color: rgb(255, 255, 255); background-color: rgb(32, 209, 233);
+}
+.lesson .submit:focus {
+	border: 1px solid rgb(32, 209, 233); border-image: none; color: rgb(255, 255, 255); background-color: rgb(32, 209, 233);
+}
+.quiz .submit:focus {
+	border: 1px solid rgb(32, 209, 233); border-image: none; color: rgb(255, 255, 255); background-color: rgb(32, 209, 233);
+}
+.course-container input[type=submit]:focus {
+	border: 1px solid rgb(32, 209, 233); border-image: none; color: rgb(255, 255, 255); background-color: rgb(32, 209, 233);
+}
+.course input[type=submit]:focus {
+	border: 1px solid rgb(32, 209, 233); border-image: none; color: rgb(255, 255, 255); background-color: rgb(32, 209, 233);
+}
+.lesson input[type=submit]:focus {
+	border: 1px solid rgb(32, 209, 233); border-image: none; color: rgb(255, 255, 255); background-color: rgb(32, 209, 233);
+}
+.quiz input[type=submit]:focus {
+	border: 1px solid rgb(32, 209, 233); border-image: none; color: rgb(255, 255, 255); background-color: rgb(32, 209, 233);
+}
+.course-container input.button:focus {
+	border: 1px solid rgb(32, 209, 233); border-image: none; color: rgb(255, 255, 255); background-color: rgb(32, 209, 233);
+}
+.course input.button:focus {
+	border: 1px solid rgb(32, 209, 233); border-image: none; color: rgb(255, 255, 255); background-color: rgb(32, 209, 233);
+}
+.lesson input.button:focus {
+	border: 1px solid rgb(32, 209, 233); border-image: none; color: rgb(255, 255, 255); background-color: rgb(32, 209, 233);
+}
+.quiz input.button:focus {
+	border: 1px solid rgb(32, 209, 233); border-image: none; color: rgb(255, 255, 255); background-color: rgb(32, 209, 233);
+}
+.course-container button.button:focus {
+	border: 1px solid rgb(32, 209, 233); border-image: none; color: rgb(255, 255, 255); background-color: rgb(32, 209, 233);
+}
+.course button.button:focus {
+	border: 1px solid rgb(32, 209, 233); border-image: none; color: rgb(255, 255, 255); background-color: rgb(32, 209, 233);
+}
+.lesson button.button:focus {
+	border: 1px solid rgb(32, 209, 233); border-image: none; color: rgb(255, 255, 255); background-color: rgb(32, 209, 233);
+}
+.quiz button.button:focus {
+	border: 1px solid rgb(32, 209, 233); border-image: none; color: rgb(255, 255, 255); background-color: rgb(32, 209, 233);
+}
+.wh-alt-button {
+	padding: 15px 21px; border-radius: 2px; border: 2px solid rgb(42, 191, 212); border-image: none; color: rgb(42, 191, 212); text-transform: uppercase; line-height: 15px; font-size: 15px; font-weight: bold; background-color: transparent;
+}
+.wh-alt-button:hover {
+	border: 2px solid rgb(32, 209, 233); border-image: none; color: rgb(42, 191, 212); background-color: transparent;
+}
+.wh-alt-button:focus {
+	border: 2px solid rgb(32, 209, 233); border-image: none; color: rgb(42, 191, 212); background-color: transparent;
+}
+.course-container a.button {
+	border: currentColor; border-image: none;
+}
+.course a.button {
+	border: currentColor; border-image: none;
+}
+.lesson a.button {
+	border: currentColor; border-image: none;
+}
+.quiz a.button {
+	border: currentColor; border-image: none;
+}
+.course-container a.button:visited {
+	border: currentColor; border-image: none;
+}
+.course a.button:visited {
+	border: currentColor; border-image: none;
+}
+.lesson a.button:visited {
+	border: currentColor; border-image: none;
+}
+.quiz a.button:visited {
+	border: currentColor; border-image: none;
+}
+.course-container a.comment-reply-link {
+	border: currentColor; border-image: none;
+}
+.course a.comment-reply-link {
+	border: currentColor; border-image: none;
+}
+.lesson a.comment-reply-link {
+	border: currentColor; border-image: none;
+}
+.quiz a.comment-reply-link {
+	border: currentColor; border-image: none;
+}
+.course-container #commentform #submit {
+	border: currentColor; border-image: none;
+}
+.course #commentform #submit {
+	border: currentColor; border-image: none;
+}
+.lesson #commentform #submit {
+	border: currentColor; border-image: none;
+}
+.quiz #commentform #submit {
+	border: currentColor; border-image: none;
+}
+.course-container .submit {
+	border: currentColor; border-image: none;
+}
+.course .submit {
+	border: currentColor; border-image: none;
+}
+.lesson .submit {
+	border: currentColor; border-image: none;
+}
+.quiz .submit {
+	border: currentColor; border-image: none;
+}
+.course-container input[type=submit] {
+	border: currentColor; border-image: none;
+}
+.course input[type=submit] {
+	border: currentColor; border-image: none;
+}
+.lesson input[type=submit] {
+	border: currentColor; border-image: none;
+}
+.quiz input[type=submit] {
+	border: currentColor; border-image: none;
+}
+.course-container input.button {
+	border: currentColor; border-image: none;
+}
+.course input.button {
+	border: currentColor; border-image: none;
+}
+.lesson input.button {
+	border: currentColor; border-image: none;
+}
+.quiz input.button {
+	border: currentColor; border-image: none;
+}
+.course-container button.button {
+	border: currentColor; border-image: none;
+}
+.course button.button {
+	border: currentColor; border-image: none;
+}
+.lesson button.button {
+	border: currentColor; border-image: none;
+}
+.quiz button.button {
+	border: currentColor; border-image: none;
+}
+.course-container a.button:hover {
+	border: currentColor; border-image: none;
+}
+.course a.button:hover {
+	border: currentColor; border-image: none;
+}
+.lesson a.button:hover {
+	border: currentColor; border-image: none;
+}
+.quiz a.button:hover {
+	border: currentColor; border-image: none;
+}
+.course-container a.button:hover:visited {
+	border: currentColor; border-image: none;
+}
+.course a.button:hover:visited {
+	border: currentColor; border-image: none;
+}
+.lesson a.button:hover:visited {
+	border: currentColor; border-image: none;
+}
+.quiz a.button:hover:visited {
+	border: currentColor; border-image: none;
+}
+.course-container a.comment-reply-link:hover {
+	border: currentColor; border-image: none;
+}
+.course a.comment-reply-link:hover {
+	border: currentColor; border-image: none;
+}
+.lesson a.comment-reply-link:hover {
+	border: currentColor; border-image: none;
+}
+.quiz a.comment-reply-link:hover {
+	border: currentColor; border-image: none;
+}
+.course-container #commentform #submit:hover {
+	border: currentColor; border-image: none;
+}
+.course #commentform #submit:hover {
+	border: currentColor; border-image: none;
+}
+.lesson #commentform #submit:hover {
+	border: currentColor; border-image: none;
+}
+.quiz #commentform #submit:hover {
+	border: currentColor; border-image: none;
+}
+.course-container .submit:hover {
+	border: currentColor; border-image: none;
+}
+.course .submit:hover {
+	border: currentColor; border-image: none;
+}
+.lesson .submit:hover {
+	border: currentColor; border-image: none;
+}
+.quiz .submit:hover {
+	border: currentColor; border-image: none;
+}
+.course-container input[type=submit]:hover {
+	border: currentColor; border-image: none;
+}
+.course input[type=submit]:hover {
+	border: currentColor; border-image: none;
+}
+.lesson input[type=submit]:hover {
+	border: currentColor; border-image: none;
+}
+.quiz input[type=submit]:hover {
+	border: currentColor; border-image: none;
+}
+.course-container input.button:hover {
+	border: currentColor; border-image: none;
+}
+.course input.button:hover {
+	border: currentColor; border-image: none;
+}
+.lesson input.button:hover {
+	border: currentColor; border-image: none;
+}
+.quiz input.button:hover {
+	border: currentColor; border-image: none;
+}
+.course-container button.button:hover {
+	border: currentColor; border-image: none;
+}
+.course button.button:hover {
+	border: currentColor; border-image: none;
+}
+.lesson button.button:hover {
+	border: currentColor; border-image: none;
+}
+.quiz button.button:hover {
+	border: currentColor; border-image: none;
+}
+input {
+	background-color: rgb(242, 242, 242);
+}
+textarea {
+	background-color: rgb(242, 242, 242);
+}
+select {
+	background-color: rgb(242, 242, 242);
+}
+input:focus {
+	background-color: rgb(242, 242, 242);
+}
+textarea:focus {
+	background-color: rgb(242, 242, 242);
+}
+input[type='text'] {
+	width: 100%;
+}
+input[type='password'] {
+	width: 100%;
+}
+input[type='email'] {
+	width: 100%;
+}
+input[type='search'] {
+	width: 100%;
+}
+input[type='url'] {
+	width: 100%;
+}
+input[type='tel'] {
+	width: 100%;
+}
+input[type='text'] {
+	height: 40px;
+}
+input[type='password'] {
+	height: 40px;
+}
+input[type='email'] {
+	height: 40px;
+}
+input[type='search'] {
+	height: 40px;
+}
+input[type='url'] {
+	height: 40px;
+}
+input[type='tel'] {
+	height: 40px;
+}
+select {
+	height: 40px;
+}
+input[type='text'] {
+	border: 0px solid rgb(208, 206, 206); border-image: none;
+}
+input[type='password'] {
+	border: 0px solid rgb(208, 206, 206); border-image: none;
+}
+input[type='email'] {
+	border: 0px solid rgb(208, 206, 206); border-image: none;
+}
+input[type='search'] {
+	border: 0px solid rgb(208, 206, 206); border-image: none;
+}
+input[type='url'] {
+	border: 0px solid rgb(208, 206, 206); border-image: none;
+}
+input[type='tel'] {
+	border: 0px solid rgb(208, 206, 206); border-image: none;
+}
+input[type='number'] {
+	border: 0px solid rgb(208, 206, 206); border-image: none;
+}
+textarea {
+	border: 0px solid rgb(208, 206, 206); border-image: none;
+}
+select {
+	border: 0px solid rgb(208, 206, 206); border-image: none;
+}
+input[type='text']:focus {
+	border: 0px solid rgb(208, 206, 206); border-image: none;
+}
+input[type='password']:focus {
+	border: 0px solid rgb(208, 206, 206); border-image: none;
+}
+input[type='email']:focus {
+	border: 0px solid rgb(208, 206, 206); border-image: none;
+}
+input[type='search']:focus {
+	border: 0px solid rgb(208, 206, 206); border-image: none;
+}
+input[type='url']:focus {
+	border: 0px solid rgb(208, 206, 206); border-image: none;
+}
+input[type='tel']:focus {
+	border: 0px solid rgb(208, 206, 206); border-image: none;
+}
+input[type='number']:focus {
+	border: 0px solid rgb(208, 206, 206); border-image: none;
+}
+textarea:focus {
+	border: 0px solid rgb(208, 206, 206); border-image: none;
+}
+textarea {
+	width: 100%;
+}
+.tribe-events-list .type-tribe_events h2 a {
+	color: rgb(102, 102, 102);
+}
+#tribe-events-content .tribe-events-tooltip h4 {
+	color: rgb(102, 102, 102);
+}
+.tribe-events-list .type-tribe_events h2 a:hover {
+	color: rgb(153, 153, 153);
+}
+#tribe-events-content .tribe-events-tooltip h4:hover {
+	color: rgb(153, 153, 153);
+}
+.tribe-events-calendar thead th {
+	border: 1px solid rgb(255, 192, 1); border-image: none; background-color: rgb(255, 192, 1);
+}
+.entry-content p {
+	text-align: justify;
+}
+.uvc-main-heading h2 {
+	text-align: left; color: rgb(51, 51, 51); line-height: 27px !important; font-family: "Raleway"; font-size: 18px; font-weight: 700; margin-bottom: 20px !important;
+}
+.uvc-sub-content {
+	text-align: left;
+}
+.uvc-sub-content p {
+	color: rgb(102, 102, 102); line-height: 25px; font-family: "Raleway"; font-size: 16px; font-weight: normal;
+}

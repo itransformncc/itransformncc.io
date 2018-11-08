@@ -1,0 +1,987 @@
+.tt_event_padding_top_0 {
+	padding-top: 0px !important;
+}
+.tt_event_padding_bottom_0 {
+	padding-bottom: 0px !important;
+}
+.tt_event_padding_0 {
+	padding: 0px !important;
+}
+.tt_event_margin_top_13 {
+	margin-top: 13px !important;
+}
+.tt_event_margin_top_27 {
+	margin-top: 27px !important;
+}
+.tt_event_theme_page * {
+	box-sizing: content-box; -moz-box-sizing: content-box; -webkit-box-sizing: content-box;
+}
+.tt_event_theme_page {
+	background: rgb(255, 255, 255); margin: 0px auto 30px; padding: 30px; width: 930px;
+}
+.tt_event_page_left {
+	width: 630px; float: left;
+}
+.rtl .tt_event_page_left {
+	float: right;
+}
+.tt_event_page_right {
+	width: 270px; float: right;
+}
+.rtl .tt_event_page_right {
+	float: left;
+}
+.tt_event_page_left .attachment-event-post-thumb {
+	margin-bottom: 17px;
+}
+.tt_event_theme_page h2 {
+	margin: 0px; padding: 0px; color: rgb(52, 73, 94); line-height: 120%; font-family: "Lato";
+}
+.tt_event_theme_page h3 {
+	margin: 0px; padding: 0px; color: rgb(52, 73, 94); line-height: 120%; font-family: "Lato";
+}
+.tt_event_theme_page h4 {
+	margin: 0px; padding: 0px; color: rgb(52, 73, 94); line-height: 120%; font-family: "Lato";
+}
+.tt_event_theme_page h5 {
+	margin: 0px; padding: 0px; color: rgb(52, 73, 94); line-height: 120%; font-family: "Lato";
+}
+.tt_event_theme_page h2 {
+	font-size: 40px; font-weight: 700; margin-bottom: 5px;
+}
+.tt_event_theme_page h3 {
+	font-size: 29px; font-weight: 700;
+}
+.tt_event_theme_page h4 {
+	font-size: 24px; font-weight: 400;
+}
+.tt_event_theme_page h5 {
+	line-height: 140%; font-size: 18px; font-weight: 400;
+}
+.tt_event_hours_count {
+	color: rgb(121, 135, 149); font-weight: 400; margin-left: 5px;
+}
+.rtl .tt_event_hours_count {
+	margin-right: 5px; margin-left: 0px;
+}
+.tt_event_theme_page p {
+	margin: 0px; padding: 1em 0px; color: rgb(52, 73, 94); line-height: 140%; font-family: "Lato"; font-size: 15px; font-weight: 400;
+}
+.tt_event_theme_page .textwidget p:first-child {
+	margin-top: 30px;
+}
+.tt_event_theme_page .textwidget p {
+	padding: 0px;
+}
+.tt_event_items_list {
+	list-style: none; margin: 0px; padding: 20px 0px;
+}
+.tt_event_items_list li {
+	background: url("../images/bullet.html") no-repeat left; color: rgb(52, 73, 94); line-height: 160%; padding-left: 20px; font-family: "Lato"; font-size: 15px; font-weight: 400;
+}
+.rtl .tt_event_items_list li {
+	background-position: right; padding-right: 20px; padding-left: 0px;
+}
+.tt_event_items_list li.type_info {
+	background: none; padding: 8px 0px; border-bottom-color: rgb(239, 239, 239); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.tt_event_items_list li label {
+	width: 115px; font-size: 15px !important; font-weight: 700 !important; float: left;
+}
+.rtl .tt_event_items_list li label {
+	float: right;
+}
+.tt_event_items_list li .tt_event_text {
+	width: 185px; float: left;
+}
+.rtl .tt_event_items_list li .tt_event_text {
+	float: right;
+}
+.tt_event_column_left {
+	width: 300px;
+}
+.tt_event_column_right {
+	width: 300px;
+}
+.tt_event_column_left {
+	margin-right: 30px; float: left;
+}
+.rtl .tt_event_column_left {
+	margin-right: 0px; margin-left: 30px; float: right;
+}
+.tt_event_column_right {
+	float: right;
+}
+.rtl .tt_event_column_right {
+	float: left;
+}
+.tt_event_hours {
+	list-style: none; margin: 0px; padding: 0px; clear: both;
+}
+.tt_event_hours li {
+	border-width: 1px 1px 1px 3px; border-style: solid; border-color: rgb(239, 239, 239) rgb(239, 239, 239) rgb(239, 239, 239) rgb(0, 162, 124); margin: 0px 30px 30px 0px; padding: 15px 25px; border-image: none; width: 246px; float: left;
+}
+.rtl .tt_event_hours li {
+	margin: 0px 0px 30px 30px; border-right-color: rgb(0, 162, 124); border-left-color: rgb(239, 239, 239); border-right-width: 3px; border-left-width: 1px; border-right-style: solid; border-left-style: solid; float: right;
+}
+.tt_event_hours li.event_hours_right {
+	margin-right: 0px;
+}
+.rtl .tt_event_hours li.event_hours_right {
+	margin-left: 0px;
+}
+.tt_event_url {
+	border: currentColor; border-image: none; color: rgb(121, 135, 149); font-size: 15px; text-decoration: none;
+}
+a.tt_event_url:hover {
+	border: currentColor; border-image: none; text-decoration: underline;
+}
+.tt_upcoming_events_wrapper {
+	width: 100%; clear: both; float: left;
+}
+.rtl .tt_upcoming_events_wrapper {
+	float: right;
+}
+.tt_upcoming_events_wrapper .caroufredsel_wrapper {
+	margin: 0px !important; width: 100% !important; overflow: hidden;
+}
+.tt_upcoming_events_wrapper * {
+	box-sizing: content-box; -moz-box-sizing: content-box; -webkit-box-sizing: content-box;
+}
+.tt_upcoming_events_wrapper p.message {
+	padding: 0px;
+}
+.tt_upcoming_events {
+	list-style: none !important; margin: 0px !important; padding: 0px !important; border-radius: 0px !important; border: currentColor !important; border-image: none !important; box-shadow: none !important;
+}
+.tt_upcoming_events li {
+	background: none !important; list-style: none !important; margin: 0px !important; padding: 0px 0px 10px !important; border: currentColor !important; border-image: none !important; width: 270px;
+}
+.tt_upcoming_events li::before {
+	background: none !important; border: currentColor !important; border-image: none !important; content: none !important;
+}
+.tt_upcoming_events li::after {
+	background: none !important; border: currentColor !important; border-image: none !important; content: none !important;
+}
+.tt_upcoming_events li .tt_upcoming_events_event_container {
+	border-width: 1px 1px 1px 3px; border-style: solid; border-color: rgb(239, 239, 239) rgb(239, 239, 239) rgb(239, 239, 239) rgb(0, 162, 124); padding: 10px 20px; transition:none !important; border-image: none; height: 40px; color: rgb(52, 73, 94); line-height: 140%; overflow: hidden; font-family: "Lato"; font-size: 14px; font-weight: 700; text-decoration: none; display: block !important; box-sizing: content-box; background-color: rgb(255, 255, 255); -moz-box-sizing: content-box; -webkit-box-sizing: content-box;
+}
+.rtl .tt_upcoming_events li .tt_upcoming_events_event_container {
+	text-align: right; border-right-color: rgb(0, 162, 124); border-left-color: rgb(239, 239, 239); border-right-width: 3px; border-left-width: 1px; border-right-style: solid; border-left-style: solid;
+}
+.tt_upcoming_events li .tt_upcoming_events_event_container:hover {
+	background: rgb(0, 162, 124); height: auto; color: rgb(255, 255, 255); overflow: visible; border-top-color: rgb(0, 162, 124); border-right-color: rgb(0, 162, 124); border-bottom-color: rgb(0, 162, 124); border-top-width: 1px; border-right-width: 1px; border-bottom-width: 1px; border-top-style: solid; border-right-style: solid; border-bottom-style: solid;
+}
+.rtl .tt_upcoming_events li .tt_upcoming_events_event_container:hover {
+	border-right-color: rgb(0, 162, 124); border-left-color: rgb(0, 162, 124); border-right-width: 0px; border-left-width: 1px; border-right-style: solid; border-left-style: solid;
+}
+.tt_upcoming_events li .tt_upcoming_events_event_container .tt_upcoming_events_arrow {
+	background: url("../images/arrow_widget_expand.html") no-repeat; width: 11px; height: 11px; margin-top: 13px; float: right; display: block;
+}
+.rtl .tt_upcoming_events li .tt_upcoming_events_event_container .tt_upcoming_events_arrow {
+	float: left;
+}
+.tt_upcoming_events li .tt_upcoming_events_event_container:hover .tt_upcoming_events_arrow {
+	background-position: 0px -11px;
+}
+.tt_upcoming_events li .tt_upcoming_events_event_container .tt_upcoming_events_hours {
+	font-size: 13px; font-weight: 400; display: block;
+}
+.tt_upcoming_events li .tt_upcoming_events_event_container img.wp-post-image {
+	height: auto; margin-top: 10px; max-width: 100%;
+}
+.tt_calendar_icon {
+	background: url("../images/calendar.html") no-repeat; width: 11px; height: 11px; margin-top: 5px; margin-right: 8px; float: left; display: block;
+}
+.rtl .tt_calendar_icon {
+	margin-right: 0px; margin-left: 8px; float: right;
+}
+.tt_upcoming_events li .tt_upcoming_events_event_container:hover .tt_calendar_icon {
+	background-position: 0px -11px;
+}
+.tt_upcoming_events li .tt_upcoming_events_event_container .tt_event_hours_description {
+	font-size: 13px; font-weight: 400; margin-top: 10px; display: block;
+}
+.tt_upcoming_event_controls a {
+	padding: 6px; border: 1px solid rgb(239, 239, 239); border-image: none; float: left; display: block;
+}
+.rtl .tt_upcoming_event_controls a {
+	float: right;
+}
+.tt_upcoming_event_controls a#upcoming_event_prev {
+	margin-right: 2px;
+}
+.rtl .tt_upcoming_event_controls a#upcoming_event_prev {
+	margin-right: 0px; margin-left: 2px;
+}
+.tt_upcoming_event_controls span {
+	width: 11px; height: 11px; display: block;
+}
+.tt_upcoming_event_controls .tt_upcoming_event_prev_arrow {
+	background: url("../images/arrow_scroll_up.html") no-repeat;
+}
+.tt_upcoming_event_controls .tt_upcoming_event_next_arrow {
+	background: url("../images/arrow_scroll_down.html") no-repeat;
+}
+.tt_upcoming_event_controls a:hover {
+	border-color: rgb(0, 162, 124); background-color: rgb(0, 162, 124);
+}
+.tt_upcoming_event_controls a:hover span {
+	background-position: 0px -11px;
+}
+.timetable_sidebar_box {
+	clear: both; margin-top: 50px;
+}
+:first-child.timetable_sidebar_box {
+	margin-top: 0px;
+}
+.page_margin_top {
+	margin-top: 30px;
+}
+.tt_event_responsive_image {
+	width: 100%; height: auto;
+}
+.tt_event_page_left .attachment-event-post-thumb {
+	width: 100%; height: auto;
+}
+@media screen and (max-width:1009px)
+{
+.tt_event_theme_page .textwidget p:first-child {
+	margin-top: 23px;
+}
+.tt_event_theme_page h2 {
+	font-size: 30px;
+}
+.tt_event_theme_page h3 {
+	font-size: 22px;
+}
+.tt_event_theme_page h4 {
+	font-size: 18px;
+}
+.tt_event_theme_page h5 {
+	font-size: 16px;
+}
+.tt_event_theme_page p {
+	font-size: 14px;
+}
+.tt_event_items_list li {
+	font-size: 14px;
+}
+.tt_event_theme_page {
+	padding: 20px; width: 710px;
+}
+.tt_event_page_left {
+	width: 480px;
+}
+.tt_event_page_right {
+	width: 210px;
+}
+.tt_event_column_left {
+	margin-right: 10px;
+}
+.rtl .tt_event_column_left {
+	margin-right: 0px; margin-left: 10px;
+}
+.tt_event_column_left {
+	width: 235px;
+}
+.tt_event_column_right {
+	width: 235px;
+}
+.tt_event_hours li {
+	margin: 0px 23px 23px 0px; padding: 15px 20px; width: 184px;
+}
+.rtl .tt_event_hours li {
+	margin: 0px 0px 23px 23px;
+}
+.tt_upcoming_events li {
+	width: 210px;
+}
+.tt_upcoming_events li a {
+	padding: 10px;
+}
+.tt_event_items_list li.type_info {
+	padding: 5px 0px;
+}
+.tt_event_margin_top_27 {
+	margin-top: 20px !important;
+}
+.tt_event_theme_page h3 {
+	margin-top: 15px;
+}
+.tt_responsive .tt_timetable {
+	margin-top: 23px;
+}
+.tt_responsive .tt_timetable th {
+	padding: 4px 4px 5px;
+}
+.tt_responsive .tt_timetable .event_container {
+	padding: 4px 4px 5px;
+}
+.tt_responsive .tt_tooltip .tt_tooltip_content {
+	padding: 4px 4px 5px;
+}
+.tt_responsive .tt_timetable td {
+	height: 18px;
+}
+.timetable_sidebar_box {
+	margin-top: 40px;
+}
+}
+@media screen and (max-width:767px)
+{
+.tt_event_theme_page {
+	width: 422px;
+}
+.tt_event_page_left {
+	width: 422px;
+}
+.tt_event_page_right {
+	width: 422px;
+}
+.tt_upcoming_events li {
+	width: 422px;
+}
+.tt_event_page_right {
+	margin-top: 50px;
+}
+.tt_event_column_left {
+	width: 206px;
+}
+.tt_event_column_right {
+	width: 206px;
+}
+.tt_event_hours li {
+	margin: 0px 0px 23px; padding: 15px 25px; width: 368px;
+}
+.tt_event_hours li:last-child {
+	margin-bottom: 0px;
+}
+.tt_upcoming_events li a {
+	padding: 10px 20px;
+}
+.tt_responsive .tt_timetable {
+	display: none;
+}
+.tt_responsive .small.tt_timetable {
+	display: block;
+}
+.tt_responsive .small.tt_timetable .box_header {
+	color: rgb(52, 73, 94) !important; font-family: "Lato"; font-size: 16px !important;
+}
+.tt_responsive .small.tt_timetable .tt_items_list a {
+	width: 302px; color: rgb(52, 73, 94) !important; font-family: "Lato"; text-decoration: none;
+}
+.tt_responsive .small.tt_timetable .tt_items_list span {
+	width: 302px; color: rgb(52, 73, 94) !important; font-family: "Lato"; text-decoration: none;
+}
+.tt_responsive .small.tt_timetable .tt_items_list a:hover {
+	text-decoration: underline;
+}
+:first-of-type.sf-timetable-menu.tt_double_buttons {
+	margin-right: 10px !important;
+}
+:last-of-type.sf-timetable-menu.tt_double_buttons {
+	margin-right: 0px !important;
+}
+.sf-timetable-menu.tt_double_buttons.tabs_box_navigation .tabs_box_navigation_selected {
+	padding: 15px !important; width: 174px;
+}
+.sf-timetable-menu.tt_double_buttons li ul {
+	width: 204px;
+}
+.sf-timetable-menu.tt_double_buttons li ul li {
+	width: 194px;
+}
+.tabs_box_navigation.tt_double_buttons label {
+	font-size: 16px !important;
+}
+}
+@media screen and (max-width:479px)
+{
+.tt_event_theme_page {
+	width: 280px;
+}
+.tt_event_page_left {
+	width: 280px;
+}
+.tt_event_page_right {
+	width: 280px;
+}
+.tt_upcoming_events li {
+	width: 280px;
+}
+.tt_event_column_left {
+	width: 280px;
+}
+.tt_event_column_right {
+	width: 280px;
+}
+.tt_event_hours li {
+	padding: 15px 20px; width: 236px;
+}
+.tt_event_theme_page {
+	padding: 10px;
+}
+.tt_event_column_left {
+	margin-right: 0px;
+}
+.rtl .tt_event_column_left {
+	margin-left: 0px;
+}
+.tt_event_column_right {
+	margin-top: 23px;
+}
+.tt_event_column_left .tt_event_items_list {
+	padding-bottom: 0px;
+}
+.tt_responsive .small.tt_timetable .tt_items_list a {
+	width: 148px;
+}
+.tt_responsive .small.tt_timetable .tt_items_list span {
+	width: 148px;
+}
+.tt_responsive .small.tt_timetable .box_header {
+	font-size: 14px !important;
+}
+.sf-timetable-menu.tabs_box_navigation.tt_responsive .tabs_box_navigation_selected {
+	width: 220px;
+}
+.sf-timetable-menu.tabs_box_navigation.tt_responsive li ul {
+	width: 258px;
+}
+.sf-timetable-menu li ul li {
+	width: 248px;
+}
+.tt_double_buttons {
+	margin-right: 0px !important;
+}
+:first-of-type.sf-timetable-menu.tt_double_buttons {
+	margin-right: 0px !important;
+}
+:first-of-type.sf-timetable-menu.tt_double_buttons {
+	margin-bottom: 10px !important;
+}
+.tt_double_buttons.sf-timetable-menu.tabs_box_navigation.tt_responsive .tabs_box_navigation_selected {
+	padding: 15px 19px !important; width: 220px;
+}
+.tt_double_buttons.sf-timetable-menu.tabs_box_navigation.tt_responsive li ul {
+	width: 258px;
+}
+.sf-timetable-menu.tt_double_buttons li ul li {
+	width: 248px;
+}
+.tabs_box_navigation.tt_double_buttons label {
+	font-size: 18px !important;
+}
+}
+.timetable_clearfix::after {
+	height: 0px; clear: both; font-size: 0px; display: block; visibility: hidden; content: ".";
+}
+div.rtl {
+	direction: rtl;
+}
+.tt_hide {
+	display: none;
+}
+.tt_tabs_navigation {
+	list-style: none; margin: 0px; padding: 0px;
+}
+.tt_items_list {
+	list-style: none; margin: 0px; padding: 0px;
+}
+.tt_tabs {
+	border: currentColor !important; border-image: none !important;
+}
+.tt_tabs .ui-tabs-panel {
+	padding: 0px !important; clear: both;
+}
+table.tt_timetable {
+	background: rgb(255, 255, 255) !important; border: currentColor; border-image: none; width: 100%; color: rgb(102, 102, 102); line-height: normal; letter-spacing: normal; font-family: "Lato", Helvetica, Arial, sans-serif; font-size: 11px; margin-top: 30px; border-collapse: separate !important; border-spacing: 2px !important;
+}
+table.tt_timetable * {
+	box-sizing: content-box; -moz-box-sizing: content-box; -webkit-box-sizing: content-box;
+}
+.tt_timetable th {
+	border: currentColor !important; border-image: none !important; color: rgb(52, 73, 94); text-transform: none; line-height: normal; font-size: 14px; font-style: normal; font-weight: normal;
+}
+.tt_timetable td {
+	border: currentColor !important; border-image: none !important; color: rgb(52, 73, 94); text-transform: none; line-height: normal; font-size: 14px; font-style: normal; font-weight: normal;
+}
+.tt_timetable th {
+	text-align: center; vertical-align: middle;
+}
+.tt_timetable td.tt_hours_column {
+	text-align: center; vertical-align: middle;
+}
+.tt_timetable th {
+	padding: 10px 15px 12px; width: 12.5%; letter-spacing: normal;
+}
+.tt_timetable .event_container {
+	padding: 7px 10px;
+}
+.tt_timetable td {
+	padding: 0px; border: currentColor; border-image: none; width: 12.5%; height: 31px; vertical-align: top;
+}
+.tt_timetable .hours {
+	color: rgb(255, 255, 255); font-weight: bold;
+}
+.tt_timetable .event {
+	padding: 0px !important; text-align: center; color: rgb(255, 255, 255); line-height: 140%; vertical-align: top; background-color: rgb(0, 162, 124);
+}
+.tt_timetable .event a {
+	border: currentColor; transition:none !important; border-image: none; color: rgb(255, 255, 255) !important; font-size: 14px; font-weight: bold; text-decoration: none; margin-bottom: 2px; display: block;
+}
+.tt_timetable .event .event_header {
+	border: currentColor; transition:none !important; border-image: none; color: rgb(255, 255, 255) !important; font-size: 14px; font-weight: bold; text-decoration: none; margin-bottom: 2px; display: block;
+}
+.tt_timetable .event a:hover {
+	text-decoration: underline;
+}
+.tt_timetable .event a.event_header:hover {
+	text-decoration: underline;
+}
+.tt_timetable .event .before_hour_text {
+	font-size: 13px;
+}
+.tt_timetable .event .after_hour_text {
+	font-size: 13px;
+}
+.tt_timetable tr {
+	background-color: rgb(255, 255, 255) !important;
+}
+.tt_timetable .row_gray {
+	background-color: rgb(240, 240, 240) !important;
+}
+.tt_timetable .event:hover {
+	background-color: rgb(31, 115, 106);
+}
+.tt_timetable .event .tt_tooltip.event_container:hover {
+	background-color: rgb(31, 115, 106);
+}
+.tt_timetable .tt_tooltip.event:hover .hours {
+	color: rgb(255, 255, 255);
+}
+.tt_timetable .event .tt_tooltip.event_container:hover .hours {
+	color: rgb(255, 255, 255);
+}
+.tt_timetable .event .hours_container {
+	margin: 15px 0px;
+}
+.tt_timetable .event .top_hour {
+	margin-top: 15px;
+}
+.tt_timetable .event .bottom_hour {
+	margin-bottom: 15px;
+}
+.event_layout_4 .tt_timetable .event .top_hour {
+	margin-bottom: 15px;
+}
+.tt_timetable .event hr {
+	background: rgb(255, 255, 255); margin: 0px; border: currentColor; border-image: none; height: 1px; opacity: 0.4;
+}
+.small.tt_timetable {
+	font-size: 13px; display: none;
+}
+.tt_tooltip {
+	cursor: pointer;
+}
+.tt_tooltip .tt_tooltip_text {
+	left: -19px; text-align: center; bottom: 100%; line-height: 1; display: block; visibility: hidden; position: absolute; z-index: 1000; opacity: 0; transition-property: opacity, visibility; transition-duration: 0.25s; transition-timing-function: cubic-bezier(0.35, 0, 0.35, 1); -webkit-transition-timing-function: cubic-bezier(0.35, 0, 0.35, 1); -webkit-transition-property: opacity, visibility; -webkit-transition-duration: 0.25s; -moz-transition-property: opacity, visibility; -o-transition-property: opacity, visibility; -moz-transition-timing-function: cubic-bezier(0.35, 0, 0.35, 1); -o-transition-timing-function: cubic-bezier(0.35, 0, 0.35, 1); -moz-transition-duration: 0.25s; -o-transition-duration: 0.25s;
+}
+.rtl .tt_tooltip .tt_tooltip_text {
+	left: auto;
+}
+.tt_tooltip .tt_tooltip_content {
+	background: rgb(31, 115, 106); padding: 7px 10px 10px; border-radius: 4px; text-align: left; color: rgb(255, 255, 255); line-height: 150%; font-size: 11px; -webkit-border-radius: 4px; -moz-border-radius: 4px;
+}
+.rtl .tt_tooltip .tt_tooltip_content {
+	text-align: right;
+}
+.tt_tooltip:hover .tt_tooltip_text {
+	visibility: visible; opacity: 1;
+}
+.tt_tooltip .tt_tooltip_arrow {
+	border-width: 5px 5px 0px; border-style: solid; border-color: rgb(31, 115, 106) transparent; left: 0px; bottom: -6px; display: inline; position: relative; content: "";
+}
+.rtl .tt_tooltip .tt_tooltip_arrow {
+	left: auto; right: 0px;
+}
+.sf-timetable-menu.tabs_box_navigation {
+	clear: both; float: none;
+}
+.tabs_box_navigation li::after {
+	content: none !important;
+}
+.sf-timetable-menu.tabs_box_navigation * {
+	line-height: 1; box-sizing: content-box; -moz-box-sizing: content-box; -webkit-box-sizing: content-box;
+}
+.sf-timetable-menu.tabs_box_navigation li.submenu:hover::after {
+	background: none;
+}
+.sf-timetable-menu.tabs_box_navigation .tabs_box_navigation_selected {
+	background: rgb(0, 162, 124); margin: 0px !important; padding: 13px 12px !important; width: 256px; height: auto; color: rgb(255, 255, 255); cursor: pointer;
+}
+.sf-timetable-menu.tabs_box_navigation .tabs_box_navigation_selected:hover {
+	background-color: rgb(31, 115, 106);
+}
+.sf-timetable-menu.tabs_box_navigation li:hover ul {
+	border: 1px solid rgb(31, 115, 106); border-image: none; top: 38px;
+}
+.sf-timetable-menu.tabs_box_navigation li.sfHover ul {
+	border: 1px solid rgb(31, 115, 106); border-image: none; top: 38px;
+}
+.tabs_box_navigation_hidden {
+	display: none;
+}
+.sf-timetable-menu {
+	list-style: none !important; margin: 0px 30px 30px 0px !important; padding: 0px !important;
+}
+.sf-timetable-menu a {
+	text-decoration: none !important;
+}
+.sf-timetable-menu li {
+	background: rgb(255, 255, 255);
+}
+.sf-timetable-menu li:hover {
+	background: rgb(255, 255, 255);
+}
+.sf-timetable-menu li.sfHover {
+	background: rgb(255, 255, 255);
+}
+.sf-timetable-menu a:focus {
+	background: rgb(255, 255, 255);
+}
+.sf-timetable-menu a:hover {
+	background: rgb(255, 255, 255);
+}
+.sf-timetable-menu a:active {
+	background: rgb(255, 255, 255);
+}
+.sf-timetable-menu li:hover a {
+	background: rgb(31, 115, 106); color: rgb(255, 255, 255);
+}
+.sf-timetable-menu li.selected a {
+	background: rgb(31, 115, 106); color: rgb(255, 255, 255);
+}
+.sf-timetable-menu li.current-menu-item a {
+	background: rgb(31, 115, 106); color: rgb(255, 255, 255);
+}
+.sf-timetable-menu li.current-menu-ancestor a {
+	background: rgb(31, 115, 106); color: rgb(255, 255, 255);
+}
+.sf-timetable-menu li ul {
+	background: rgb(255, 255, 255); list-style: none !important; margin: 0px !important; padding: 0px 0px 5px !important; border: 1px solid rgb(232, 232, 232); border-image: none; width: 228px;
+}
+.sf-timetable-menu li:hover ul {
+	top: 44px;
+}
+.sf-timetable-menu li.sfHover ul {
+	top: 44px;
+}
+.sf-timetable-menu li ul li {
+	list-style: none !important; margin: 0px !important; padding: 0px 5px !important; width: 218px; height: auto; background-color: rgb(255, 255, 255);
+}
+.sf-timetable-menu li:hover ul a {
+	background: rgb(255, 255, 255); padding: 12px 14px; border: currentColor; transition:none !important; border-image: none; color: rgb(52, 73, 94) !important; font-family: "Lato", Helvetica, Arial, sans-serif; font-size: 15px;
+}
+.sf-timetable-menu li.submenu:hover ul a {
+	background: rgb(255, 255, 255); padding: 12px 14px; border: currentColor; transition:none !important; border-image: none; color: rgb(52, 73, 94) !important; font-family: "Lato", Helvetica, Arial, sans-serif; font-size: 15px;
+}
+.sf-timetable-menu li ul li a:hover {
+	color: rgb(255, 255, 255) !important; font-weight: normal; background-color: rgb(0, 162, 124);
+}
+.sf-timetable-menu li ul li.selected a:hover {
+	color: rgb(255, 255, 255) !important; font-weight: normal; background-color: rgb(0, 162, 124);
+}
+.sf-timetable-menu li ul li.selected a {
+	color: rgb(52, 73, 94); font-weight: normal; background-color: rgb(240, 240, 240);
+}
+.tt_items_list {
+	list-style: none !important; margin: 0px !important; padding: 0px !important;
+}
+.margin_top.tt_items_list {
+	margin-top: 8px;
+}
+.tt_items_list li {
+	background-position: left; list-style: none !important; margin: 0px !important; padding: 12px 0px !important; line-height: 120%; border-bottom-color: rgb(224, 224, 224); border-bottom-width: 1px; border-bottom-style: solid; background-repeat: no-repeat;
+}
+.rtl .tt_items_list li {
+	background-position: left;
+}
+.tt_items_list li:first-child {
+	padding-top: 0px;
+}
+.tt_items_list a {
+	float: left;
+}
+.tt_items_list span {
+	float: left;
+}
+.rtl .tt_items_list a {
+	float: right;
+}
+.rtl .tt_items_list span {
+	float: right;
+}
+.thin.tt_items_list a {
+	font-weight: normal;
+}
+.thin.tt_items_list span {
+	font-weight: normal;
+}
+.tt_items_list .value {
+	color: rgb(52, 73, 94); float: right;
+}
+.rtl .tt_items_list .value {
+	float: left;
+}
+.opening_hours.tt_items_list li span {
+	color: rgb(255, 255, 255);
+}
+.opening_hours.tt_items_list .value {
+	color: rgb(255, 255, 255);
+}
+.opening_hours.tt_items_list li {
+	border-color: rgb(68, 104, 178);
+}
+.home_box .tt_items_list li:first-child {
+	padding-top: 12px;
+}
+.tt_items_list li a {
+	border: currentColor; border-image: none;
+}
+.tt_items_list li a:hover {
+	text-decoration: underline;
+}
+.tt-ui-tabs-hide {
+	display: none;
+}
+.tt_tabs .ui-tabs-panel p {
+	padding: 24px 0px 25px;
+}
+.tt_tabs_navigation {
+	background: none !important; list-style: none !important; margin: 0px; padding: 0px; border: currentColor !important; border-image: none !important; width: 100% !important; clear: both; float: none !important; box-sizing: content-box; -moz-box-sizing: content-box; -webkit-box-sizing: content-box;
+}
+.tt_tabs_navigation li {
+	background: none !important; list-style: none !important; margin: 0px 20px 0px 0px !important; padding: 0px !important; border: currentColor !important; border-image: none !important; font-size: 18px !important; float: left;
+}
+.rtl .tt_tabs_navigation li {
+	margin: 0px 0px 0px 20px !important; float: right;
+}
+.tt_tabs_navigation li:last-child {
+	margin-right: 0px !important;
+}
+.rtl .tt_tabs_navigation li:last-child {
+	margin-left: 0px !important;
+}
+.tt_tabs_navigation li a {
+	border-width: medium medium 1px !important; border-style: none none solid !important; border-color: currentColor currentColor rgb(229, 229, 229) !important; padding: 8px 0px !important; transition:none !important; border-image: none !important; width: auto !important; text-align: center; color: rgb(102, 102, 102) !important; line-height: normal; font-family: "Lato", Helvetica, Arial, sans-serif; font-size: 15px !important; text-decoration: none; margin-bottom: 1px; display: block;
+}
+.tt_tabs_navigation li a:hover {
+	border-color: rgb(0, 162, 124) !important; color: rgb(0, 0, 0) !important; padding-bottom: 7px !important; margin-bottom: 0px; border-bottom-width: 3px !important;
+}
+.tt_tabs_navigation li a.selected {
+	border-color: rgb(0, 162, 124) !important; color: rgb(0, 0, 0) !important; padding-bottom: 7px !important; margin-bottom: 0px; border-bottom-width: 3px !important;
+}
+.tt_tabs_navigation li.ui-tabs-active a {
+	border-color: rgb(0, 162, 124) !important; color: rgb(0, 0, 0) !important; padding-bottom: 7px !important; margin-bottom: 0px; border-bottom-width: 3px !important;
+}
+.sf-timetable-menu a:hover {
+	text-decoration: none;
+}
+.tt_tabs_navigation li a:hover {
+	text-decoration: none;
+}
+.tt_tabs_navigation li a:focus {
+	text-decoration: none;
+}
+.tt_tabs_navigation li a:active {
+	text-decoration: none;
+}
+.sf-timetable-menu.tabs_box_navigation {
+	clear: none; font-family: "Lato", Helvetica, Arial, sans-serif; font-size: 18px; float: left;
+}
+.rtl .sf-timetable-menu.tabs_box_navigation li {
+	float: right;
+}
+.sf-timetable-menu.tabs_box_navigation li.submenu:hover::after {
+	background: none;
+}
+.tabs_box_navigation .tabs_box_navigation_icon {
+	background: url("../images/arrow_menu_expand.html") no-repeat 0px 0px; width: 11px; height: 11px; margin-top: 3px; float: right;
+}
+.rtl .tabs_box_navigation .tabs_box_navigation_icon {
+	float: left;
+}
+.sf-timetable-menu.tabs_box_navigation .tabs_box_navigation_selected {
+	list-style: none !important; margin: 0px !important; padding: 15px 19px !important; border: 1px solid rgb(0, 162, 124); border-image: none; width: 190px; height: auto; color: rgb(255, 255, 255); cursor: pointer;
+}
+.sf-timetable-menu.tabs_box_navigation .tabs_box_navigation_selected:hover {
+	border: 1px solid rgba(0, 0, 0, 0.1); border-image: none; color: rgb(52, 73, 94); box-shadow: 0px 6px 8px 0px rgba(0,0,0,0.1); background-color: rgb(255, 255, 255);
+}
+.sf-timetable-menu.tabs_box_navigation .tabs_box_navigation_selected:hover .tabs_box_navigation_icon {
+	background-position: 0px -11px;
+}
+.rtl .sf-timetable-menu.tabs_box_navigation .tabs_box_navigation_selected:hover .tabs_box_navigation_icon {
+	background-position: 0px -11px;
+}
+.sf-timetable-menu.tabs_box_navigation li:hover ul {
+	border-width: medium 1px 1px; border-style: none solid solid; border-color: currentColor rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1); border-image: none; left: -1px; top: 48px !important; box-shadow: 0px 6px 8px 0px rgba(0,0,0,0.1);
+}
+.sf-timetable-menu.tabs_box_navigation li.sfHover ul {
+	border-width: medium 1px 1px; border-style: none solid solid; border-color: currentColor rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1); border-image: none; left: -1px; top: 48px !important; box-shadow: 0px 6px 8px 0px rgba(0,0,0,0.1);
+}
+.rtl .sf-timetable-menu.tabs_box_navigation li:hover ul {
+	left: auto; right: -1px;
+}
+.sf-timetable-menu.tabs_box_navigation li.sfHover ul {
+	left: auto; right: -1px;
+}
+.tabs_box_navigation label {
+	font-size: 18px !important; font-weight: normal !important; display: inline !important;
+}
+.tabs_box_navigation_hidden {
+	display: none;
+}
+.sf-timetable-menu {
+	list-style: none; margin: 0px; padding: 0px;
+}
+.sf-timetable-menu * {
+	list-style: none; margin: 0px; padding: 0px;
+}
+.sf-timetable-menu {
+	line-height: 1;
+}
+.sf-timetable-menu ul {
+	top: -999em !important; width: 10em; position: absolute;
+}
+.sf-timetable-menu ul li {
+	width: 100%;
+}
+.sf-timetable-menu li:hover {
+	visibility: inherit;
+}
+.sf-timetable-menu li {
+	float: left; position: relative;
+}
+.sf-timetable-menu a {
+	display: block; position: relative;
+}
+.sf-timetable-menu li:hover ul {
+	left: 0px; top: 2.5em; z-index: 99;
+}
+.sf-timetable-menu li.sfHover ul {
+	left: 0px; top: 2.5em; z-index: 99;
+}
+ul.sf-timetable-menu li:hover li ul {
+	top: -999em;
+}
+ul.sf-timetable-menu li.sfHover li ul {
+	top: -999em;
+}
+ul.sf-timetable-menu li li:hover ul {
+	left: 10em; top: 0px;
+}
+ul.sf-timetable-menu li li.sfHover ul {
+	left: 10em; top: 0px;
+}
+ul.sf-timetable-menu li li:hover li ul {
+	top: -999em;
+}
+ul.sf-timetable-menu li li.sfHover li ul {
+	top: -999em;
+}
+ul.sf-timetable-menu li li li:hover ul {
+	left: 10em; top: 0px;
+}
+ul.sf-timetable-menu li li li.sfHover ul {
+	left: 10em; top: 0px;
+}
+.sf-timetable-menu {
+	margin-bottom: 1em; float: left;
+}
+.sf-timetable-menu a {
+	padding: 0.75em 1em; text-decoration: none; border-top-color: rgb(207, 222, 255); border-left-color: rgb(255, 255, 255); border-top-width: 1px; border-left-width: 1px; border-top-style: solid; border-left-style: solid;
+}
+.sf-timetable-menu a {
+	color: rgb(17, 51, 170);
+}
+.sf-timetable-menu a:visited {
+	color: rgb(17, 51, 170);
+}
+.sf-timetable-menu li {
+	background: rgb(189, 210, 255);
+}
+.sf-timetable-menu li li {
+	background: rgb(170, 189, 230);
+}
+.sf-timetable-menu li li li {
+	background: rgb(154, 174, 219);
+}
+.sf-timetable-menu li:hover {
+	background: rgb(207, 222, 255); outline: 0px;
+}
+.sf-timetable-menu li.sfHover {
+	background: rgb(207, 222, 255); outline: 0px;
+}
+.sf-timetable-menu a:focus {
+	background: rgb(207, 222, 255); outline: 0px;
+}
+.sf-timetable-menu a:hover {
+	background: rgb(207, 222, 255); outline: 0px;
+}
+.sf-timetable-menu a:active {
+	background: rgb(207, 222, 255); outline: 0px;
+}
+.sf-timetable-menu a.sf-with-ul {
+	padding-right: 2.25em; min-width: 1px;
+}
+.sf-sub-indicator {
+	background: url("../images/arrows-ffffff.html") no-repeat -10px -100px; top: 1.05em; width: 10px; height: 10px; right: 0.75em; text-indent: -999em; overflow: hidden; display: block; position: absolute;
+}
+a > .sf-sub-indicator {
+	background-position: 0px -100px; top: 0.8em;
+}
+a:focus > .sf-sub-indicator {
+	background-position: -10px -100px;
+}
+a:hover > .sf-sub-indicator {
+	background-position: -10px -100px;
+}
+a:active > .sf-sub-indicator {
+	background-position: -10px -100px;
+}
+li:hover > a > .sf-sub-indicator {
+	background-position: -10px -100px;
+}
+li.sfHover > a > .sf-sub-indicator {
+	background-position: -10px -100px;
+}
+.sf-timetable-menu ul .sf-sub-indicator {
+	background-position: -10px 0px;
+}
+.sf-timetable-menu ul a > .sf-sub-indicator {
+	background-position: 0px 0px;
+}
+.sf-timetable-menu ul a:focus > .sf-sub-indicator {
+	background-position: -10px 0px;
+}
+.sf-timetable-menu ul a:hover > .sf-sub-indicator {
+	background-position: -10px 0px;
+}
+.sf-timetable-menu ul a:active > .sf-sub-indicator {
+	background-position: -10px 0px;
+}
+.sf-timetable-menu ul li:hover > a > .sf-sub-indicator {
+	background-position: -10px 0px;
+}
+.sf-timetable-menu ul li.sfHover > a > .sf-sub-indicator {
+	background-position: -10px 0px;
+}
+.sf-shadow ul {
+	background: url("../images/shadow.html") no-repeat right bottom; padding: 0px 8px 9px 0px; -webkit-border-bottom-left-radius: 17px; -webkit-border-top-right-radius: 17px; -moz-border-radius-topright: 17px; -moz-border-radius-bottomleft: 17px;
+}
+.sf-shadow ul.sf-shadow-off {
+	background: none;
+}

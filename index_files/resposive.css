@@ -1,0 +1,54 @@
+@media all and (max-width:768px)
+{
+.header-text h2 span {
+	font-size: 20px;
+}
+.header-text h3 span {
+	font-size: 30px;
+}
+.carousel-caption {
+	left: 2%; top: 0%; width: 100%; right: auto; color: rgb(255, 255, 255); position: absolute;
+}
+.carousel-caption2 {
+	left: auto; top: 10%; width: 100%; right: 3%; color: rgb(255, 255, 255); position: absolute;
+}
+.iTransform_content {
+	padding: 30px 60px;
+}
+}
+@media all and (max-width:414px)
+{
+.header-text h2 span {
+	font-size: 20px;
+}
+.header-text h3 span {
+	font-size: 30px;
+}
+.carousel-caption {
+	left: 2%; top: 0%; width: 100%; right: auto; color: rgb(255, 255, 255); position: absolute;
+}
+.carousel-caption2 {
+	left: auto; top: 10%; width: 100%; right: 3%; color: rgb(255, 255, 255); position: absolute;
+}
+.custom_nav_spaces {
+	
+}
+.right_btn {
+	display: none;
+}
+.iTransform_content {
+	padding: 30px 15px 0px 29px;
+}
+.main_3_icon {
+	padding: 30px 5px;
+}
+.footer_address {
+	line-height: 30px;
+}
+.section {
+	padding: 80px 10px 0px;
+}
+.great_result {
+	padding: 30px;
+}
+}

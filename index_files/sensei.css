@@ -1,0 +1,2577 @@
+@font-face {
+	font-family: FontAwesomeSensei;
+	src: url(http://skilled.aislinthemes.com/app/plugins/woothemes-sensei/assets/fonts/fontawesome-webfont.eot?#iefix) format("embedded-opentype"), url(http://skilled.aislinthemes.com/app/plugins/woothemes-sensei/assets/fonts/fontawesome-webfont.woff2) format("woff2"), url(http://skilled.aislinthemes.com/app/plugins/woothemes-sensei/assets/fonts/fontawesome-webfont.woff) format("woff"), url(http://skilled.aislinthemes.com/app/plugins/woothemes-sensei/assets/fonts/fontawesome-webfont.ttf) format("truetype"), url(http://skilled.aislinthemes.com/app/plugins/woothemes-sensei/assets/fonts/fontawesome-webfont.svg#svgFontName) format("svg");
+	font-weight: 400;
+	font-style: normal;
+}
+.clearfix::before {
+	display: table; content: "";
+}
+.clearfix::after {
+	display: table; content: "";
+}
+.clearfix::after {
+	clear: both;
+}
+a.view-results {
+	background: padding-box rgb(230, 230, 230); padding: 0.38em 1em; border-radius: 5px; color: rgb(255, 255, 255); font-weight: bold; text-decoration: none; margin-left: 0.23em; float: right; display: inline-block; -webkit-border-radius: 5px; -moz-background-clip: padding; -webkit-background-clip: padding-box;
+}
+a.view-results-link {
+	background: padding-box rgb(230, 230, 230); padding: 0.38em 1em; border-radius: 5px; color: rgb(255, 255, 255); font-weight: bold; text-decoration: none; margin-left: 0.23em; float: right; display: inline-block; -webkit-border-radius: 5px; -moz-background-clip: padding; -webkit-background-clip: padding-box;
+}
+a.sensei-certificate-link {
+	background: padding-box rgb(230, 230, 230); padding: 0.38em 1em; border-radius: 5px; color: rgb(255, 255, 255); font-weight: bold; text-decoration: none; margin-left: 0.23em; float: right; display: inline-block; -webkit-border-radius: 5px; -moz-background-clip: padding; -webkit-background-clip: padding-box;
+}
+#main .course {
+	list-style: none; margin: 0px 0px 1.61em; padding: 0px 0px 1em; border-bottom-color: rgb(226, 226, 226); border-bottom-width: 1px; border-bottom-style: solid; position: relative;
+}
+#main .course-container {
+	list-style: none; margin: 0px 0px 1.61em; padding: 0px 0px 1em; border-bottom-color: rgb(226, 226, 226); border-bottom-width: 1px; border-bottom-style: solid; position: relative;
+}
+#main .course::after {
+	height: 0px; overflow: hidden; clear: both; display: block; content: "\0020";
+}
+#main .course-container::after {
+	height: 0px; overflow: hidden; clear: both; display: block; content: "\0020";
+}
+#main .course header h2 {
+	margin: 0px;
+}
+#main .course-container header h2 {
+	margin: 0px;
+}
+#main .course .course-meta {
+	clear: both; margin-bottom: 20px;
+}
+#main .course-container .course-meta {
+	clear: both; margin-bottom: 20px;
+}
+#main .course .course-meta .single_add_to_cart_button {
+	top: 0.2em; font-size: 1em; margin-bottom: 0.61em; position: relative;
+}
+#main .course-container .course-meta .single_add_to_cart_button {
+	top: 0.2em; font-size: 1em; margin-bottom: 0.61em; position: relative;
+}
+#main .course .sensei-course-meta {
+	color: rgb(136, 136, 136); font-size: 0.9em; font-style: italic;
+}
+#main .course-container .sensei-course-meta {
+	color: rgb(136, 136, 136); font-size: 0.9em; font-style: italic;
+}
+#main .course .sensei-course-meta a {
+	color: rgb(85, 85, 85);
+}
+#main .course-container .sensei-course-meta a {
+	color: rgb(85, 85, 85);
+}
+#main .course .sensei-course-meta .course-price {
+	border-radius: 300px; color: rgb(34, 34, 34); font-style: normal; font-weight: bold; background-clip: padding-box; -webkit-border-radius: 300px; -moz-background-clip: padding; -webkit-background-clip: padding-box;
+}
+#main .course-container .sensei-course-meta .course-price {
+	border-radius: 300px; color: rgb(34, 34, 34); font-style: normal; font-weight: bold; background-clip: padding-box; -webkit-border-radius: 300px; -moz-background-clip: padding; -webkit-background-clip: padding-box;
+}
+#main .course .entry-actions span {
+	margin: 0px 1em 0px 0px;
+}
+#main .course-container .entry-actions span {
+	margin: 0px 1em 0px 0px;
+}
+#main .course .course-lessons > header {
+	margin: 2.24em 0px 1.61em; padding: 2.24em 0px 0px; border-top-color: rgb(230, 230, 230); border-top-width: 2px; border-top-style: solid;
+}
+#main .course .module-lessons > header {
+	margin: 2.24em 0px 1.61em; padding: 2.24em 0px 0px; border-top-color: rgb(230, 230, 230); border-top-width: 2px; border-top-style: solid;
+}
+#main .course-container .course-lessons > header {
+	margin: 2.24em 0px 1.61em; padding: 2.24em 0px 0px; border-top-color: rgb(230, 230, 230); border-top-width: 2px; border-top-style: solid;
+}
+#main .course-container .module-lessons > header {
+	margin: 2.24em 0px 1.61em; padding: 2.24em 0px 0px; border-top-color: rgb(230, 230, 230); border-top-width: 2px; border-top-style: solid;
+}
+#main .course .course-lessons > header .course-completion-rate {
+	font-style: italic;
+}
+#main .course .module-lessons > header .course-completion-rate {
+	font-style: italic;
+}
+#main .course-container .course-lessons > header .course-completion-rate {
+	font-style: italic;
+}
+#main .course-container .module-lessons > header .course-completion-rate {
+	font-style: italic;
+}
+#main .course .course-lessons > header .meter {
+	margin: 1em 0px 3em;
+}
+#main .course .module-lessons > header .meter {
+	margin: 1em 0px 3em;
+}
+#main .course-container .course-lessons > header .meter {
+	margin: 1em 0px 3em;
+}
+#main .course-container .module-lessons > header .meter {
+	margin: 1em 0px 3em;
+}
+#main .course .course-lessons .lesson header h2 {
+	margin: 0px;
+}
+#main .course .module-lessons .lesson header h2 {
+	margin: 0px;
+}
+#main .course-container .course-lessons .lesson header h2 {
+	margin: 0px;
+}
+#main .course-container .module-lessons .lesson header h2 {
+	margin: 0px;
+}
+#main .course .course-lessons .lesson p.lesson-meta {
+	color: rgb(136, 136, 136); font-size: 0.9em; font-style: italic;
+}
+#main .course .module-lessons .lesson p.lesson-meta {
+	color: rgb(136, 136, 136); font-size: 0.9em; font-style: italic;
+}
+#main .course-container .course-lessons .lesson p.lesson-meta {
+	color: rgb(136, 136, 136); font-size: 0.9em; font-style: italic;
+}
+#main .course-container .module-lessons .lesson p.lesson-meta {
+	color: rgb(136, 136, 136); font-size: 0.9em; font-style: italic;
+}
+#main .course .course-lessons .lesson p.lesson-meta a {
+	color: rgb(85, 85, 85);
+}
+#main .course .module-lessons .lesson p.lesson-meta a {
+	color: rgb(85, 85, 85);
+}
+#main .course-container .course-lessons .lesson p.lesson-meta a {
+	color: rgb(85, 85, 85);
+}
+#main .course-container .module-lessons .lesson p.lesson-meta a {
+	color: rgb(85, 85, 85);
+}
+#main .course .course-lessons .lesson p.lesson-meta span {
+	padding-left: 15px;
+}
+#main .course .module-lessons .lesson p.lesson-meta span {
+	padding-left: 15px;
+}
+#main .course-container .course-lessons .lesson p.lesson-meta span {
+	padding-left: 15px;
+}
+#main .course-container .module-lessons .lesson p.lesson-meta span {
+	padding-left: 15px;
+}
+#main .course .course-lessons .lesson p.lesson-meta span:first-child {
+	padding-left: 0px;
+}
+#main .course .module-lessons .lesson p.lesson-meta span:first-child {
+	padding-left: 0px;
+}
+#main .course-container .course-lessons .lesson p.lesson-meta span:first-child {
+	padding-left: 0px;
+}
+#main .course-container .module-lessons .lesson p.lesson-meta span:first-child {
+	padding-left: 0px;
+}
+#main .course .course-lessons .lesson p.lesson-meta .lesson-status {
+	font-style: normal;
+}
+#main .course .module-lessons .lesson p.lesson-meta .lesson-status {
+	font-style: normal;
+}
+#main .course-container .course-lessons .lesson p.lesson-meta .lesson-status {
+	font-style: normal;
+}
+#main .course-container .module-lessons .lesson p.lesson-meta .lesson-status {
+	font-style: normal;
+}
+#main .course .course-lessons .lesson p.lesson-meta .complete.lesson-status {
+	color: rgb(99, 169, 95);
+}
+#main .course .module-lessons .lesson p.lesson-meta .complete.lesson-status {
+	color: rgb(99, 169, 95);
+}
+#main .course-container .course-lessons .lesson p.lesson-meta .complete.lesson-status {
+	color: rgb(99, 169, 95);
+}
+#main .course-container .module-lessons .lesson p.lesson-meta .complete.lesson-status {
+	color: rgb(99, 169, 95);
+}
+#main .course .course-lessons .lesson p.lesson-meta .complete.lesson-status::before {
+	width: 1em; line-height: 1em; font-family: "FontAwesomeSensei"; font-size: 100%; font-weight: normal; margin-right: 0.61em; display: inline-block; content: "\f00c";
+}
+#main .course .module-lessons .lesson p.lesson-meta .complete.lesson-status::before {
+	width: 1em; line-height: 1em; font-family: "FontAwesomeSensei"; font-size: 100%; font-weight: normal; margin-right: 0.61em; display: inline-block; content: "\f00c";
+}
+#main .course-container .course-lessons .lesson p.lesson-meta .complete.lesson-status::before {
+	width: 1em; line-height: 1em; font-family: "FontAwesomeSensei"; font-size: 100%; font-weight: normal; margin-right: 0.61em; display: inline-block; content: "\f00c";
+}
+#main .course-container .module-lessons .lesson p.lesson-meta .complete.lesson-status::before {
+	width: 1em; line-height: 1em; font-family: "FontAwesomeSensei"; font-size: 100%; font-weight: normal; margin-right: 0.61em; display: inline-block; content: "\f00c";
+}
+#main .course .course-lessons .lesson p.lesson-meta .in-progress.lesson-status {
+	color: rgb(85, 85, 85);
+}
+#main .course .module-lessons .lesson p.lesson-meta .in-progress.lesson-status {
+	color: rgb(85, 85, 85);
+}
+#main .course-container .course-lessons .lesson p.lesson-meta .in-progress.lesson-status {
+	color: rgb(85, 85, 85);
+}
+#main .course-container .module-lessons .lesson p.lesson-meta .in-progress.lesson-status {
+	color: rgb(85, 85, 85);
+}
+#main .course .course-lessons .lesson p.lesson-meta .in-progress.lesson-status::before {
+	width: 1em; line-height: 1em; font-family: "FontAwesomeSensei"; font-size: 100%; font-weight: normal; margin-right: 0.61em; display: inline-block; content: "\f0ca";
+}
+#main .course .module-lessons .lesson p.lesson-meta .in-progress.lesson-status::before {
+	width: 1em; line-height: 1em; font-family: "FontAwesomeSensei"; font-size: 100%; font-weight: normal; margin-right: 0.61em; display: inline-block; content: "\f0ca";
+}
+#main .course-container .course-lessons .lesson p.lesson-meta .in-progress.lesson-status::before {
+	width: 1em; line-height: 1em; font-family: "FontAwesomeSensei"; font-size: 100%; font-weight: normal; margin-right: 0.61em; display: inline-block; content: "\f0ca";
+}
+#main .course-container .module-lessons .lesson p.lesson-meta .in-progress.lesson-status::before {
+	width: 1em; line-height: 1em; font-family: "FontAwesomeSensei"; font-size: 100%; font-weight: normal; margin-right: 0.61em; display: inline-block; content: "\f0ca";
+}
+.single-course .course-meta {
+	margin-bottom: 1.61em;
+}
+.single-course .course-meta::after {
+	height: 0px; overflow: hidden; clear: both; display: block; content: "\0020";
+}
+.single-course .course-meta .status {
+	margin-right: 0.23em; float: left;
+}
+.single-course .course-video {
+	margin-bottom: 1.61em;
+}
+#main .course-container .module-lessons > header {
+	margin: 0px 0px 1.61em; padding: 0px; border-top-color: currentColor; border-top-width: 0px; border-top-style: none;
+}
+.course .status {
+	background: rgb(198, 198, 198); padding: 0.38em 1em; border-radius: 5px; color: rgb(255, 255, 255); font-weight: bold; display: inline-block; -webkit-border-radius: 5px; -moz-background-clip: padding; -webkit-background-clip: padding-box;
+}
+.course-lessons .status {
+	background: rgb(198, 198, 198); padding: 0.38em 1em; border-radius: 5px; color: rgb(255, 255, 255); font-weight: bold; display: inline-block; -webkit-border-radius: 5px; -moz-background-clip: padding; -webkit-background-clip: padding-box;
+}
+.course-container .status {
+	background: rgb(198, 198, 198); padding: 0.38em 1em; border-radius: 5px; color: rgb(255, 255, 255); font-weight: bold; display: inline-block; -webkit-border-radius: 5px; -moz-background-clip: padding; -webkit-background-clip: padding-box;
+}
+.course .status::before {
+	width: 1em; line-height: 1em; font-family: "FontAwesomeSensei"; font-size: 100%; font-weight: normal; margin-right: 0.61em; display: inline-block;
+}
+.course-lessons .status::before {
+	width: 1em; line-height: 1em; font-family: "FontAwesomeSensei"; font-size: 100%; font-weight: normal; margin-right: 0.61em; display: inline-block;
+}
+.course-container .status::before {
+	width: 1em; line-height: 1em; font-family: "FontAwesomeSensei"; font-size: 100%; font-weight: normal; margin-right: 0.61em; display: inline-block;
+}
+.course .completed.status {
+	background: rgb(99, 169, 95);
+}
+.course-lessons .completed.status {
+	background: rgb(99, 169, 95);
+}
+.course-container .completed.status {
+	background: rgb(99, 169, 95);
+}
+.course .completed.status::before {
+	content: "\f00c";
+}
+.course-lessons .completed.status::before {
+	content: "\f00c";
+}
+.course-container .completed.status::before {
+	content: "\f00c";
+}
+.course .in-progress.status::before {
+	content: "\f110";
+}
+.course-lessons .in-progress.status::before {
+	content: "\f110";
+}
+.course-container .in-progress.status::before {
+	content: "\f110";
+}
+.course .register.status {
+	background: rgb(237, 108, 108);
+}
+.course-lessons .register.status {
+	background: rgb(237, 108, 108);
+}
+.course-container .register.status {
+	background: rgb(237, 108, 108);
+}
+.course .register.status a {
+	color: rgb(255, 255, 255);
+}
+.course-lessons .register.status a {
+	color: rgb(255, 255, 255);
+}
+.course-container .register.status a {
+	color: rgb(255, 255, 255);
+}
+.lesson .lesson-meta {
+	margin: 0px 0px 1.61em;
+}
+.sensei-breadcrumb {
+	background: rgb(250, 250, 250); margin: 2em 0px; padding: 0.5em 1em; color: rgb(136, 136, 136); clear: both; font-style: italic;
+}
+.sensei-breadcrumb::before {
+	width: 1em; line-height: 1em; font-family: "FontAwesomeSensei"; font-size: 100%; font-weight: normal; margin-right: 0.61em; display: inline-block; content: "\f112";
+}
+.lesson-tags {
+	margin: 2em 0px; color: rgb(136, 136, 136); font-size: 0.9em; font-style: italic;
+}
+.quiz form ol#sensei-quiz-list {
+	margin: 0px 0px 1.61em;
+}
+.quiz form ol#sensei-quiz-list li {
+	margin: 0px 0px 1.61em; font-size: 1.1em; position: relative;
+}
+.quiz form ol#sensei-quiz-list li > span {
+	margin: 0px 0px 1em; font-weight: bold; display: block;
+}
+.quiz form ol#sensei-quiz-list li > span span {
+	float: right;
+}
+.quiz form ol#sensei-quiz-list li .question_media_display {
+	margin: 10px 0px;
+}
+.quiz form ol#sensei-quiz-list li .question_media_display dd {
+	font-style: italic;
+}
+.quiz form ol#sensei-quiz-list li .submitted_file {
+	font-weight: bold;
+}
+.quiz form ol#sensei-quiz-list li .reupload_notice {
+	font-style: italic; margin-bottom: 5px;
+}
+.quiz form ol#sensei-quiz-list li .max_upload_size {
+	font-size: 75%; font-style: italic;
+}
+.quiz form ol#sensei-quiz-list li ul {
+	margin: 0.53em 0px; position: relative; z-index: 1;
+}
+.quiz form ol#sensei-quiz-list li ul li {
+	list-style: none; margin: 0px 0px 0.38em; font-size: 0.9em; font-weight: normal;
+}
+.quiz form ol#sensei-quiz-list li ul li.right_answer {
+	color: green;
+}
+.quiz form ol#sensei-quiz-list li ul li.user_right {
+	color: green; font-weight: 700;
+}
+.quiz form ol#sensei-quiz-list li ul li.user_wrong {
+	color: red;
+}
+.quiz form ol#sensei-quiz-list li ul li input {
+	margin: 0px 0.38em 0px 0px;
+}
+.quiz form ol#sensei-quiz-list li ul li label {
+	vertical-align: middle;
+}
+.quiz form ol#sensei-quiz-list li .answer_message {
+	top: 50%; width: 50%; text-align: right; right: 0px; position: absolute; z-index: 2;
+}
+.quiz form ol#sensei-quiz-list li .answer_message span {
+	text-align: right;
+}
+.quiz form ol#sensei-quiz-list li .user_right.answer_message {
+	border-color: green; color: green;
+}
+.quiz form ol#sensei-quiz-list li .user_wrong.answer_message {
+	border-color: red; color: red;
+}
+.quiz form ol#sensei-quiz-list li .answer_message .notes {
+	background: padding-box rgb(255, 255, 255); padding: 10px; border-radius: 10px; border: 1px solid currentColor; border-image: none; top: 20px; width: 100%; text-align: left; right: 0px; font-size: 85%; display: none; position: absolute; z-index: 9; cursor: help; -webkit-border-radius: 10px; -moz-background-clip: padding; -webkit-background-clip: padding-box;
+}
+.quiz form ol#sensei-quiz-list li.essay-paste .answer_message {
+	margin: 10px 0px; width: 100%; text-align: right; position: relative;
+}
+.quiz form ol#sensei-quiz-list li.gap-fill .answer_message {
+	margin: 10px 0px; width: 100%; text-align: right; position: relative;
+}
+.quiz form ol#sensei-quiz-list li.multi-line .answer_message {
+	margin: 10px 0px; width: 100%; text-align: right; position: relative;
+}
+.quiz form ol#sensei-quiz-list li.single-line .answer_message {
+	margin: 10px 0px; width: 100%; text-align: right; position: relative;
+}
+.quiz form ol#sensei-quiz-list li.essay-paste .answer_message .notes {
+	width: 50%;
+}
+.quiz form ol#sensei-quiz-list li.gap-fill .answer_message .notes {
+	width: 50%;
+}
+.quiz form ol#sensei-quiz-list li.multi-line .answer_message .notes {
+	width: 50%;
+}
+.quiz form ol#sensei-quiz-list li.single-line .answer_message .notes {
+	width: 50%;
+}
+.quiz form input.quiz-submit {
+	margin-right: 10px;
+}
+.quiz input.complete.quiz-submit {
+	background: rgb(99, 169, 95);
+}
+.lesson input.complete.quiz-submit {
+	background: rgb(99, 169, 95);
+}
+.quiz input.reset.quiz-submit {
+	background: rgb(237, 108, 108);
+}
+.lesson input.reset.quiz-submit {
+	background: rgb(237, 108, 108);
+}
+.lesson input.quiz-submit {
+	margin-top: 1em;
+}
+.single-lesson .lesson_button_form {
+	display: inline;
+}
+div.course-container div.course {
+	padding: 5px; display: block;
+}
+section.entry span.course-lesson-count {
+	padding-left: 10px;
+}
+section.entry span.course-category {
+	padding-left: 10px;
+}
+section.entry span.course-lesson-progress {
+	padding-left: 10px;
+}
+section.entry span.course-price {
+	padding-left: 10px;
+}
+.sensei form .form-row {
+	margin: 0px 0px 6px; padding: 3px;
+}
+.sensei form .form-row label {
+	line-height: 2em;
+}
+.sensei form .form-row label.hidden {
+	visibility: hidden;
+}
+.sensei form .form-row label.inline {
+	display: inline;
+}
+.sensei form .form-row select {
+	margin: 0px; cursor: pointer;
+}
+.sensei form .form-row .required {
+	border: 0px currentColor; border-image: none; color: red; font-weight: bold;
+}
+.sensei form .form-row .input-checkbox {
+	margin: -2px 8px 0px 0px; text-align: center; vertical-align: middle; display: inline;
+}
+.sensei form .form-row input.input-text {
+	margin: 0px; outline: 0px; width: 100%; line-height: 1em; box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box;
+}
+.sensei form .form-row textarea {
+	margin: 0px; outline: 0px; width: 100%; line-height: 1em; box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box;
+}
+.sensei form .form-row textarea {
+	height: 4em; line-height: 1.5em; display: block; box-shadow: none; -webkit-box-shadow: none; -moz-box-shadow: none;
+}
+.sensei form .validate-required.form-row .chosen-single {
+	border-color: rgb(251, 127, 136);
+}
+.sensei form .validate-required.form-row .chosen-drop {
+	border-color: rgb(251, 127, 136);
+}
+.sensei form .validate-required.form-row input.input-text {
+	border-color: rgb(251, 127, 136);
+}
+.sensei form .validate-required.form-row select {
+	border-color: rgb(251, 127, 136);
+}
+.sensei form :-ms-input-placeholder.form-row {
+	line-height: normal;
+}
+.sensei form .fix {
+	clear: both;
+}
+#my-courses .register-link {
+	clear: both;
+}
+#my-courses form#loginform label {
+	display: block;
+}
+#my-courses form#loginform input[type='text'] {
+	width: 90%;
+}
+#my-courses form#loginform input[type='password'] {
+	width: 90%;
+}
+.ui-tabs#my-courses {
+	position: relative; -ms-zoom: 1;
+}
+.ui-tabs#my-courses .ui-tabs-nav {
+	margin: 0px 0px 10px !important; padding: 0.2em 0px 0px; width: 100%; float: left;
+}
+.ui-tabs#my-courses .ui-tabs-nav li {
+	list-style: none; margin: 0px 0.2em 1px 0px; padding: 0px; top: 1px; border-bottom-color: currentColor !important; border-bottom-width: 0px !important; border-bottom-style: none !important; float: left; white-space: nowrap; position: relative;
+}
+.ui-tabs#my-courses .ui-tabs-nav li a {
+	padding: 5px 20px; color: rgb(119, 119, 119); line-height: 1; font-weight: bold; text-decoration: none; float: left; cursor: pointer;
+}
+.ui-tabs#my-courses .ui-tabs-nav li.ui-tabs-selected {
+	padding-bottom: 1px; margin-bottom: 0px;
+}
+.ui-tabs#my-courses .ui-tabs-nav li.ui-tabs-selected a {
+	cursor: text;
+}
+.ui-tabs#my-courses .ui-tabs-nav li.ui-state-hover a {
+	color: rgb(85, 85, 85);
+}
+.ui-tabs#my-courses .ui-tabs-nav li.ui-state-active a {
+	background: rgb(226, 226, 226); border-radius: 100px; color: rgb(51, 51, 51); -webkit-border-radius: 100px; -moz-border-radius: 100px;
+}
+.ui-tabs#my-courses .ui-tabs-nav li.ui-state-disabled a {
+	cursor: text;
+}
+.ui-tabs#my-courses .ui-tabs-nav li.ui-state-processing a {
+	cursor: text;
+}
+.ui-tabs-collapsible.ui-tabs#my-courses .ui-tabs-nav li.ui-tabs-selected a {
+	cursor: pointer;
+}
+.ui-tabs#my-courses .ui-tabs-panel {
+	background: none; border-width: 0px; padding: 1em 0px; clear: both; display: block;
+}
+.ui-tabs#my-courses .ui-tabs-hide {
+	display: none !important;
+}
+#learner-info h2 {
+	margin: 20px 0px;
+}
+#learner-info .learner-avatar {
+	width: 120px; float: right;
+}
+#learner-info .learner-content {
+	width: calc(100% - 140px); float: left;
+}
+#learner-info .learner-content h2 {
+	margin-top: 0px;
+}
+#learner-info .fix {
+	clear: both;
+}
+.sensei-ordering {
+	margin: 0px 0px 1em;
+}
+.sensei-course-filters {
+	margin: 0px 0px 2em; padding: 0px;
+}
+.sensei-course-filters li {
+	list-style: none; float: left;
+}
+.entry-content .sensei-course-filters li {
+	margin: 0px;
+}
+.sensei-course-filters li a {
+	background: rgb(238, 238, 238); padding: 0.5em 1em; border: 2px solid rgb(221, 221, 221); border-image: none; margin-right: 5px; display: block;
+}
+.sensei-course-filters li a:hover {
+	background: rgb(255, 255, 255); border-color: rgb(204, 204, 204); text-decoration: none;
+}
+.sensei-course-filters li a.active {
+	background: rgb(255, 255, 255); border-color: rgb(221, 221, 221); cursor: default;
+}
+.course-container {
+	margin: 0px 0px 4.23em;
+}
+.course-container .archive-header {
+	padding: 0px; border: currentColor; border-image: none;
+}
+.course-container .archive-header h1 {
+	border-width: medium medium 2px; border-style: none none solid; border-color: currentColor currentColor rgb(230, 230, 230); margin: 0px; padding: 0px 0px 0.53em; border-image: none; width: 100%; color: rgb(51, 51, 51); font-size: 1.38em;
+}
+.course-container .navigation {
+	margin: -10px 0px 0px; text-align: right; float: right;
+}
+.course-container .navigation a {
+	text-transform: uppercase; font-size: 11px; font-weight: bold;
+}
+.course-results-lessons h2 {
+	margin: 20px 0px;
+}
+.course-results-lessons h2.total-grade {
+	text-decoration: underline;
+}
+.course-results-lessons h2.total-grade .lesson-grade {
+	text-decoration: underline;
+}
+.course-results-lessons h2 .lesson-grade {
+	float: right;
+}
+.meter {
+	background: rgb(237, 237, 237); margin: 20px 0px; border-radius: 25px; height: 25px; clear: both; position: relative; -webkit-border-radius: 25px; -moz-border-radius: 25px;
+}
+.meter > span {
+	padding: 1px 10px 0px 0px; border-radius: 20px; height: 100%; text-align: right; color: rgb(255, 255, 255); overflow: hidden; font-weight: bold; display: block; position: relative; min-width: 45px; box-sizing: border-box; background-color: rgb(99, 169, 95); -webkit-border-radius: 20px; -moz-border-radius: 20px; -moz-box-sizing: border-box; -webkit-box-sizing: border-box;
+}
+.orange.meter > span {
+	background: rgb(211, 211, 211);
+}
+.red.meter > span {
+	background: rgb(237, 108, 108);
+}
+.alignleft {
+	margin: 0px 1.61em 1em 0px; float: left;
+}
+.alignright {
+	margin: 0px 0px 1em 1.61em; float: right;
+}
+.aligncenter {
+	margin: 0px auto 1.61em; text-align: center; display: block;
+}
+.nav-next {
+	width: auto !important;
+}
+.nav-prev {
+	width: auto !important;
+}
+.nav-next {
+	float: right;
+}
+.nav-next .meta-nav::before {
+	content: "\2192";
+}
+.nav-prev {
+	float: left;
+}
+.nav-prev .meta-nav::before {
+	content: "\2190";
+}
+.sensei p.sensei-message {
+	margin: 1.38em 0px 1.61em; padding: 1em 1.61em; border-radius: 5px; border: currentColor !important; border-image: none !important; clear: both; background-clip: padding-box; -webkit-border-radius: 5px; -moz-background-clip: padding; -webkit-background-clip: padding-box;
+}
+.sensei div.sensei-message {
+	margin: 1.38em 0px 1.61em; padding: 1em 1.61em; border-radius: 5px; border: currentColor !important; border-image: none !important; clear: both; background-clip: padding-box; -webkit-border-radius: 5px; -moz-background-clip: padding; -webkit-background-clip: padding-box;
+}
+.course-container p.sensei-message {
+	margin: 1.38em 0px 1.61em; padding: 1em 1.61em; border-radius: 5px; border: currentColor !important; border-image: none !important; clear: both; background-clip: padding-box; -webkit-border-radius: 5px; -moz-background-clip: padding; -webkit-background-clip: padding-box;
+}
+.course-container div.sensei-message {
+	margin: 1.38em 0px 1.61em; padding: 1em 1.61em; border-radius: 5px; border: currentColor !important; border-image: none !important; clear: both; background-clip: padding-box; -webkit-border-radius: 5px; -moz-background-clip: padding; -webkit-background-clip: padding-box;
+}
+.course p.sensei-message {
+	margin: 1.38em 0px 1.61em; padding: 1em 1.61em; border-radius: 5px; border: currentColor !important; border-image: none !important; clear: both; background-clip: padding-box; -webkit-border-radius: 5px; -moz-background-clip: padding; -webkit-background-clip: padding-box;
+}
+.course div.sensei-message {
+	margin: 1.38em 0px 1.61em; padding: 1em 1.61em; border-radius: 5px; border: currentColor !important; border-image: none !important; clear: both; background-clip: padding-box; -webkit-border-radius: 5px; -moz-background-clip: padding; -webkit-background-clip: padding-box;
+}
+.lesson p.sensei-message {
+	margin: 1.38em 0px 1.61em; padding: 1em 1.61em; border-radius: 5px; border: currentColor !important; border-image: none !important; clear: both; background-clip: padding-box; -webkit-border-radius: 5px; -moz-background-clip: padding; -webkit-background-clip: padding-box;
+}
+.lesson div.sensei-message {
+	margin: 1.38em 0px 1.61em; padding: 1em 1.61em; border-radius: 5px; border: currentColor !important; border-image: none !important; clear: both; background-clip: padding-box; -webkit-border-radius: 5px; -moz-background-clip: padding; -webkit-background-clip: padding-box;
+}
+.quiz p.sensei-message {
+	margin: 1.38em 0px 1.61em; padding: 1em 1.61em; border-radius: 5px; border: currentColor !important; border-image: none !important; clear: both; background-clip: padding-box; -webkit-border-radius: 5px; -moz-background-clip: padding; -webkit-background-clip: padding-box;
+}
+.quiz div.sensei-message {
+	margin: 1.38em 0px 1.61em; padding: 1em 1.61em; border-radius: 5px; border: currentColor !important; border-image: none !important; clear: both; background-clip: padding-box; -webkit-border-radius: 5px; -moz-background-clip: padding; -webkit-background-clip: padding-box;
+}
+.learner-info p.sensei-message {
+	margin: 1.38em 0px 1.61em; padding: 1em 1.61em; border-radius: 5px; border: currentColor !important; border-image: none !important; clear: both; background-clip: padding-box; -webkit-border-radius: 5px; -moz-background-clip: padding; -webkit-background-clip: padding-box;
+}
+.learner-info div.sensei-message {
+	margin: 1.38em 0px 1.61em; padding: 1em 1.61em; border-radius: 5px; border: currentColor !important; border-image: none !important; clear: both; background-clip: padding-box; -webkit-border-radius: 5px; -moz-background-clip: padding; -webkit-background-clip: padding-box;
+}
+.sensei p.sensei-message::before {
+	top: 0.1em; width: 1em; line-height: 1em; font-family: "FontAwesomeSensei"; font-size: 1.38em; font-weight: normal; margin-right: 0.61em; display: inline-block; position: relative;
+}
+.sensei div.sensei-message::before {
+	top: 0.1em; width: 1em; line-height: 1em; font-family: "FontAwesomeSensei"; font-size: 1.38em; font-weight: normal; margin-right: 0.61em; display: inline-block; position: relative;
+}
+.course-container p.sensei-message::before {
+	top: 0.1em; width: 1em; line-height: 1em; font-family: "FontAwesomeSensei"; font-size: 1.38em; font-weight: normal; margin-right: 0.61em; display: inline-block; position: relative;
+}
+.course-container div.sensei-message::before {
+	top: 0.1em; width: 1em; line-height: 1em; font-family: "FontAwesomeSensei"; font-size: 1.38em; font-weight: normal; margin-right: 0.61em; display: inline-block; position: relative;
+}
+.course p.sensei-message::before {
+	top: 0.1em; width: 1em; line-height: 1em; font-family: "FontAwesomeSensei"; font-size: 1.38em; font-weight: normal; margin-right: 0.61em; display: inline-block; position: relative;
+}
+.course div.sensei-message::before {
+	top: 0.1em; width: 1em; line-height: 1em; font-family: "FontAwesomeSensei"; font-size: 1.38em; font-weight: normal; margin-right: 0.61em; display: inline-block; position: relative;
+}
+.lesson p.sensei-message::before {
+	top: 0.1em; width: 1em; line-height: 1em; font-family: "FontAwesomeSensei"; font-size: 1.38em; font-weight: normal; margin-right: 0.61em; display: inline-block; position: relative;
+}
+.lesson div.sensei-message::before {
+	top: 0.1em; width: 1em; line-height: 1em; font-family: "FontAwesomeSensei"; font-size: 1.38em; font-weight: normal; margin-right: 0.61em; display: inline-block; position: relative;
+}
+.quiz p.sensei-message::before {
+	top: 0.1em; width: 1em; line-height: 1em; font-family: "FontAwesomeSensei"; font-size: 1.38em; font-weight: normal; margin-right: 0.61em; display: inline-block; position: relative;
+}
+.quiz div.sensei-message::before {
+	top: 0.1em; width: 1em; line-height: 1em; font-family: "FontAwesomeSensei"; font-size: 1.38em; font-weight: normal; margin-right: 0.61em; display: inline-block; position: relative;
+}
+.learner-info p.sensei-message::before {
+	top: 0.1em; width: 1em; line-height: 1em; font-family: "FontAwesomeSensei"; font-size: 1.38em; font-weight: normal; margin-right: 0.61em; display: inline-block; position: relative;
+}
+.learner-info div.sensei-message::before {
+	top: 0.1em; width: 1em; line-height: 1em; font-family: "FontAwesomeSensei"; font-size: 1.38em; font-weight: normal; margin-right: 0.61em; display: inline-block; position: relative;
+}
+.sensei p.sensei-message a {
+	text-decoration: underline;
+}
+.sensei div.sensei-message a {
+	text-decoration: underline;
+}
+.course-container p.sensei-message a {
+	text-decoration: underline;
+}
+.course-container div.sensei-message a {
+	text-decoration: underline;
+}
+.course p.sensei-message a {
+	text-decoration: underline;
+}
+.course div.sensei-message a {
+	text-decoration: underline;
+}
+.lesson p.sensei-message a {
+	text-decoration: underline;
+}
+.lesson div.sensei-message a {
+	text-decoration: underline;
+}
+.quiz p.sensei-message a {
+	text-decoration: underline;
+}
+.quiz div.sensei-message a {
+	text-decoration: underline;
+}
+.learner-info p.sensei-message a {
+	text-decoration: underline;
+}
+.learner-info div.sensei-message a {
+	text-decoration: underline;
+}
+.sensei p.sensei-message a:hover {
+	text-decoration: none;
+}
+.sensei div.sensei-message a:hover {
+	text-decoration: none;
+}
+.course-container p.sensei-message a:hover {
+	text-decoration: none;
+}
+.course-container div.sensei-message a:hover {
+	text-decoration: none;
+}
+.course p.sensei-message a:hover {
+	text-decoration: none;
+}
+.course div.sensei-message a:hover {
+	text-decoration: none;
+}
+.lesson p.sensei-message a:hover {
+	text-decoration: none;
+}
+.lesson div.sensei-message a:hover {
+	text-decoration: none;
+}
+.quiz p.sensei-message a:hover {
+	text-decoration: none;
+}
+.quiz div.sensei-message a:hover {
+	text-decoration: none;
+}
+.learner-info p.sensei-message a:hover {
+	text-decoration: none;
+}
+.learner-info div.sensei-message a:hover {
+	text-decoration: none;
+}
+.sensei p.alert.sensei-message {
+	background: rgb(255, 217, 200);
+}
+.sensei div.alert.sensei-message {
+	background: rgb(255, 217, 200);
+}
+.course-container p.alert.sensei-message {
+	background: rgb(255, 217, 200);
+}
+.course-container div.alert.sensei-message {
+	background: rgb(255, 217, 200);
+}
+.course p.alert.sensei-message {
+	background: rgb(255, 217, 200);
+}
+.course div.alert.sensei-message {
+	background: rgb(255, 217, 200);
+}
+.lesson p.alert.sensei-message {
+	background: rgb(255, 217, 200);
+}
+.lesson div.alert.sensei-message {
+	background: rgb(255, 217, 200);
+}
+.quiz p.alert.sensei-message {
+	background: rgb(255, 217, 200);
+}
+.quiz div.alert.sensei-message {
+	background: rgb(255, 217, 200);
+}
+.learner-info p.alert.sensei-message {
+	background: rgb(255, 217, 200);
+}
+.learner-info div.alert.sensei-message {
+	background: rgb(255, 217, 200);
+}
+.sensei p.alert.sensei-message::before {
+	color: rgb(237, 108, 108); content: "\f071";
+}
+.sensei div.alert.sensei-message::before {
+	color: rgb(237, 108, 108); content: "\f071";
+}
+.course-container p.alert.sensei-message::before {
+	color: rgb(237, 108, 108); content: "\f071";
+}
+.course-container div.alert.sensei-message::before {
+	color: rgb(237, 108, 108); content: "\f071";
+}
+.course p.alert.sensei-message::before {
+	color: rgb(237, 108, 108); content: "\f071";
+}
+.course div.alert.sensei-message::before {
+	color: rgb(237, 108, 108); content: "\f071";
+}
+.lesson p.alert.sensei-message::before {
+	color: rgb(237, 108, 108); content: "\f071";
+}
+.lesson div.alert.sensei-message::before {
+	color: rgb(237, 108, 108); content: "\f071";
+}
+.quiz p.alert.sensei-message::before {
+	color: rgb(237, 108, 108); content: "\f071";
+}
+.quiz div.alert.sensei-message::before {
+	color: rgb(237, 108, 108); content: "\f071";
+}
+.learner-info p.alert.sensei-message::before {
+	color: rgb(237, 108, 108); content: "\f071";
+}
+.learner-info div.alert.sensei-message::before {
+	color: rgb(237, 108, 108); content: "\f071";
+}
+.sensei p.alert.sensei-message a {
+	color: rgb(231, 63, 63);
+}
+.sensei div.alert.sensei-message a {
+	color: rgb(231, 63, 63);
+}
+.course-container p.alert.sensei-message a {
+	color: rgb(231, 63, 63);
+}
+.course-container div.alert.sensei-message a {
+	color: rgb(231, 63, 63);
+}
+.course p.alert.sensei-message a {
+	color: rgb(231, 63, 63);
+}
+.course div.alert.sensei-message a {
+	color: rgb(231, 63, 63);
+}
+.lesson p.alert.sensei-message a {
+	color: rgb(231, 63, 63);
+}
+.lesson div.alert.sensei-message a {
+	color: rgb(231, 63, 63);
+}
+.quiz p.alert.sensei-message a {
+	color: rgb(231, 63, 63);
+}
+.quiz div.alert.sensei-message a {
+	color: rgb(231, 63, 63);
+}
+.learner-info p.alert.sensei-message a {
+	color: rgb(231, 63, 63);
+}
+.learner-info div.alert.sensei-message a {
+	color: rgb(231, 63, 63);
+}
+.sensei p.alert.sensei-message a:hover {
+	color: rgb(229, 40, 40);
+}
+.sensei div.alert.sensei-message a:hover {
+	color: rgb(229, 40, 40);
+}
+.course-container p.alert.sensei-message a:hover {
+	color: rgb(229, 40, 40);
+}
+.course-container div.alert.sensei-message a:hover {
+	color: rgb(229, 40, 40);
+}
+.course p.alert.sensei-message a:hover {
+	color: rgb(229, 40, 40);
+}
+.course div.alert.sensei-message a:hover {
+	color: rgb(229, 40, 40);
+}
+.lesson p.alert.sensei-message a:hover {
+	color: rgb(229, 40, 40);
+}
+.lesson div.alert.sensei-message a:hover {
+	color: rgb(229, 40, 40);
+}
+.quiz p.alert.sensei-message a:hover {
+	color: rgb(229, 40, 40);
+}
+.quiz div.alert.sensei-message a:hover {
+	color: rgb(229, 40, 40);
+}
+.learner-info p.alert.sensei-message a:hover {
+	color: rgb(229, 40, 40);
+}
+.learner-info div.alert.sensei-message a:hover {
+	color: rgb(229, 40, 40);
+}
+.sensei p.download.sensei-message {
+	background: rgb(237, 252, 213);
+}
+.sensei p.tick.sensei-message {
+	background: rgb(237, 252, 213);
+}
+.sensei div.download.sensei-message {
+	background: rgb(237, 252, 213);
+}
+.sensei div.tick.sensei-message {
+	background: rgb(237, 252, 213);
+}
+.course-container p.download.sensei-message {
+	background: rgb(237, 252, 213);
+}
+.course-container p.tick.sensei-message {
+	background: rgb(237, 252, 213);
+}
+.course-container div.download.sensei-message {
+	background: rgb(237, 252, 213);
+}
+.course-container div.tick.sensei-message {
+	background: rgb(237, 252, 213);
+}
+.course p.download.sensei-message {
+	background: rgb(237, 252, 213);
+}
+.course p.tick.sensei-message {
+	background: rgb(237, 252, 213);
+}
+.course div.download.sensei-message {
+	background: rgb(237, 252, 213);
+}
+.course div.tick.sensei-message {
+	background: rgb(237, 252, 213);
+}
+.lesson p.download.sensei-message {
+	background: rgb(237, 252, 213);
+}
+.lesson p.tick.sensei-message {
+	background: rgb(237, 252, 213);
+}
+.lesson div.download.sensei-message {
+	background: rgb(237, 252, 213);
+}
+.lesson div.tick.sensei-message {
+	background: rgb(237, 252, 213);
+}
+.quiz p.download.sensei-message {
+	background: rgb(237, 252, 213);
+}
+.quiz p.tick.sensei-message {
+	background: rgb(237, 252, 213);
+}
+.quiz div.download.sensei-message {
+	background: rgb(237, 252, 213);
+}
+.quiz div.tick.sensei-message {
+	background: rgb(237, 252, 213);
+}
+.learner-info p.download.sensei-message {
+	background: rgb(237, 252, 213);
+}
+.learner-info p.tick.sensei-message {
+	background: rgb(237, 252, 213);
+}
+.learner-info div.download.sensei-message {
+	background: rgb(237, 252, 213);
+}
+.learner-info div.tick.sensei-message {
+	background: rgb(237, 252, 213);
+}
+.sensei p.download.sensei-message::before {
+	color: rgb(99, 169, 95); content: "\f019";
+}
+.sensei p.tick.sensei-message::before {
+	color: rgb(99, 169, 95); content: "\f019";
+}
+.sensei div.download.sensei-message::before {
+	color: rgb(99, 169, 95); content: "\f019";
+}
+.sensei div.tick.sensei-message::before {
+	color: rgb(99, 169, 95); content: "\f019";
+}
+.course-container p.download.sensei-message::before {
+	color: rgb(99, 169, 95); content: "\f019";
+}
+.course-container p.tick.sensei-message::before {
+	color: rgb(99, 169, 95); content: "\f019";
+}
+.course-container div.download.sensei-message::before {
+	color: rgb(99, 169, 95); content: "\f019";
+}
+.course-container div.tick.sensei-message::before {
+	color: rgb(99, 169, 95); content: "\f019";
+}
+.course p.download.sensei-message::before {
+	color: rgb(99, 169, 95); content: "\f019";
+}
+.course p.tick.sensei-message::before {
+	color: rgb(99, 169, 95); content: "\f019";
+}
+.course div.download.sensei-message::before {
+	color: rgb(99, 169, 95); content: "\f019";
+}
+.course div.tick.sensei-message::before {
+	color: rgb(99, 169, 95); content: "\f019";
+}
+.lesson p.download.sensei-message::before {
+	color: rgb(99, 169, 95); content: "\f019";
+}
+.lesson p.tick.sensei-message::before {
+	color: rgb(99, 169, 95); content: "\f019";
+}
+.lesson div.download.sensei-message::before {
+	color: rgb(99, 169, 95); content: "\f019";
+}
+.lesson div.tick.sensei-message::before {
+	color: rgb(99, 169, 95); content: "\f019";
+}
+.quiz p.download.sensei-message::before {
+	color: rgb(99, 169, 95); content: "\f019";
+}
+.quiz p.tick.sensei-message::before {
+	color: rgb(99, 169, 95); content: "\f019";
+}
+.quiz div.download.sensei-message::before {
+	color: rgb(99, 169, 95); content: "\f019";
+}
+.quiz div.tick.sensei-message::before {
+	color: rgb(99, 169, 95); content: "\f019";
+}
+.learner-info p.download.sensei-message::before {
+	color: rgb(99, 169, 95); content: "\f019";
+}
+.learner-info p.tick.sensei-message::before {
+	color: rgb(99, 169, 95); content: "\f019";
+}
+.learner-info div.download.sensei-message::before {
+	color: rgb(99, 169, 95); content: "\f019";
+}
+.learner-info div.tick.sensei-message::before {
+	color: rgb(99, 169, 95); content: "\f019";
+}
+.sensei p.download.sensei-message a {
+	color: rgb(78, 139, 74);
+}
+.sensei p.tick.sensei-message a {
+	color: rgb(78, 139, 74);
+}
+.sensei div.download.sensei-message a {
+	color: rgb(78, 139, 74);
+}
+.sensei div.tick.sensei-message a {
+	color: rgb(78, 139, 74);
+}
+.course-container p.download.sensei-message a {
+	color: rgb(78, 139, 74);
+}
+.course-container p.tick.sensei-message a {
+	color: rgb(78, 139, 74);
+}
+.course-container div.download.sensei-message a {
+	color: rgb(78, 139, 74);
+}
+.course-container div.tick.sensei-message a {
+	color: rgb(78, 139, 74);
+}
+.course p.download.sensei-message a {
+	color: rgb(78, 139, 74);
+}
+.course p.tick.sensei-message a {
+	color: rgb(78, 139, 74);
+}
+.course div.download.sensei-message a {
+	color: rgb(78, 139, 74);
+}
+.course div.tick.sensei-message a {
+	color: rgb(78, 139, 74);
+}
+.lesson p.download.sensei-message a {
+	color: rgb(78, 139, 74);
+}
+.lesson p.tick.sensei-message a {
+	color: rgb(78, 139, 74);
+}
+.lesson div.download.sensei-message a {
+	color: rgb(78, 139, 74);
+}
+.lesson div.tick.sensei-message a {
+	color: rgb(78, 139, 74);
+}
+.quiz p.download.sensei-message a {
+	color: rgb(78, 139, 74);
+}
+.quiz p.tick.sensei-message a {
+	color: rgb(78, 139, 74);
+}
+.quiz div.download.sensei-message a {
+	color: rgb(78, 139, 74);
+}
+.quiz div.tick.sensei-message a {
+	color: rgb(78, 139, 74);
+}
+.learner-info p.download.sensei-message a {
+	color: rgb(78, 139, 74);
+}
+.learner-info p.tick.sensei-message a {
+	color: rgb(78, 139, 74);
+}
+.learner-info div.download.sensei-message a {
+	color: rgb(78, 139, 74);
+}
+.learner-info div.tick.sensei-message a {
+	color: rgb(78, 139, 74);
+}
+.sensei p.download.sensei-message a:hover {
+	color: rgb(69, 122, 66);
+}
+.sensei p.tick.sensei-message a:hover {
+	color: rgb(69, 122, 66);
+}
+.sensei div.download.sensei-message a:hover {
+	color: rgb(69, 122, 66);
+}
+.sensei div.tick.sensei-message a:hover {
+	color: rgb(69, 122, 66);
+}
+.course-container p.download.sensei-message a:hover {
+	color: rgb(69, 122, 66);
+}
+.course-container p.tick.sensei-message a:hover {
+	color: rgb(69, 122, 66);
+}
+.course-container div.download.sensei-message a:hover {
+	color: rgb(69, 122, 66);
+}
+.course-container div.tick.sensei-message a:hover {
+	color: rgb(69, 122, 66);
+}
+.course p.download.sensei-message a:hover {
+	color: rgb(69, 122, 66);
+}
+.course p.tick.sensei-message a:hover {
+	color: rgb(69, 122, 66);
+}
+.course div.download.sensei-message a:hover {
+	color: rgb(69, 122, 66);
+}
+.course div.tick.sensei-message a:hover {
+	color: rgb(69, 122, 66);
+}
+.lesson p.download.sensei-message a:hover {
+	color: rgb(69, 122, 66);
+}
+.lesson p.tick.sensei-message a:hover {
+	color: rgb(69, 122, 66);
+}
+.lesson div.download.sensei-message a:hover {
+	color: rgb(69, 122, 66);
+}
+.lesson div.tick.sensei-message a:hover {
+	color: rgb(69, 122, 66);
+}
+.quiz p.download.sensei-message a:hover {
+	color: rgb(69, 122, 66);
+}
+.quiz p.tick.sensei-message a:hover {
+	color: rgb(69, 122, 66);
+}
+.quiz div.download.sensei-message a:hover {
+	color: rgb(69, 122, 66);
+}
+.quiz div.tick.sensei-message a:hover {
+	color: rgb(69, 122, 66);
+}
+.learner-info p.download.sensei-message a:hover {
+	color: rgb(69, 122, 66);
+}
+.learner-info p.tick.sensei-message a:hover {
+	color: rgb(69, 122, 66);
+}
+.learner-info div.download.sensei-message a:hover {
+	color: rgb(69, 122, 66);
+}
+.learner-info div.tick.sensei-message a:hover {
+	color: rgb(69, 122, 66);
+}
+.sensei p.tick.sensei-message::before {
+	content: "\f00c";
+}
+.sensei div.tick.sensei-message::before {
+	content: "\f00c";
+}
+.course-container p.tick.sensei-message::before {
+	content: "\f00c";
+}
+.course-container div.tick.sensei-message::before {
+	content: "\f00c";
+}
+.course p.tick.sensei-message::before {
+	content: "\f00c";
+}
+.course div.tick.sensei-message::before {
+	content: "\f00c";
+}
+.lesson p.tick.sensei-message::before {
+	content: "\f00c";
+}
+.lesson div.tick.sensei-message::before {
+	content: "\f00c";
+}
+.quiz p.tick.sensei-message::before {
+	content: "\f00c";
+}
+.quiz div.tick.sensei-message::before {
+	content: "\f00c";
+}
+.learner-info p.tick.sensei-message::before {
+	content: "\f00c";
+}
+.learner-info div.tick.sensei-message::before {
+	content: "\f00c";
+}
+.sensei p.info.sensei-message {
+	background: rgb(238, 238, 238);
+}
+.sensei div.info.sensei-message {
+	background: rgb(238, 238, 238);
+}
+.course-container p.info.sensei-message {
+	background: rgb(238, 238, 238);
+}
+.course-container div.info.sensei-message {
+	background: rgb(238, 238, 238);
+}
+.course p.info.sensei-message {
+	background: rgb(238, 238, 238);
+}
+.course div.info.sensei-message {
+	background: rgb(238, 238, 238);
+}
+.lesson p.info.sensei-message {
+	background: rgb(238, 238, 238);
+}
+.lesson div.info.sensei-message {
+	background: rgb(238, 238, 238);
+}
+.quiz p.info.sensei-message {
+	background: rgb(238, 238, 238);
+}
+.quiz div.info.sensei-message {
+	background: rgb(238, 238, 238);
+}
+.learner-info p.info.sensei-message {
+	background: rgb(238, 238, 238);
+}
+.learner-info div.info.sensei-message {
+	background: rgb(238, 238, 238);
+}
+.sensei p.info.sensei-message::before {
+	content: "\f05a";
+}
+.sensei div.info.sensei-message::before {
+	content: "\f05a";
+}
+.course-container p.info.sensei-message::before {
+	content: "\f05a";
+}
+.course-container div.info.sensei-message::before {
+	content: "\f05a";
+}
+.course p.info.sensei-message::before {
+	content: "\f05a";
+}
+.course div.info.sensei-message::before {
+	content: "\f05a";
+}
+.lesson p.info.sensei-message::before {
+	content: "\f05a";
+}
+.lesson div.info.sensei-message::before {
+	content: "\f05a";
+}
+.quiz p.info.sensei-message::before {
+	content: "\f05a";
+}
+.quiz div.info.sensei-message::before {
+	content: "\f05a";
+}
+.learner-info p.info.sensei-message::before {
+	content: "\f05a";
+}
+.learner-info div.info.sensei-message::before {
+	content: "\f05a";
+}
+.sensei p.info.sensei-message a {
+	color: rgb(59, 59, 59);
+}
+.sensei div.info.sensei-message a {
+	color: rgb(59, 59, 59);
+}
+.course-container p.info.sensei-message a {
+	color: rgb(59, 59, 59);
+}
+.course-container div.info.sensei-message a {
+	color: rgb(59, 59, 59);
+}
+.course p.info.sensei-message a {
+	color: rgb(59, 59, 59);
+}
+.course div.info.sensei-message a {
+	color: rgb(59, 59, 59);
+}
+.lesson p.info.sensei-message a {
+	color: rgb(59, 59, 59);
+}
+.lesson div.info.sensei-message a {
+	color: rgb(59, 59, 59);
+}
+.quiz p.info.sensei-message a {
+	color: rgb(59, 59, 59);
+}
+.quiz div.info.sensei-message a {
+	color: rgb(59, 59, 59);
+}
+.learner-info p.info.sensei-message a {
+	color: rgb(59, 59, 59);
+}
+.learner-info div.info.sensei-message a {
+	color: rgb(59, 59, 59);
+}
+.sensei p.info.sensei-message a:hover {
+	color: rgb(47, 47, 47);
+}
+.sensei div.info.sensei-message a:hover {
+	color: rgb(47, 47, 47);
+}
+.course-container p.info.sensei-message a:hover {
+	color: rgb(47, 47, 47);
+}
+.course-container div.info.sensei-message a:hover {
+	color: rgb(47, 47, 47);
+}
+.course p.info.sensei-message a:hover {
+	color: rgb(47, 47, 47);
+}
+.course div.info.sensei-message a:hover {
+	color: rgb(47, 47, 47);
+}
+.lesson p.info.sensei-message a:hover {
+	color: rgb(47, 47, 47);
+}
+.lesson div.info.sensei-message a:hover {
+	color: rgb(47, 47, 47);
+}
+.quiz p.info.sensei-message a:hover {
+	color: rgb(47, 47, 47);
+}
+.quiz div.info.sensei-message a:hover {
+	color: rgb(47, 47, 47);
+}
+.learner-info p.info.sensei-message a:hover {
+	color: rgb(47, 47, 47);
+}
+.learner-info div.info.sensei-message a:hover {
+	color: rgb(47, 47, 47);
+}
+.sensei p.info-special.info.sensei-message {
+	background: rgb(219, 241, 255);
+}
+.sensei div.info-special.info.sensei-message {
+	background: rgb(219, 241, 255);
+}
+.course-container p.info-special.info.sensei-message {
+	background: rgb(219, 241, 255);
+}
+.course-container div.info-special.info.sensei-message {
+	background: rgb(219, 241, 255);
+}
+.course p.info-special.info.sensei-message {
+	background: rgb(219, 241, 255);
+}
+.course div.info-special.info.sensei-message {
+	background: rgb(219, 241, 255);
+}
+.lesson p.info-special.info.sensei-message {
+	background: rgb(219, 241, 255);
+}
+.lesson div.info-special.info.sensei-message {
+	background: rgb(219, 241, 255);
+}
+.quiz p.info-special.info.sensei-message {
+	background: rgb(219, 241, 255);
+}
+.quiz div.info-special.info.sensei-message {
+	background: rgb(219, 241, 255);
+}
+.learner-info p.info-special.info.sensei-message {
+	background: rgb(219, 241, 255);
+}
+.learner-info div.info-special.info.sensei-message {
+	background: rgb(219, 241, 255);
+}
+.sensei p.note.sensei-message {
+	background: rgb(254, 246, 210);
+}
+.sensei div.note.sensei-message {
+	background: rgb(254, 246, 210);
+}
+.course-container p.note.sensei-message {
+	background: rgb(254, 246, 210);
+}
+.course-container div.note.sensei-message {
+	background: rgb(254, 246, 210);
+}
+.course p.note.sensei-message {
+	background: rgb(254, 246, 210);
+}
+.course div.note.sensei-message {
+	background: rgb(254, 246, 210);
+}
+.lesson p.note.sensei-message {
+	background: rgb(254, 246, 210);
+}
+.lesson div.note.sensei-message {
+	background: rgb(254, 246, 210);
+}
+.quiz p.note.sensei-message {
+	background: rgb(254, 246, 210);
+}
+.quiz div.note.sensei-message {
+	background: rgb(254, 246, 210);
+}
+.learner-info p.note.sensei-message {
+	background: rgb(254, 246, 210);
+}
+.learner-info div.note.sensei-message {
+	background: rgb(254, 246, 210);
+}
+.sensei p.note.sensei-message::before {
+	content: "\f0f6";
+}
+.sensei div.note.sensei-message::before {
+	content: "\f0f6";
+}
+.course-container p.note.sensei-message::before {
+	content: "\f0f6";
+}
+.course-container div.note.sensei-message::before {
+	content: "\f0f6";
+}
+.course p.note.sensei-message::before {
+	content: "\f0f6";
+}
+.course div.note.sensei-message::before {
+	content: "\f0f6";
+}
+.lesson p.note.sensei-message::before {
+	content: "\f0f6";
+}
+.lesson div.note.sensei-message::before {
+	content: "\f0f6";
+}
+.quiz p.note.sensei-message::before {
+	content: "\f0f6";
+}
+.quiz div.note.sensei-message::before {
+	content: "\f0f6";
+}
+.learner-info p.note.sensei-message::before {
+	content: "\f0f6";
+}
+.learner-info div.note.sensei-message::before {
+	content: "\f0f6";
+}
+.sensei p.normal.sensei-message {
+	background: rgb(238, 238, 238); padding: 9px 15px;
+}
+.sensei div.normal.sensei-message {
+	background: rgb(238, 238, 238); padding: 9px 15px;
+}
+.course-container p.normal.sensei-message {
+	background: rgb(238, 238, 238); padding: 9px 15px;
+}
+.course-container div.normal.sensei-message {
+	background: rgb(238, 238, 238); padding: 9px 15px;
+}
+.course p.normal.sensei-message {
+	background: rgb(238, 238, 238); padding: 9px 15px;
+}
+.course div.normal.sensei-message {
+	background: rgb(238, 238, 238); padding: 9px 15px;
+}
+.lesson p.normal.sensei-message {
+	background: rgb(238, 238, 238); padding: 9px 15px;
+}
+.lesson div.normal.sensei-message {
+	background: rgb(238, 238, 238); padding: 9px 15px;
+}
+.quiz p.normal.sensei-message {
+	background: rgb(238, 238, 238); padding: 9px 15px;
+}
+.quiz div.normal.sensei-message {
+	background: rgb(238, 238, 238); padding: 9px 15px;
+}
+.learner-info p.normal.sensei-message {
+	background: rgb(238, 238, 238); padding: 9px 15px;
+}
+.learner-info div.normal.sensei-message {
+	background: rgb(238, 238, 238); padding: 9px 15px;
+}
+.sensei p.sensei-message .view-quiz {
+	float: right;
+}
+.sensei div.sensei-message .view-quiz {
+	float: right;
+}
+.course-container p.sensei-message .view-quiz {
+	float: right;
+}
+.course-container div.sensei-message .view-quiz {
+	float: right;
+}
+.course p.sensei-message .view-quiz {
+	float: right;
+}
+.course div.sensei-message .view-quiz {
+	float: right;
+}
+.lesson p.sensei-message .view-quiz {
+	float: right;
+}
+.lesson div.sensei-message .view-quiz {
+	float: right;
+}
+.quiz p.sensei-message .view-quiz {
+	float: right;
+}
+.quiz div.sensei-message .view-quiz {
+	float: right;
+}
+.learner-info p.sensei-message .view-quiz {
+	float: right;
+}
+.learner-info div.sensei-message .view-quiz {
+	float: right;
+}
+.sensei p.sensei-message a.next-lesson {
+	background: none; margin: -3px 0px 0px 1em; padding: 5px 20px 4px; border-radius: 5px; border: 2px solid rgb(78, 139, 74); border-image: none; color: rgb(78, 139, 74); text-transform: uppercase; font-size: 11px; font-weight: bold; text-decoration: none; float: right; display: inline-block; -webkit-border-radius: 5px; -moz-background-clip: padding; -webkit-background-clip: padding-box;
+}
+.sensei div.sensei-message a.next-lesson {
+	background: none; margin: -3px 0px 0px 1em; padding: 5px 20px 4px; border-radius: 5px; border: 2px solid rgb(78, 139, 74); border-image: none; color: rgb(78, 139, 74); text-transform: uppercase; font-size: 11px; font-weight: bold; text-decoration: none; float: right; display: inline-block; -webkit-border-radius: 5px; -moz-background-clip: padding; -webkit-background-clip: padding-box;
+}
+.course-container p.sensei-message a.next-lesson {
+	background: none; margin: -3px 0px 0px 1em; padding: 5px 20px 4px; border-radius: 5px; border: 2px solid rgb(78, 139, 74); border-image: none; color: rgb(78, 139, 74); text-transform: uppercase; font-size: 11px; font-weight: bold; text-decoration: none; float: right; display: inline-block; -webkit-border-radius: 5px; -moz-background-clip: padding; -webkit-background-clip: padding-box;
+}
+.course-container div.sensei-message a.next-lesson {
+	background: none; margin: -3px 0px 0px 1em; padding: 5px 20px 4px; border-radius: 5px; border: 2px solid rgb(78, 139, 74); border-image: none; color: rgb(78, 139, 74); text-transform: uppercase; font-size: 11px; font-weight: bold; text-decoration: none; float: right; display: inline-block; -webkit-border-radius: 5px; -moz-background-clip: padding; -webkit-background-clip: padding-box;
+}
+.course p.sensei-message a.next-lesson {
+	background: none; margin: -3px 0px 0px 1em; padding: 5px 20px 4px; border-radius: 5px; border: 2px solid rgb(78, 139, 74); border-image: none; color: rgb(78, 139, 74); text-transform: uppercase; font-size: 11px; font-weight: bold; text-decoration: none; float: right; display: inline-block; -webkit-border-radius: 5px; -moz-background-clip: padding; -webkit-background-clip: padding-box;
+}
+.course div.sensei-message a.next-lesson {
+	background: none; margin: -3px 0px 0px 1em; padding: 5px 20px 4px; border-radius: 5px; border: 2px solid rgb(78, 139, 74); border-image: none; color: rgb(78, 139, 74); text-transform: uppercase; font-size: 11px; font-weight: bold; text-decoration: none; float: right; display: inline-block; -webkit-border-radius: 5px; -moz-background-clip: padding; -webkit-background-clip: padding-box;
+}
+.lesson p.sensei-message a.next-lesson {
+	background: none; margin: -3px 0px 0px 1em; padding: 5px 20px 4px; border-radius: 5px; border: 2px solid rgb(78, 139, 74); border-image: none; color: rgb(78, 139, 74); text-transform: uppercase; font-size: 11px; font-weight: bold; text-decoration: none; float: right; display: inline-block; -webkit-border-radius: 5px; -moz-background-clip: padding; -webkit-background-clip: padding-box;
+}
+.lesson div.sensei-message a.next-lesson {
+	background: none; margin: -3px 0px 0px 1em; padding: 5px 20px 4px; border-radius: 5px; border: 2px solid rgb(78, 139, 74); border-image: none; color: rgb(78, 139, 74); text-transform: uppercase; font-size: 11px; font-weight: bold; text-decoration: none; float: right; display: inline-block; -webkit-border-radius: 5px; -moz-background-clip: padding; -webkit-background-clip: padding-box;
+}
+.quiz p.sensei-message a.next-lesson {
+	background: none; margin: -3px 0px 0px 1em; padding: 5px 20px 4px; border-radius: 5px; border: 2px solid rgb(78, 139, 74); border-image: none; color: rgb(78, 139, 74); text-transform: uppercase; font-size: 11px; font-weight: bold; text-decoration: none; float: right; display: inline-block; -webkit-border-radius: 5px; -moz-background-clip: padding; -webkit-background-clip: padding-box;
+}
+.quiz div.sensei-message a.next-lesson {
+	background: none; margin: -3px 0px 0px 1em; padding: 5px 20px 4px; border-radius: 5px; border: 2px solid rgb(78, 139, 74); border-image: none; color: rgb(78, 139, 74); text-transform: uppercase; font-size: 11px; font-weight: bold; text-decoration: none; float: right; display: inline-block; -webkit-border-radius: 5px; -moz-background-clip: padding; -webkit-background-clip: padding-box;
+}
+.learner-info p.sensei-message a.next-lesson {
+	background: none; margin: -3px 0px 0px 1em; padding: 5px 20px 4px; border-radius: 5px; border: 2px solid rgb(78, 139, 74); border-image: none; color: rgb(78, 139, 74); text-transform: uppercase; font-size: 11px; font-weight: bold; text-decoration: none; float: right; display: inline-block; -webkit-border-radius: 5px; -moz-background-clip: padding; -webkit-background-clip: padding-box;
+}
+.learner-info div.sensei-message a.next-lesson {
+	background: none; margin: -3px 0px 0px 1em; padding: 5px 20px 4px; border-radius: 5px; border: 2px solid rgb(78, 139, 74); border-image: none; color: rgb(78, 139, 74); text-transform: uppercase; font-size: 11px; font-weight: bold; text-decoration: none; float: right; display: inline-block; -webkit-border-radius: 5px; -moz-background-clip: padding; -webkit-background-clip: padding-box;
+}
+.sensei p.sensei-message a.next-lesson:hover {
+	background: rgb(99, 169, 95); color: rgb(255, 255, 255);
+}
+.sensei div.sensei-message a.next-lesson:hover {
+	background: rgb(99, 169, 95); color: rgb(255, 255, 255);
+}
+.course-container p.sensei-message a.next-lesson:hover {
+	background: rgb(99, 169, 95); color: rgb(255, 255, 255);
+}
+.course-container div.sensei-message a.next-lesson:hover {
+	background: rgb(99, 169, 95); color: rgb(255, 255, 255);
+}
+.course p.sensei-message a.next-lesson:hover {
+	background: rgb(99, 169, 95); color: rgb(255, 255, 255);
+}
+.course div.sensei-message a.next-lesson:hover {
+	background: rgb(99, 169, 95); color: rgb(255, 255, 255);
+}
+.lesson p.sensei-message a.next-lesson:hover {
+	background: rgb(99, 169, 95); color: rgb(255, 255, 255);
+}
+.lesson div.sensei-message a.next-lesson:hover {
+	background: rgb(99, 169, 95); color: rgb(255, 255, 255);
+}
+.quiz p.sensei-message a.next-lesson:hover {
+	background: rgb(99, 169, 95); color: rgb(255, 255, 255);
+}
+.quiz div.sensei-message a.next-lesson:hover {
+	background: rgb(99, 169, 95); color: rgb(255, 255, 255);
+}
+.learner-info p.sensei-message a.next-lesson:hover {
+	background: rgb(99, 169, 95); color: rgb(255, 255, 255);
+}
+.learner-info div.sensei-message a.next-lesson:hover {
+	background: rgb(99, 169, 95); color: rgb(255, 255, 255);
+}
+.course-container a.button {
+	background: rgb(82, 168, 232); padding: 5px 20px 4px; border-radius: 5px; border: currentColor; border-image: none; width: auto; text-align: center; color: rgb(255, 255, 255); text-transform: uppercase; line-height: 1.61em; overflow: visible; font-family: inherit; font-size: 11px; font-weight: bold; text-decoration: none; display: inline-block; white-space: nowrap; cursor: pointer; box-sizing: border-box; box-shadow: none; text-shadow: none; -webkit-border-radius: 5px; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; -webkit-box-shadow: none; -moz-box-shadow: none; -moz-background-clip: padding; -webkit-background-clip: padding-box; -webkit-appearance: none;
+}
+.course-container a.button:visited {
+	background: rgb(82, 168, 232); padding: 5px 20px 4px; border-radius: 5px; border: currentColor; border-image: none; width: auto; text-align: center; color: rgb(255, 255, 255); text-transform: uppercase; line-height: 1.61em; overflow: visible; font-family: inherit; font-size: 11px; font-weight: bold; text-decoration: none; display: inline-block; white-space: nowrap; cursor: pointer; box-sizing: border-box; box-shadow: none; text-shadow: none; -webkit-border-radius: 5px; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; -webkit-box-shadow: none; -moz-box-shadow: none; -moz-background-clip: padding; -webkit-background-clip: padding-box; -webkit-appearance: none;
+}
+.course-container a.comment-reply-link {
+	background: rgb(82, 168, 232); padding: 5px 20px 4px; border-radius: 5px; border: currentColor; border-image: none; width: auto; text-align: center; color: rgb(255, 255, 255); text-transform: uppercase; line-height: 1.61em; overflow: visible; font-family: inherit; font-size: 11px; font-weight: bold; text-decoration: none; display: inline-block; white-space: nowrap; cursor: pointer; box-sizing: border-box; box-shadow: none; text-shadow: none; -webkit-border-radius: 5px; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; -webkit-box-shadow: none; -moz-box-shadow: none; -moz-background-clip: padding; -webkit-background-clip: padding-box; -webkit-appearance: none;
+}
+.course-container #commentform #submit {
+	background: rgb(82, 168, 232); padding: 5px 20px 4px; border-radius: 5px; border: currentColor; border-image: none; width: auto; text-align: center; color: rgb(255, 255, 255); text-transform: uppercase; line-height: 1.61em; overflow: visible; font-family: inherit; font-size: 11px; font-weight: bold; text-decoration: none; display: inline-block; white-space: nowrap; cursor: pointer; box-sizing: border-box; box-shadow: none; text-shadow: none; -webkit-border-radius: 5px; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; -webkit-box-shadow: none; -moz-box-shadow: none; -moz-background-clip: padding; -webkit-background-clip: padding-box; -webkit-appearance: none;
+}
+.course-container .submit {
+	background: rgb(82, 168, 232); padding: 5px 20px 4px; border-radius: 5px; border: currentColor; border-image: none; width: auto; text-align: center; color: rgb(255, 255, 255); text-transform: uppercase; line-height: 1.61em; overflow: visible; font-family: inherit; font-size: 11px; font-weight: bold; text-decoration: none; display: inline-block; white-space: nowrap; cursor: pointer; box-sizing: border-box; box-shadow: none; text-shadow: none; -webkit-border-radius: 5px; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; -webkit-box-shadow: none; -moz-box-shadow: none; -moz-background-clip: padding; -webkit-background-clip: padding-box; -webkit-appearance: none;
+}
+.course-container input[type=submit] {
+	background: rgb(82, 168, 232); padding: 5px 20px 4px; border-radius: 5px; border: currentColor; border-image: none; width: auto; text-align: center; color: rgb(255, 255, 255); text-transform: uppercase; line-height: 1.61em; overflow: visible; font-family: inherit; font-size: 11px; font-weight: bold; text-decoration: none; display: inline-block; white-space: nowrap; cursor: pointer; box-sizing: border-box; box-shadow: none; text-shadow: none; -webkit-border-radius: 5px; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; -webkit-box-shadow: none; -moz-box-shadow: none; -moz-background-clip: padding; -webkit-background-clip: padding-box; -webkit-appearance: none;
+}
+.course-container input.button {
+	background: rgb(82, 168, 232); padding: 5px 20px 4px; border-radius: 5px; border: currentColor; border-image: none; width: auto; text-align: center; color: rgb(255, 255, 255); text-transform: uppercase; line-height: 1.61em; overflow: visible; font-family: inherit; font-size: 11px; font-weight: bold; text-decoration: none; display: inline-block; white-space: nowrap; cursor: pointer; box-sizing: border-box; box-shadow: none; text-shadow: none; -webkit-border-radius: 5px; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; -webkit-box-shadow: none; -moz-box-shadow: none; -moz-background-clip: padding; -webkit-background-clip: padding-box; -webkit-appearance: none;
+}
+.course-container button.button {
+	background: rgb(82, 168, 232); padding: 5px 20px 4px; border-radius: 5px; border: currentColor; border-image: none; width: auto; text-align: center; color: rgb(255, 255, 255); text-transform: uppercase; line-height: 1.61em; overflow: visible; font-family: inherit; font-size: 11px; font-weight: bold; text-decoration: none; display: inline-block; white-space: nowrap; cursor: pointer; box-sizing: border-box; box-shadow: none; text-shadow: none; -webkit-border-radius: 5px; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; -webkit-box-shadow: none; -moz-box-shadow: none; -moz-background-clip: padding; -webkit-background-clip: padding-box; -webkit-appearance: none;
+}
+.course a.button {
+	background: rgb(82, 168, 232); padding: 5px 20px 4px; border-radius: 5px; border: currentColor; border-image: none; width: auto; text-align: center; color: rgb(255, 255, 255); text-transform: uppercase; line-height: 1.61em; overflow: visible; font-family: inherit; font-size: 11px; font-weight: bold; text-decoration: none; display: inline-block; white-space: nowrap; cursor: pointer; box-sizing: border-box; box-shadow: none; text-shadow: none; -webkit-border-radius: 5px; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; -webkit-box-shadow: none; -moz-box-shadow: none; -moz-background-clip: padding; -webkit-background-clip: padding-box; -webkit-appearance: none;
+}
+.course a.button:visited {
+	background: rgb(82, 168, 232); padding: 5px 20px 4px; border-radius: 5px; border: currentColor; border-image: none; width: auto; text-align: center; color: rgb(255, 255, 255); text-transform: uppercase; line-height: 1.61em; overflow: visible; font-family: inherit; font-size: 11px; font-weight: bold; text-decoration: none; display: inline-block; white-space: nowrap; cursor: pointer; box-sizing: border-box; box-shadow: none; text-shadow: none; -webkit-border-radius: 5px; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; -webkit-box-shadow: none; -moz-box-shadow: none; -moz-background-clip: padding; -webkit-background-clip: padding-box; -webkit-appearance: none;
+}
+.course a.comment-reply-link {
+	background: rgb(82, 168, 232); padding: 5px 20px 4px; border-radius: 5px; border: currentColor; border-image: none; width: auto; text-align: center; color: rgb(255, 255, 255); text-transform: uppercase; line-height: 1.61em; overflow: visible; font-family: inherit; font-size: 11px; font-weight: bold; text-decoration: none; display: inline-block; white-space: nowrap; cursor: pointer; box-sizing: border-box; box-shadow: none; text-shadow: none; -webkit-border-radius: 5px; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; -webkit-box-shadow: none; -moz-box-shadow: none; -moz-background-clip: padding; -webkit-background-clip: padding-box; -webkit-appearance: none;
+}
+.course #commentform #submit {
+	background: rgb(82, 168, 232); padding: 5px 20px 4px; border-radius: 5px; border: currentColor; border-image: none; width: auto; text-align: center; color: rgb(255, 255, 255); text-transform: uppercase; line-height: 1.61em; overflow: visible; font-family: inherit; font-size: 11px; font-weight: bold; text-decoration: none; display: inline-block; white-space: nowrap; cursor: pointer; box-sizing: border-box; box-shadow: none; text-shadow: none; -webkit-border-radius: 5px; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; -webkit-box-shadow: none; -moz-box-shadow: none; -moz-background-clip: padding; -webkit-background-clip: padding-box; -webkit-appearance: none;
+}
+.course .submit {
+	background: rgb(82, 168, 232); padding: 5px 20px 4px; border-radius: 5px; border: currentColor; border-image: none; width: auto; text-align: center; color: rgb(255, 255, 255); text-transform: uppercase; line-height: 1.61em; overflow: visible; font-family: inherit; font-size: 11px; font-weight: bold; text-decoration: none; display: inline-block; white-space: nowrap; cursor: pointer; box-sizing: border-box; box-shadow: none; text-shadow: none; -webkit-border-radius: 5px; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; -webkit-box-shadow: none; -moz-box-shadow: none; -moz-background-clip: padding; -webkit-background-clip: padding-box; -webkit-appearance: none;
+}
+.course input[type=submit] {
+	background: rgb(82, 168, 232); padding: 5px 20px 4px; border-radius: 5px; border: currentColor; border-image: none; width: auto; text-align: center; color: rgb(255, 255, 255); text-transform: uppercase; line-height: 1.61em; overflow: visible; font-family: inherit; font-size: 11px; font-weight: bold; text-decoration: none; display: inline-block; white-space: nowrap; cursor: pointer; box-sizing: border-box; box-shadow: none; text-shadow: none; -webkit-border-radius: 5px; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; -webkit-box-shadow: none; -moz-box-shadow: none; -moz-background-clip: padding; -webkit-background-clip: padding-box; -webkit-appearance: none;
+}
+.course input.button {
+	background: rgb(82, 168, 232); padding: 5px 20px 4px; border-radius: 5px; border: currentColor; border-image: none; width: auto; text-align: center; color: rgb(255, 255, 255); text-transform: uppercase; line-height: 1.61em; overflow: visible; font-family: inherit; font-size: 11px; font-weight: bold; text-decoration: none; display: inline-block; white-space: nowrap; cursor: pointer; box-sizing: border-box; box-shadow: none; text-shadow: none; -webkit-border-radius: 5px; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; -webkit-box-shadow: none; -moz-box-shadow: none; -moz-background-clip: padding; -webkit-background-clip: padding-box; -webkit-appearance: none;
+}
+.course button.button {
+	background: rgb(82, 168, 232); padding: 5px 20px 4px; border-radius: 5px; border: currentColor; border-image: none; width: auto; text-align: center; color: rgb(255, 255, 255); text-transform: uppercase; line-height: 1.61em; overflow: visible; font-family: inherit; font-size: 11px; font-weight: bold; text-decoration: none; display: inline-block; white-space: nowrap; cursor: pointer; box-sizing: border-box; box-shadow: none; text-shadow: none; -webkit-border-radius: 5px; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; -webkit-box-shadow: none; -moz-box-shadow: none; -moz-background-clip: padding; -webkit-background-clip: padding-box; -webkit-appearance: none;
+}
+.lesson a.button {
+	background: rgb(82, 168, 232); padding: 5px 20px 4px; border-radius: 5px; border: currentColor; border-image: none; width: auto; text-align: center; color: rgb(255, 255, 255); text-transform: uppercase; line-height: 1.61em; overflow: visible; font-family: inherit; font-size: 11px; font-weight: bold; text-decoration: none; display: inline-block; white-space: nowrap; cursor: pointer; box-sizing: border-box; box-shadow: none; text-shadow: none; -webkit-border-radius: 5px; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; -webkit-box-shadow: none; -moz-box-shadow: none; -moz-background-clip: padding; -webkit-background-clip: padding-box; -webkit-appearance: none;
+}
+.lesson a.button:visited {
+	background: rgb(82, 168, 232); padding: 5px 20px 4px; border-radius: 5px; border: currentColor; border-image: none; width: auto; text-align: center; color: rgb(255, 255, 255); text-transform: uppercase; line-height: 1.61em; overflow: visible; font-family: inherit; font-size: 11px; font-weight: bold; text-decoration: none; display: inline-block; white-space: nowrap; cursor: pointer; box-sizing: border-box; box-shadow: none; text-shadow: none; -webkit-border-radius: 5px; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; -webkit-box-shadow: none; -moz-box-shadow: none; -moz-background-clip: padding; -webkit-background-clip: padding-box; -webkit-appearance: none;
+}
+.lesson a.comment-reply-link {
+	background: rgb(82, 168, 232); padding: 5px 20px 4px; border-radius: 5px; border: currentColor; border-image: none; width: auto; text-align: center; color: rgb(255, 255, 255); text-transform: uppercase; line-height: 1.61em; overflow: visible; font-family: inherit; font-size: 11px; font-weight: bold; text-decoration: none; display: inline-block; white-space: nowrap; cursor: pointer; box-sizing: border-box; box-shadow: none; text-shadow: none; -webkit-border-radius: 5px; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; -webkit-box-shadow: none; -moz-box-shadow: none; -moz-background-clip: padding; -webkit-background-clip: padding-box; -webkit-appearance: none;
+}
+.lesson #commentform #submit {
+	background: rgb(82, 168, 232); padding: 5px 20px 4px; border-radius: 5px; border: currentColor; border-image: none; width: auto; text-align: center; color: rgb(255, 255, 255); text-transform: uppercase; line-height: 1.61em; overflow: visible; font-family: inherit; font-size: 11px; font-weight: bold; text-decoration: none; display: inline-block; white-space: nowrap; cursor: pointer; box-sizing: border-box; box-shadow: none; text-shadow: none; -webkit-border-radius: 5px; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; -webkit-box-shadow: none; -moz-box-shadow: none; -moz-background-clip: padding; -webkit-background-clip: padding-box; -webkit-appearance: none;
+}
+.lesson .submit {
+	background: rgb(82, 168, 232); padding: 5px 20px 4px; border-radius: 5px; border: currentColor; border-image: none; width: auto; text-align: center; color: rgb(255, 255, 255); text-transform: uppercase; line-height: 1.61em; overflow: visible; font-family: inherit; font-size: 11px; font-weight: bold; text-decoration: none; display: inline-block; white-space: nowrap; cursor: pointer; box-sizing: border-box; box-shadow: none; text-shadow: none; -webkit-border-radius: 5px; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; -webkit-box-shadow: none; -moz-box-shadow: none; -moz-background-clip: padding; -webkit-background-clip: padding-box; -webkit-appearance: none;
+}
+.lesson input[type=submit] {
+	background: rgb(82, 168, 232); padding: 5px 20px 4px; border-radius: 5px; border: currentColor; border-image: none; width: auto; text-align: center; color: rgb(255, 255, 255); text-transform: uppercase; line-height: 1.61em; overflow: visible; font-family: inherit; font-size: 11px; font-weight: bold; text-decoration: none; display: inline-block; white-space: nowrap; cursor: pointer; box-sizing: border-box; box-shadow: none; text-shadow: none; -webkit-border-radius: 5px; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; -webkit-box-shadow: none; -moz-box-shadow: none; -moz-background-clip: padding; -webkit-background-clip: padding-box; -webkit-appearance: none;
+}
+.lesson input.button {
+	background: rgb(82, 168, 232); padding: 5px 20px 4px; border-radius: 5px; border: currentColor; border-image: none; width: auto; text-align: center; color: rgb(255, 255, 255); text-transform: uppercase; line-height: 1.61em; overflow: visible; font-family: inherit; font-size: 11px; font-weight: bold; text-decoration: none; display: inline-block; white-space: nowrap; cursor: pointer; box-sizing: border-box; box-shadow: none; text-shadow: none; -webkit-border-radius: 5px; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; -webkit-box-shadow: none; -moz-box-shadow: none; -moz-background-clip: padding; -webkit-background-clip: padding-box; -webkit-appearance: none;
+}
+.lesson button.button {
+	background: rgb(82, 168, 232); padding: 5px 20px 4px; border-radius: 5px; border: currentColor; border-image: none; width: auto; text-align: center; color: rgb(255, 255, 255); text-transform: uppercase; line-height: 1.61em; overflow: visible; font-family: inherit; font-size: 11px; font-weight: bold; text-decoration: none; display: inline-block; white-space: nowrap; cursor: pointer; box-sizing: border-box; box-shadow: none; text-shadow: none; -webkit-border-radius: 5px; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; -webkit-box-shadow: none; -moz-box-shadow: none; -moz-background-clip: padding; -webkit-background-clip: padding-box; -webkit-appearance: none;
+}
+.quiz a.button {
+	background: rgb(82, 168, 232); padding: 5px 20px 4px; border-radius: 5px; border: currentColor; border-image: none; width: auto; text-align: center; color: rgb(255, 255, 255); text-transform: uppercase; line-height: 1.61em; overflow: visible; font-family: inherit; font-size: 11px; font-weight: bold; text-decoration: none; display: inline-block; white-space: nowrap; cursor: pointer; box-sizing: border-box; box-shadow: none; text-shadow: none; -webkit-border-radius: 5px; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; -webkit-box-shadow: none; -moz-box-shadow: none; -moz-background-clip: padding; -webkit-background-clip: padding-box; -webkit-appearance: none;
+}
+.quiz a.button:visited {
+	background: rgb(82, 168, 232); padding: 5px 20px 4px; border-radius: 5px; border: currentColor; border-image: none; width: auto; text-align: center; color: rgb(255, 255, 255); text-transform: uppercase; line-height: 1.61em; overflow: visible; font-family: inherit; font-size: 11px; font-weight: bold; text-decoration: none; display: inline-block; white-space: nowrap; cursor: pointer; box-sizing: border-box; box-shadow: none; text-shadow: none; -webkit-border-radius: 5px; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; -webkit-box-shadow: none; -moz-box-shadow: none; -moz-background-clip: padding; -webkit-background-clip: padding-box; -webkit-appearance: none;
+}
+.quiz a.comment-reply-link {
+	background: rgb(82, 168, 232); padding: 5px 20px 4px; border-radius: 5px; border: currentColor; border-image: none; width: auto; text-align: center; color: rgb(255, 255, 255); text-transform: uppercase; line-height: 1.61em; overflow: visible; font-family: inherit; font-size: 11px; font-weight: bold; text-decoration: none; display: inline-block; white-space: nowrap; cursor: pointer; box-sizing: border-box; box-shadow: none; text-shadow: none; -webkit-border-radius: 5px; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; -webkit-box-shadow: none; -moz-box-shadow: none; -moz-background-clip: padding; -webkit-background-clip: padding-box; -webkit-appearance: none;
+}
+.quiz #commentform #submit {
+	background: rgb(82, 168, 232); padding: 5px 20px 4px; border-radius: 5px; border: currentColor; border-image: none; width: auto; text-align: center; color: rgb(255, 255, 255); text-transform: uppercase; line-height: 1.61em; overflow: visible; font-family: inherit; font-size: 11px; font-weight: bold; text-decoration: none; display: inline-block; white-space: nowrap; cursor: pointer; box-sizing: border-box; box-shadow: none; text-shadow: none; -webkit-border-radius: 5px; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; -webkit-box-shadow: none; -moz-box-shadow: none; -moz-background-clip: padding; -webkit-background-clip: padding-box; -webkit-appearance: none;
+}
+.quiz .submit {
+	background: rgb(82, 168, 232); padding: 5px 20px 4px; border-radius: 5px; border: currentColor; border-image: none; width: auto; text-align: center; color: rgb(255, 255, 255); text-transform: uppercase; line-height: 1.61em; overflow: visible; font-family: inherit; font-size: 11px; font-weight: bold; text-decoration: none; display: inline-block; white-space: nowrap; cursor: pointer; box-sizing: border-box; box-shadow: none; text-shadow: none; -webkit-border-radius: 5px; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; -webkit-box-shadow: none; -moz-box-shadow: none; -moz-background-clip: padding; -webkit-background-clip: padding-box; -webkit-appearance: none;
+}
+.quiz input[type=submit] {
+	background: rgb(82, 168, 232); padding: 5px 20px 4px; border-radius: 5px; border: currentColor; border-image: none; width: auto; text-align: center; color: rgb(255, 255, 255); text-transform: uppercase; line-height: 1.61em; overflow: visible; font-family: inherit; font-size: 11px; font-weight: bold; text-decoration: none; display: inline-block; white-space: nowrap; cursor: pointer; box-sizing: border-box; box-shadow: none; text-shadow: none; -webkit-border-radius: 5px; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; -webkit-box-shadow: none; -moz-box-shadow: none; -moz-background-clip: padding; -webkit-background-clip: padding-box; -webkit-appearance: none;
+}
+.quiz input.button {
+	background: rgb(82, 168, 232); padding: 5px 20px 4px; border-radius: 5px; border: currentColor; border-image: none; width: auto; text-align: center; color: rgb(255, 255, 255); text-transform: uppercase; line-height: 1.61em; overflow: visible; font-family: inherit; font-size: 11px; font-weight: bold; text-decoration: none; display: inline-block; white-space: nowrap; cursor: pointer; box-sizing: border-box; box-shadow: none; text-shadow: none; -webkit-border-radius: 5px; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; -webkit-box-shadow: none; -moz-box-shadow: none; -moz-background-clip: padding; -webkit-background-clip: padding-box; -webkit-appearance: none;
+}
+.quiz button.button {
+	background: rgb(82, 168, 232); padding: 5px 20px 4px; border-radius: 5px; border: currentColor; border-image: none; width: auto; text-align: center; color: rgb(255, 255, 255); text-transform: uppercase; line-height: 1.61em; overflow: visible; font-family: inherit; font-size: 11px; font-weight: bold; text-decoration: none; display: inline-block; white-space: nowrap; cursor: pointer; box-sizing: border-box; box-shadow: none; text-shadow: none; -webkit-border-radius: 5px; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; -webkit-box-shadow: none; -moz-box-shadow: none; -moz-background-clip: padding; -webkit-background-clip: padding-box; -webkit-appearance: none;
+}
+.course-container a.button:hover {
+	background: rgb(59, 157, 229); text-decoration: none;
+}
+.course-container a.button:hover:visited {
+	background: rgb(59, 157, 229); text-decoration: none;
+}
+.course-container a.comment-reply-link:hover {
+	background: rgb(59, 157, 229); text-decoration: none;
+}
+.course-container #commentform #submit:hover {
+	background: rgb(59, 157, 229); text-decoration: none;
+}
+.course-container .submit:hover {
+	background: rgb(59, 157, 229); text-decoration: none;
+}
+.course-container input[type=submit]:hover {
+	background: rgb(59, 157, 229); text-decoration: none;
+}
+.course-container input.button:hover {
+	background: rgb(59, 157, 229); text-decoration: none;
+}
+.course-container button.button:hover {
+	background: rgb(59, 157, 229); text-decoration: none;
+}
+.course a.button:hover {
+	background: rgb(59, 157, 229); text-decoration: none;
+}
+.course a.button:hover:visited {
+	background: rgb(59, 157, 229); text-decoration: none;
+}
+.course a.comment-reply-link:hover {
+	background: rgb(59, 157, 229); text-decoration: none;
+}
+.course #commentform #submit:hover {
+	background: rgb(59, 157, 229); text-decoration: none;
+}
+.course .submit:hover {
+	background: rgb(59, 157, 229); text-decoration: none;
+}
+.course input[type=submit]:hover {
+	background: rgb(59, 157, 229); text-decoration: none;
+}
+.course input.button:hover {
+	background: rgb(59, 157, 229); text-decoration: none;
+}
+.course button.button:hover {
+	background: rgb(59, 157, 229); text-decoration: none;
+}
+.lesson a.button:hover {
+	background: rgb(59, 157, 229); text-decoration: none;
+}
+.lesson a.button:hover:visited {
+	background: rgb(59, 157, 229); text-decoration: none;
+}
+.lesson a.comment-reply-link:hover {
+	background: rgb(59, 157, 229); text-decoration: none;
+}
+.lesson #commentform #submit:hover {
+	background: rgb(59, 157, 229); text-decoration: none;
+}
+.lesson .submit:hover {
+	background: rgb(59, 157, 229); text-decoration: none;
+}
+.lesson input[type=submit]:hover {
+	background: rgb(59, 157, 229); text-decoration: none;
+}
+.lesson input.button:hover {
+	background: rgb(59, 157, 229); text-decoration: none;
+}
+.lesson button.button:hover {
+	background: rgb(59, 157, 229); text-decoration: none;
+}
+.quiz a.button:hover {
+	background: rgb(59, 157, 229); text-decoration: none;
+}
+.quiz a.button:hover:visited {
+	background: rgb(59, 157, 229); text-decoration: none;
+}
+.quiz a.comment-reply-link:hover {
+	background: rgb(59, 157, 229); text-decoration: none;
+}
+.quiz #commentform #submit:hover {
+	background: rgb(59, 157, 229); text-decoration: none;
+}
+.quiz .submit:hover {
+	background: rgb(59, 157, 229); text-decoration: none;
+}
+.quiz input[type=submit]:hover {
+	background: rgb(59, 157, 229); text-decoration: none;
+}
+.quiz input.button:hover {
+	background: rgb(59, 157, 229); text-decoration: none;
+}
+.quiz button.button:hover {
+	background: rgb(59, 157, 229); text-decoration: none;
+}
+.course-container a.button:active {
+	border-color: rgb(0, 83, 147); box-shadow: inset 0px 0px 7px rgba(0,0,0,0.3), 0px 1px 0px white; -webkit-box-shadow: inset 0 0 7px rgba(0, 0, 0, 0.3), 0 1px 0 white; -moz-box-shadow: inset 0 0 7px rgba(0, 0, 0, 0.3), 0 1px 0 white;
+}
+.course-container a.button:active:visited {
+	border-color: rgb(0, 83, 147); box-shadow: inset 0px 0px 7px rgba(0,0,0,0.3), 0px 1px 0px white; -webkit-box-shadow: inset 0 0 7px rgba(0, 0, 0, 0.3), 0 1px 0 white; -moz-box-shadow: inset 0 0 7px rgba(0, 0, 0, 0.3), 0 1px 0 white;
+}
+.course-container a.comment-reply-link:active {
+	border-color: rgb(0, 83, 147); box-shadow: inset 0px 0px 7px rgba(0,0,0,0.3), 0px 1px 0px white; -webkit-box-shadow: inset 0 0 7px rgba(0, 0, 0, 0.3), 0 1px 0 white; -moz-box-shadow: inset 0 0 7px rgba(0, 0, 0, 0.3), 0 1px 0 white;
+}
+.course-container #commentform #submit:active {
+	border-color: rgb(0, 83, 147); box-shadow: inset 0px 0px 7px rgba(0,0,0,0.3), 0px 1px 0px white; -webkit-box-shadow: inset 0 0 7px rgba(0, 0, 0, 0.3), 0 1px 0 white; -moz-box-shadow: inset 0 0 7px rgba(0, 0, 0, 0.3), 0 1px 0 white;
+}
+.course-container .submit:active {
+	border-color: rgb(0, 83, 147); box-shadow: inset 0px 0px 7px rgba(0,0,0,0.3), 0px 1px 0px white; -webkit-box-shadow: inset 0 0 7px rgba(0, 0, 0, 0.3), 0 1px 0 white; -moz-box-shadow: inset 0 0 7px rgba(0, 0, 0, 0.3), 0 1px 0 white;
+}
+.course-container input[type=submit]:active {
+	border-color: rgb(0, 83, 147); box-shadow: inset 0px 0px 7px rgba(0,0,0,0.3), 0px 1px 0px white; -webkit-box-shadow: inset 0 0 7px rgba(0, 0, 0, 0.3), 0 1px 0 white; -moz-box-shadow: inset 0 0 7px rgba(0, 0, 0, 0.3), 0 1px 0 white;
+}
+.course-container input.button:active {
+	border-color: rgb(0, 83, 147); box-shadow: inset 0px 0px 7px rgba(0,0,0,0.3), 0px 1px 0px white; -webkit-box-shadow: inset 0 0 7px rgba(0, 0, 0, 0.3), 0 1px 0 white; -moz-box-shadow: inset 0 0 7px rgba(0, 0, 0, 0.3), 0 1px 0 white;
+}
+.course-container button.button:active {
+	border-color: rgb(0, 83, 147); box-shadow: inset 0px 0px 7px rgba(0,0,0,0.3), 0px 1px 0px white; -webkit-box-shadow: inset 0 0 7px rgba(0, 0, 0, 0.3), 0 1px 0 white; -moz-box-shadow: inset 0 0 7px rgba(0, 0, 0, 0.3), 0 1px 0 white;
+}
+.course a.button:active {
+	border-color: rgb(0, 83, 147); box-shadow: inset 0px 0px 7px rgba(0,0,0,0.3), 0px 1px 0px white; -webkit-box-shadow: inset 0 0 7px rgba(0, 0, 0, 0.3), 0 1px 0 white; -moz-box-shadow: inset 0 0 7px rgba(0, 0, 0, 0.3), 0 1px 0 white;
+}
+.course a.button:active:visited {
+	border-color: rgb(0, 83, 147); box-shadow: inset 0px 0px 7px rgba(0,0,0,0.3), 0px 1px 0px white; -webkit-box-shadow: inset 0 0 7px rgba(0, 0, 0, 0.3), 0 1px 0 white; -moz-box-shadow: inset 0 0 7px rgba(0, 0, 0, 0.3), 0 1px 0 white;
+}
+.course a.comment-reply-link:active {
+	border-color: rgb(0, 83, 147); box-shadow: inset 0px 0px 7px rgba(0,0,0,0.3), 0px 1px 0px white; -webkit-box-shadow: inset 0 0 7px rgba(0, 0, 0, 0.3), 0 1px 0 white; -moz-box-shadow: inset 0 0 7px rgba(0, 0, 0, 0.3), 0 1px 0 white;
+}
+.course #commentform #submit:active {
+	border-color: rgb(0, 83, 147); box-shadow: inset 0px 0px 7px rgba(0,0,0,0.3), 0px 1px 0px white; -webkit-box-shadow: inset 0 0 7px rgba(0, 0, 0, 0.3), 0 1px 0 white; -moz-box-shadow: inset 0 0 7px rgba(0, 0, 0, 0.3), 0 1px 0 white;
+}
+.course .submit:active {
+	border-color: rgb(0, 83, 147); box-shadow: inset 0px 0px 7px rgba(0,0,0,0.3), 0px 1px 0px white; -webkit-box-shadow: inset 0 0 7px rgba(0, 0, 0, 0.3), 0 1px 0 white; -moz-box-shadow: inset 0 0 7px rgba(0, 0, 0, 0.3), 0 1px 0 white;
+}
+.course input[type=submit]:active {
+	border-color: rgb(0, 83, 147); box-shadow: inset 0px 0px 7px rgba(0,0,0,0.3), 0px 1px 0px white; -webkit-box-shadow: inset 0 0 7px rgba(0, 0, 0, 0.3), 0 1px 0 white; -moz-box-shadow: inset 0 0 7px rgba(0, 0, 0, 0.3), 0 1px 0 white;
+}
+.course input.button:active {
+	border-color: rgb(0, 83, 147); box-shadow: inset 0px 0px 7px rgba(0,0,0,0.3), 0px 1px 0px white; -webkit-box-shadow: inset 0 0 7px rgba(0, 0, 0, 0.3), 0 1px 0 white; -moz-box-shadow: inset 0 0 7px rgba(0, 0, 0, 0.3), 0 1px 0 white;
+}
+.course button.button:active {
+	border-color: rgb(0, 83, 147); box-shadow: inset 0px 0px 7px rgba(0,0,0,0.3), 0px 1px 0px white; -webkit-box-shadow: inset 0 0 7px rgba(0, 0, 0, 0.3), 0 1px 0 white; -moz-box-shadow: inset 0 0 7px rgba(0, 0, 0, 0.3), 0 1px 0 white;
+}
+.lesson a.button:active {
+	border-color: rgb(0, 83, 147); box-shadow: inset 0px 0px 7px rgba(0,0,0,0.3), 0px 1px 0px white; -webkit-box-shadow: inset 0 0 7px rgba(0, 0, 0, 0.3), 0 1px 0 white; -moz-box-shadow: inset 0 0 7px rgba(0, 0, 0, 0.3), 0 1px 0 white;
+}
+.lesson a.button:active:visited {
+	border-color: rgb(0, 83, 147); box-shadow: inset 0px 0px 7px rgba(0,0,0,0.3), 0px 1px 0px white; -webkit-box-shadow: inset 0 0 7px rgba(0, 0, 0, 0.3), 0 1px 0 white; -moz-box-shadow: inset 0 0 7px rgba(0, 0, 0, 0.3), 0 1px 0 white;
+}
+.lesson a.comment-reply-link:active {
+	border-color: rgb(0, 83, 147); box-shadow: inset 0px 0px 7px rgba(0,0,0,0.3), 0px 1px 0px white; -webkit-box-shadow: inset 0 0 7px rgba(0, 0, 0, 0.3), 0 1px 0 white; -moz-box-shadow: inset 0 0 7px rgba(0, 0, 0, 0.3), 0 1px 0 white;
+}
+.lesson #commentform #submit:active {
+	border-color: rgb(0, 83, 147); box-shadow: inset 0px 0px 7px rgba(0,0,0,0.3), 0px 1px 0px white; -webkit-box-shadow: inset 0 0 7px rgba(0, 0, 0, 0.3), 0 1px 0 white; -moz-box-shadow: inset 0 0 7px rgba(0, 0, 0, 0.3), 0 1px 0 white;
+}
+.lesson .submit:active {
+	border-color: rgb(0, 83, 147); box-shadow: inset 0px 0px 7px rgba(0,0,0,0.3), 0px 1px 0px white; -webkit-box-shadow: inset 0 0 7px rgba(0, 0, 0, 0.3), 0 1px 0 white; -moz-box-shadow: inset 0 0 7px rgba(0, 0, 0, 0.3), 0 1px 0 white;
+}
+.lesson input[type=submit]:active {
+	border-color: rgb(0, 83, 147); box-shadow: inset 0px 0px 7px rgba(0,0,0,0.3), 0px 1px 0px white; -webkit-box-shadow: inset 0 0 7px rgba(0, 0, 0, 0.3), 0 1px 0 white; -moz-box-shadow: inset 0 0 7px rgba(0, 0, 0, 0.3), 0 1px 0 white;
+}
+.lesson input.button:active {
+	border-color: rgb(0, 83, 147); box-shadow: inset 0px 0px 7px rgba(0,0,0,0.3), 0px 1px 0px white; -webkit-box-shadow: inset 0 0 7px rgba(0, 0, 0, 0.3), 0 1px 0 white; -moz-box-shadow: inset 0 0 7px rgba(0, 0, 0, 0.3), 0 1px 0 white;
+}
+.lesson button.button:active {
+	border-color: rgb(0, 83, 147); box-shadow: inset 0px 0px 7px rgba(0,0,0,0.3), 0px 1px 0px white; -webkit-box-shadow: inset 0 0 7px rgba(0, 0, 0, 0.3), 0 1px 0 white; -moz-box-shadow: inset 0 0 7px rgba(0, 0, 0, 0.3), 0 1px 0 white;
+}
+.quiz a.button:active {
+	border-color: rgb(0, 83, 147); box-shadow: inset 0px 0px 7px rgba(0,0,0,0.3), 0px 1px 0px white; -webkit-box-shadow: inset 0 0 7px rgba(0, 0, 0, 0.3), 0 1px 0 white; -moz-box-shadow: inset 0 0 7px rgba(0, 0, 0, 0.3), 0 1px 0 white;
+}
+.quiz a.button:active:visited {
+	border-color: rgb(0, 83, 147); box-shadow: inset 0px 0px 7px rgba(0,0,0,0.3), 0px 1px 0px white; -webkit-box-shadow: inset 0 0 7px rgba(0, 0, 0, 0.3), 0 1px 0 white; -moz-box-shadow: inset 0 0 7px rgba(0, 0, 0, 0.3), 0 1px 0 white;
+}
+.quiz a.comment-reply-link:active {
+	border-color: rgb(0, 83, 147); box-shadow: inset 0px 0px 7px rgba(0,0,0,0.3), 0px 1px 0px white; -webkit-box-shadow: inset 0 0 7px rgba(0, 0, 0, 0.3), 0 1px 0 white; -moz-box-shadow: inset 0 0 7px rgba(0, 0, 0, 0.3), 0 1px 0 white;
+}
+.quiz #commentform #submit:active {
+	border-color: rgb(0, 83, 147); box-shadow: inset 0px 0px 7px rgba(0,0,0,0.3), 0px 1px 0px white; -webkit-box-shadow: inset 0 0 7px rgba(0, 0, 0, 0.3), 0 1px 0 white; -moz-box-shadow: inset 0 0 7px rgba(0, 0, 0, 0.3), 0 1px 0 white;
+}
+.quiz .submit:active {
+	border-color: rgb(0, 83, 147); box-shadow: inset 0px 0px 7px rgba(0,0,0,0.3), 0px 1px 0px white; -webkit-box-shadow: inset 0 0 7px rgba(0, 0, 0, 0.3), 0 1px 0 white; -moz-box-shadow: inset 0 0 7px rgba(0, 0, 0, 0.3), 0 1px 0 white;
+}
+.quiz input[type=submit]:active {
+	border-color: rgb(0, 83, 147); box-shadow: inset 0px 0px 7px rgba(0,0,0,0.3), 0px 1px 0px white; -webkit-box-shadow: inset 0 0 7px rgba(0, 0, 0, 0.3), 0 1px 0 white; -moz-box-shadow: inset 0 0 7px rgba(0, 0, 0, 0.3), 0 1px 0 white;
+}
+.quiz input.button:active {
+	border-color: rgb(0, 83, 147); box-shadow: inset 0px 0px 7px rgba(0,0,0,0.3), 0px 1px 0px white; -webkit-box-shadow: inset 0 0 7px rgba(0, 0, 0, 0.3), 0 1px 0 white; -moz-box-shadow: inset 0 0 7px rgba(0, 0, 0, 0.3), 0 1px 0 white;
+}
+.quiz button.button:active {
+	border-color: rgb(0, 83, 147); box-shadow: inset 0px 0px 7px rgba(0,0,0,0.3), 0px 1px 0px white; -webkit-box-shadow: inset 0 0 7px rgba(0, 0, 0, 0.3), 0 1px 0 white; -moz-box-shadow: inset 0 0 7px rgba(0, 0, 0, 0.3), 0 1px 0 white;
+}
+.course-container a.large.button {
+	font-size: 1.38em;
+}
+.course-container a.large.button:visited {
+	font-size: 1.38em;
+}
+.course-container a.large.comment-reply-link {
+	font-size: 1.38em;
+}
+.course-container #commentform .large#submit {
+	font-size: 1.38em;
+}
+.course-container .large.submit {
+	font-size: 1.38em;
+}
+.course-container input[type=submit].large {
+	font-size: 1.38em;
+}
+.course-container input.large.button {
+	font-size: 1.38em;
+}
+.course-container button.large.button {
+	font-size: 1.38em;
+}
+.course a.large.button {
+	font-size: 1.38em;
+}
+.course a.large.button:visited {
+	font-size: 1.38em;
+}
+.course a.large.comment-reply-link {
+	font-size: 1.38em;
+}
+.course #commentform .large#submit {
+	font-size: 1.38em;
+}
+.course .large.submit {
+	font-size: 1.38em;
+}
+.course input[type=submit].large {
+	font-size: 1.38em;
+}
+.course input.large.button {
+	font-size: 1.38em;
+}
+.course button.large.button {
+	font-size: 1.38em;
+}
+.lesson a.large.button {
+	font-size: 1.38em;
+}
+.lesson a.large.button:visited {
+	font-size: 1.38em;
+}
+.lesson a.large.comment-reply-link {
+	font-size: 1.38em;
+}
+.lesson #commentform .large#submit {
+	font-size: 1.38em;
+}
+.lesson .large.submit {
+	font-size: 1.38em;
+}
+.lesson input[type=submit].large {
+	font-size: 1.38em;
+}
+.lesson input.large.button {
+	font-size: 1.38em;
+}
+.lesson button.large.button {
+	font-size: 1.38em;
+}
+.quiz a.large.button {
+	font-size: 1.38em;
+}
+.quiz a.large.button:visited {
+	font-size: 1.38em;
+}
+.quiz a.large.comment-reply-link {
+	font-size: 1.38em;
+}
+.quiz #commentform .large#submit {
+	font-size: 1.38em;
+}
+.quiz .large.submit {
+	font-size: 1.38em;
+}
+.quiz input[type=submit].large {
+	font-size: 1.38em;
+}
+.quiz input.large.button {
+	font-size: 1.38em;
+}
+.quiz button.large.button {
+	font-size: 1.38em;
+}
+.course-container a.small.button {
+	font-size: 0.85em;
+}
+.course-container a.small.button:visited {
+	font-size: 0.85em;
+}
+.course-container a.small.comment-reply-link {
+	font-size: 0.85em;
+}
+.course-container #commentform .small#submit {
+	font-size: 0.85em;
+}
+.course-container .small.submit {
+	font-size: 0.85em;
+}
+.course-container input[type=submit].small {
+	font-size: 0.85em;
+}
+.course-container input.small.button {
+	font-size: 0.85em;
+}
+.course-container button.small.button {
+	font-size: 0.85em;
+}
+.course a.small.button {
+	font-size: 0.85em;
+}
+.course a.small.button:visited {
+	font-size: 0.85em;
+}
+.course a.small.comment-reply-link {
+	font-size: 0.85em;
+}
+.course #commentform .small#submit {
+	font-size: 0.85em;
+}
+.course .small.submit {
+	font-size: 0.85em;
+}
+.course input[type=submit].small {
+	font-size: 0.85em;
+}
+.course input.small.button {
+	font-size: 0.85em;
+}
+.course button.small.button {
+	font-size: 0.85em;
+}
+.lesson a.small.button {
+	font-size: 0.85em;
+}
+.lesson a.small.button:visited {
+	font-size: 0.85em;
+}
+.lesson a.small.comment-reply-link {
+	font-size: 0.85em;
+}
+.lesson #commentform .small#submit {
+	font-size: 0.85em;
+}
+.lesson .small.submit {
+	font-size: 0.85em;
+}
+.lesson input[type=submit].small {
+	font-size: 0.85em;
+}
+.lesson input.small.button {
+	font-size: 0.85em;
+}
+.lesson button.small.button {
+	font-size: 0.85em;
+}
+.quiz a.small.button {
+	font-size: 0.85em;
+}
+.quiz a.small.button:visited {
+	font-size: 0.85em;
+}
+.quiz a.small.comment-reply-link {
+	font-size: 0.85em;
+}
+.quiz #commentform .small#submit {
+	font-size: 0.85em;
+}
+.quiz .small.submit {
+	font-size: 0.85em;
+}
+.quiz input[type=submit].small {
+	font-size: 0.85em;
+}
+.quiz input.small.button {
+	font-size: 0.85em;
+}
+.quiz button.small.button {
+	font-size: 0.85em;
+}
+.course-container a.course-complete.button {
+	background: rgb(99, 169, 95);
+}
+.course-container a.course-complete.button:visited {
+	background: rgb(99, 169, 95);
+}
+.course-container a.course-complete.comment-reply-link {
+	background: rgb(99, 169, 95);
+}
+.course-container #commentform .course-complete#submit {
+	background: rgb(99, 169, 95);
+}
+.course-container .course-complete.submit {
+	background: rgb(99, 169, 95);
+}
+.course-container input[type=submit].course-complete {
+	background: rgb(99, 169, 95);
+}
+.course-container input.course-complete.button {
+	background: rgb(99, 169, 95);
+}
+.course-container button.course-complete.button {
+	background: rgb(99, 169, 95);
+}
+.course a.course-complete.button {
+	background: rgb(99, 169, 95);
+}
+.course a.course-complete.button:visited {
+	background: rgb(99, 169, 95);
+}
+.course a.course-complete.comment-reply-link {
+	background: rgb(99, 169, 95);
+}
+.course #commentform .course-complete#submit {
+	background: rgb(99, 169, 95);
+}
+.course .course-complete.submit {
+	background: rgb(99, 169, 95);
+}
+.course input[type=submit].course-complete {
+	background: rgb(99, 169, 95);
+}
+.course input.course-complete.button {
+	background: rgb(99, 169, 95);
+}
+.course button.course-complete.button {
+	background: rgb(99, 169, 95);
+}
+.lesson a.course-complete.button {
+	background: rgb(99, 169, 95);
+}
+.lesson a.course-complete.button:visited {
+	background: rgb(99, 169, 95);
+}
+.lesson a.course-complete.comment-reply-link {
+	background: rgb(99, 169, 95);
+}
+.lesson #commentform .course-complete#submit {
+	background: rgb(99, 169, 95);
+}
+.lesson .course-complete.submit {
+	background: rgb(99, 169, 95);
+}
+.lesson input[type=submit].course-complete {
+	background: rgb(99, 169, 95);
+}
+.lesson input.course-complete.button {
+	background: rgb(99, 169, 95);
+}
+.lesson button.course-complete.button {
+	background: rgb(99, 169, 95);
+}
+.quiz a.course-complete.button {
+	background: rgb(99, 169, 95);
+}
+.quiz a.course-complete.button:visited {
+	background: rgb(99, 169, 95);
+}
+.quiz a.course-complete.comment-reply-link {
+	background: rgb(99, 169, 95);
+}
+.quiz #commentform .course-complete#submit {
+	background: rgb(99, 169, 95);
+}
+.quiz .course-complete.submit {
+	background: rgb(99, 169, 95);
+}
+.quiz input[type=submit].course-complete {
+	background: rgb(99, 169, 95);
+}
+.quiz input.course-complete.button {
+	background: rgb(99, 169, 95);
+}
+.quiz button.course-complete.button {
+	background: rgb(99, 169, 95);
+}
+.course-container a.course-complete.button:hover {
+	background: rgb(87, 155, 83);
+}
+.course-container a.course-complete.button:hover:visited {
+	background: rgb(87, 155, 83);
+}
+.course-container a.course-complete.comment-reply-link:hover {
+	background: rgb(87, 155, 83);
+}
+.course-container #commentform .course-complete#submit:hover {
+	background: rgb(87, 155, 83);
+}
+.course-container .course-complete.submit:hover {
+	background: rgb(87, 155, 83);
+}
+.course-container input[type=submit].course-complete:hover {
+	background: rgb(87, 155, 83);
+}
+.course-container input.course-complete.button:hover {
+	background: rgb(87, 155, 83);
+}
+.course-container button.course-complete.button:hover {
+	background: rgb(87, 155, 83);
+}
+.course a.course-complete.button:hover {
+	background: rgb(87, 155, 83);
+}
+.course a.course-complete.button:hover:visited {
+	background: rgb(87, 155, 83);
+}
+.course a.course-complete.comment-reply-link:hover {
+	background: rgb(87, 155, 83);
+}
+.course #commentform .course-complete#submit:hover {
+	background: rgb(87, 155, 83);
+}
+.course .course-complete.submit:hover {
+	background: rgb(87, 155, 83);
+}
+.course input[type=submit].course-complete:hover {
+	background: rgb(87, 155, 83);
+}
+.course input.course-complete.button:hover {
+	background: rgb(87, 155, 83);
+}
+.course button.course-complete.button:hover {
+	background: rgb(87, 155, 83);
+}
+.lesson a.course-complete.button:hover {
+	background: rgb(87, 155, 83);
+}
+.lesson a.course-complete.button:hover:visited {
+	background: rgb(87, 155, 83);
+}
+.lesson a.course-complete.comment-reply-link:hover {
+	background: rgb(87, 155, 83);
+}
+.lesson #commentform .course-complete#submit:hover {
+	background: rgb(87, 155, 83);
+}
+.lesson .course-complete.submit:hover {
+	background: rgb(87, 155, 83);
+}
+.lesson input[type=submit].course-complete:hover {
+	background: rgb(87, 155, 83);
+}
+.lesson input.course-complete.button:hover {
+	background: rgb(87, 155, 83);
+}
+.lesson button.course-complete.button:hover {
+	background: rgb(87, 155, 83);
+}
+.quiz a.course-complete.button:hover {
+	background: rgb(87, 155, 83);
+}
+.quiz a.course-complete.button:hover:visited {
+	background: rgb(87, 155, 83);
+}
+.quiz a.course-complete.comment-reply-link:hover {
+	background: rgb(87, 155, 83);
+}
+.quiz #commentform .course-complete#submit:hover {
+	background: rgb(87, 155, 83);
+}
+.quiz .course-complete.submit:hover {
+	background: rgb(87, 155, 83);
+}
+.quiz input[type=submit].course-complete:hover {
+	background: rgb(87, 155, 83);
+}
+.quiz input.course-complete.button:hover {
+	background: rgb(87, 155, 83);
+}
+.quiz button.course-complete.button:hover {
+	background: rgb(87, 155, 83);
+}
+.course-container a.course-delete.button {
+	background: rgb(237, 108, 108);
+}
+.course-container a.course-delete.button:visited {
+	background: rgb(237, 108, 108);
+}
+.course-container a.course-delete.comment-reply-link {
+	background: rgb(237, 108, 108);
+}
+.course-container #commentform .course-delete#submit {
+	background: rgb(237, 108, 108);
+}
+.course-container .course-delete.submit {
+	background: rgb(237, 108, 108);
+}
+.course-container input[type=submit].course-delete {
+	background: rgb(237, 108, 108);
+}
+.course-container input.course-delete.button {
+	background: rgb(237, 108, 108);
+}
+.course-container button.course-delete.button {
+	background: rgb(237, 108, 108);
+}
+.course a.course-delete.button {
+	background: rgb(237, 108, 108);
+}
+.course a.course-delete.button:visited {
+	background: rgb(237, 108, 108);
+}
+.course a.course-delete.comment-reply-link {
+	background: rgb(237, 108, 108);
+}
+.course #commentform .course-delete#submit {
+	background: rgb(237, 108, 108);
+}
+.course .course-delete.submit {
+	background: rgb(237, 108, 108);
+}
+.course input[type=submit].course-delete {
+	background: rgb(237, 108, 108);
+}
+.course input.course-delete.button {
+	background: rgb(237, 108, 108);
+}
+.course button.course-delete.button {
+	background: rgb(237, 108, 108);
+}
+.lesson a.course-delete.button {
+	background: rgb(237, 108, 108);
+}
+.lesson a.course-delete.button:visited {
+	background: rgb(237, 108, 108);
+}
+.lesson a.course-delete.comment-reply-link {
+	background: rgb(237, 108, 108);
+}
+.lesson #commentform .course-delete#submit {
+	background: rgb(237, 108, 108);
+}
+.lesson .course-delete.submit {
+	background: rgb(237, 108, 108);
+}
+.lesson input[type=submit].course-delete {
+	background: rgb(237, 108, 108);
+}
+.lesson input.course-delete.button {
+	background: rgb(237, 108, 108);
+}
+.lesson button.course-delete.button {
+	background: rgb(237, 108, 108);
+}
+.quiz a.course-delete.button {
+	background: rgb(237, 108, 108);
+}
+.quiz a.course-delete.button:visited {
+	background: rgb(237, 108, 108);
+}
+.quiz a.course-delete.comment-reply-link {
+	background: rgb(237, 108, 108);
+}
+.quiz #commentform .course-delete#submit {
+	background: rgb(237, 108, 108);
+}
+.quiz .course-delete.submit {
+	background: rgb(237, 108, 108);
+}
+.quiz input[type=submit].course-delete {
+	background: rgb(237, 108, 108);
+}
+.quiz input.course-delete.button {
+	background: rgb(237, 108, 108);
+}
+.quiz button.course-delete.button {
+	background: rgb(237, 108, 108);
+}
+.course-container a.course-delete.button:hover {
+	background: rgb(234, 85, 85);
+}
+.course-container a.course-delete.button:hover:visited {
+	background: rgb(234, 85, 85);
+}
+.course-container a.course-delete.comment-reply-link:hover {
+	background: rgb(234, 85, 85);
+}
+.course-container #commentform .course-delete#submit:hover {
+	background: rgb(234, 85, 85);
+}
+.course-container .course-delete.submit:hover {
+	background: rgb(234, 85, 85);
+}
+.course-container input[type=submit].course-delete:hover {
+	background: rgb(234, 85, 85);
+}
+.course-container input.course-delete.button:hover {
+	background: rgb(234, 85, 85);
+}
+.course-container button.course-delete.button:hover {
+	background: rgb(234, 85, 85);
+}
+.course a.course-delete.button:hover {
+	background: rgb(234, 85, 85);
+}
+.course a.course-delete.button:hover:visited {
+	background: rgb(234, 85, 85);
+}
+.course a.course-delete.comment-reply-link:hover {
+	background: rgb(234, 85, 85);
+}
+.course #commentform .course-delete#submit:hover {
+	background: rgb(234, 85, 85);
+}
+.course .course-delete.submit:hover {
+	background: rgb(234, 85, 85);
+}
+.course input[type=submit].course-delete:hover {
+	background: rgb(234, 85, 85);
+}
+.course input.course-delete.button:hover {
+	background: rgb(234, 85, 85);
+}
+.course button.course-delete.button:hover {
+	background: rgb(234, 85, 85);
+}
+.lesson a.course-delete.button:hover {
+	background: rgb(234, 85, 85);
+}
+.lesson a.course-delete.button:hover:visited {
+	background: rgb(234, 85, 85);
+}
+.lesson a.course-delete.comment-reply-link:hover {
+	background: rgb(234, 85, 85);
+}
+.lesson #commentform .course-delete#submit:hover {
+	background: rgb(234, 85, 85);
+}
+.lesson .course-delete.submit:hover {
+	background: rgb(234, 85, 85);
+}
+.lesson input[type=submit].course-delete:hover {
+	background: rgb(234, 85, 85);
+}
+.lesson input.course-delete.button:hover {
+	background: rgb(234, 85, 85);
+}
+.lesson button.course-delete.button:hover {
+	background: rgb(234, 85, 85);
+}
+.quiz a.course-delete.button:hover {
+	background: rgb(234, 85, 85);
+}
+.quiz a.course-delete.button:hover:visited {
+	background: rgb(234, 85, 85);
+}
+.quiz a.course-delete.comment-reply-link:hover {
+	background: rgb(234, 85, 85);
+}
+.quiz #commentform .course-delete#submit:hover {
+	background: rgb(234, 85, 85);
+}
+.quiz .course-delete.submit:hover {
+	background: rgb(234, 85, 85);
+}
+.quiz input[type=submit].course-delete:hover {
+	background: rgb(234, 85, 85);
+}
+.quiz input.course-delete.button:hover {
+	background: rgb(234, 85, 85);
+}
+.quiz button.course-delete.button:hover {
+	background: rgb(234, 85, 85);
+}
+#submit {
+	-webkit-appearance: none;
+}
+@media only screen and (min-width:768px)
+{
+#main .course .course-meta .course-start {
+	margin-top: 0.53em;
+}
+.logged-in.single #main .type-course {
+	border: currentColor; border-image: none;
+}
+.logged-in.single #main .type-course header h1 {
+	margin-right: 150px;
+}
+.sensei-ordering {
+	margin: 0px; text-align: right; float: right;
+}
+}
+.sensei-pagination .page-numbers li {
+	display: inline-block;
+}
+#sensei-user-courses #user-course-status-toggle a.active {
+	color: rgb(212, 212, 212);
+}
+.course-container .first {
+	clear: left;
+}
+.course-container .last {
+	padding: 0px;
+}
+.course-container li.course {
+	padding: 12px; float: left;
+}
+.columns-1 li.course {
+	width: 100%; padding-right: 0px;
+}
+.columns-2 li.course {
+	width: 50%;
+}
+.columns-3 li.course {
+	width: 33.33%;
+}
+.columns-4 li.course {
+	width: 25%;
+}
+.columns-5 li.course {
+	width: 20%;
+}
+.columns-6 li.course {
+	width: 16.66%;
+}
+.columns-7 li.course {
+	width: 13.7%;
+}
+.columns-8 li.course {
+	width: 11.7%;
+}

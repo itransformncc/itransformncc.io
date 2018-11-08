@@ -1,0 +1,1 @@
+jQuery(function($){$('.status.module-status.completed').each(function(){var $this=$(this);if(!$this.text()){$this.remove();}});$featuredCoursesWidgetUl=$('.skiled_course_component-2 > ul');$featuredCoursesWidgetUl.append($featuredCoursesWidgetUl.find('li').get().reverse());});
